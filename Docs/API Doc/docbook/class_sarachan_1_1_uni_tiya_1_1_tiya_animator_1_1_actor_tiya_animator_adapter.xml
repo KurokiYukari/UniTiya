@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.ActorTiyaAnimatorAdapter Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.ActorTiyaAnimatorAdapter</primary></indexterm>
+<para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的适配器 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaAnimator.ActorTiyaAnimatorAdapter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter_1a17c9abd5b7d967c2a6e4ec822e6a41fb"/>void <emphasis role="strong">OnEnable</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter_1a4406ff7604a7a1ed75d8c785a739241c"/>void <emphasis role="strong">OnDisable</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter_1aa6c206ba78f524d24c031f7d52e2ef2d"/>void <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter_1aa62b424006e575198363967af615d8eb"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> <emphasis role="strong">Actor</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter_1a2f52e216402f0d130f227cd2a18b482f"/>Animator <emphasis role="strong">ActorAnimator</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的适配器 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaAnimator/ActorTiyaAnimatorAdapter.cs</section>
+</section>

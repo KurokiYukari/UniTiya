@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_leaf_node" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.LeafNode Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.LeafNode</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.LeafNode:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_leaf_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_leaf_node_1a9fb60d02a74633a3608faf8e6c0514d2"/><emphasis role="strong">LeafNode</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link> behaviourTree)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/BehaviourTreeNode.cs</section>

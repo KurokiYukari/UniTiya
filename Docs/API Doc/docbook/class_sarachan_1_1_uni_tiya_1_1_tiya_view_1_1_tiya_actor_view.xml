@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaView.TiyaActorView Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary></indexterm>
+<para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link> 的实现 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaView.TiyaActorView:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a0d130239be9a29c9a249521ce85a1e76">View</link> (Vector2 deltaRotation)</para>
+
+<para>根据 direction 指⽰的⽅向改变当前视⾓ </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a270a1e0a41d4d794396f9bbbbc50e153">ResetView</link> ()</para>
+
+<para>将 View 还原到初始状态 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1abfe2fb3fbfdc3eab6c116a59e44a8843">Lock</link> (LockCmdType lockCmdType)</para>
+
+<para>将视角锁定向附近的敌人。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a751eb7f70edd50fca4c51928e8b9dc45">TempRotate</link> (float pitchAngle)</para>
+
+<para>制造一个暂时的强制视角偏移。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1ae03e6c5f3557780ee4ff56efaf4815e3"/>void <emphasis role="strong">Awake</emphasis> ()</para>
+</listitem>
+            <listitem><para>virtual void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a6e083d8536ac270e51ebe91e67b30ca8">OnLockingLateUpdate</link> (long frameCount)</para>
+
+<para>锁定时每帧的回调 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a67b291e0152af659f75d20239de48eaf"/>virtual Transform <emphasis role="strong">ViewTransform</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1af922befa47a17c6e6b2ec8cd525cd881"/>bool <emphasis role="strong">IsLocked</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a98a82702eabc17373f282c442aa93e0d"/>GameObject <emphasis role="strong">LockTarget</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>Vector3 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1aa81ac89a19fa427185e667dd3cb5a2e6">LockHalfExtents</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>锁定的半范围 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a36cc03c2abd12462752fb4f2088b597f"/>System.Action&lt; GameObject &gt; <emphasis role="strong">OnLock</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1ab0de97c642e63ef1bc80bf4a10bcb78b"/>System.Action&lt; GameObject &gt; <emphasis role="strong">OnUnlock</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link> 的实现 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1abfe2fb3fbfdc3eab6c116a59e44a8843"/>    <section>
+    <title>Lock()</title>
+<indexterm><primary>Lock</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary><secondary>Lock</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaView.TiyaActorView.Lock (LockCmdType lockCmdType)</computeroutput></para><para>
+
+<para>将视角锁定向附近的敌人。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>lockCmdType</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a363cb76e796cfea746d73525306603ab">Sarachan.UniTiya.IActorView</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a6e083d8536ac270e51ebe91e67b30ca8"/>    <section>
+    <title>OnLockingLateUpdate()</title>
+<indexterm><primary>OnLockingLateUpdate</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary><secondary>OnLockingLateUpdate</secondary></indexterm>
+<para><computeroutput>virtual void Sarachan.UniTiya.TiyaView.TiyaActorView.OnLockingLateUpdate (long frameCount)<computeroutput>[protected]</computeroutput>, <computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>锁定时每帧的回调 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>frameCount</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a270a1e0a41d4d794396f9bbbbc50e153"/>    <section>
+    <title>ResetView()</title>
+<indexterm><primary>ResetView</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary><secondary>ResetView</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaView.TiyaActorView.ResetView ( )</computeroutput></para><para>
+
+<para>将 View 还原到初始状态 </para>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a4eba364b140e9571d4ea17bbfe64a687">Sarachan.UniTiya.IActorView</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a751eb7f70edd50fca4c51928e8b9dc45"/>    <section>
+    <title>TempRotate()</title>
+<indexterm><primary>TempRotate</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary><secondary>TempRotate</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaView.TiyaActorView.TempRotate (float pitchAngle)</computeroutput></para><para>
+
+<para>制造一个暂时的强制视角偏移。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>pitchAngle</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1adc7360b135870f114e08423b583ab6e6">Sarachan.UniTiya.IActorView</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a0d130239be9a29c9a249521ce85a1e76"/>    <section>
+    <title>View()</title>
+<indexterm><primary>View</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary><secondary>View</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaView.TiyaActorView.View (Vector2 deltaRotation)</computeroutput></para><para>
+
+<para>根据 direction 指⽰的⽅向改变当前视⾓ </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>deltaRotation</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a62f9628c0459585f4cef4d36b2724168">Sarachan.UniTiya.IActorView</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1aa81ac89a19fa427185e667dd3cb5a2e6"/>    <section>
+    <title>LockHalfExtents</title>
+<indexterm><primary>LockHalfExtents</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorView</primary><secondary>LockHalfExtents</secondary></indexterm>
+<para><computeroutput>Vector3 Sarachan.UniTiya.TiyaView.TiyaActorView.LockHalfExtents<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>锁定的半范围 </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaView/TiyaActorView.cs</section>
+</section>

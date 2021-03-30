@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_scriptable_consumer_ref" xml:lang="en-US">
+<title>Sarachan.UniTiya.Consumer.ScriptableConsumerRef Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Consumer.ScriptableConsumerRef</primary></indexterm>
+<para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer">IConsumer</link> 的 ScriptableObject 基引用 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Consumer.ScriptableConsumerRef:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_scriptable_consumer_ref.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_scriptable_consumer_ref_1a5b6b92a8178d5816c627da1930e94bea"/>bool <emphasis role="strong">Consume</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_scriptable_consumer_ref_1a21c59cb7bb5b5a2255b5d590d2e0a495"/>abstract <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer">IConsumer</link> <emphasis role="strong">Consumer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_scriptable_consumer_ref_1aef3766e17077555973db5da41492858b"/>bool <emphasis role="strong">CanConsume</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer">IConsumer</link> 的 ScriptableObject 基引用 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Consumer/IConsumer.cs</section>
+</section>

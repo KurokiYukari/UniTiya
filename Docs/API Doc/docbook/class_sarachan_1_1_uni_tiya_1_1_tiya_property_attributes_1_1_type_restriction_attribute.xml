@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_type_restriction_attribute" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaPropertyAttributes.TypeRestrictionAttribute Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaPropertyAttributes.TypeRestrictionAttribute</primary></indexterm>
+<para>
+
+<para>修饰任何派生自 UnityEngine.Object SerializedField。 该 Attribute 保证该字段一定能通过 TiyaTools.ConvertTo&lt;T&gt;(UnityEngine.Object) 方法 转换成指定类型的对象。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaPropertyAttributes.TypeRestrictionAttribute:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_type_restriction_attribute.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_type_restriction_attribute_1a43149e252f2b776a96bde6aaa24c9bdb"/><emphasis role="strong">TypeRestrictionAttribute</emphasis> (Type restrictedType)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_type_restriction_attribute_1ad40b95be4117829c0e2738ad21a11dd8"/>Type <emphasis role="strong">RestrictedType</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>修饰任何派生自 UnityEngine.Object SerializedField。 该 Attribute 保证该字段一定能通过 TiyaTools.ConvertTo&lt;T&gt;(UnityEngine.Object) 方法 转换成指定类型的对象。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaPropertyAttributes/TypeRestrictionAttribute.cs</section>
+</section>

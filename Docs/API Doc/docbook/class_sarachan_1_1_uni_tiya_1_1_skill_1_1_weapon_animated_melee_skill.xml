@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.WeaponAnimatedMeleeSkill Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.WeaponAnimatedMeleeSkill</primary></indexterm>
+<para>
+
+<para>通过动画进行伤害判定的 Skill。 要求要进行判定的动画中设置了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events">IMeleeWeaponAnimationEvents</link> 中对应的动画事件。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.WeaponAnimatedMeleeSkill:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_1a6f88d33af170b48f7fcc943240e64bc2"/>override void <emphasis role="strong">OnInit</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_1a3ec4d364da45796a1294cc63614ec99a"/>bool <emphasis role="strong">ShowLinecastPath</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_1a8177834dee59363f67049945e9148a21"/>IEnumerable&lt; Vector3 &gt; <emphasis role="strong">LinecastPositions</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_1ac1c2deb317e7388e72fcd1c03860845d"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link> <emphasis role="strong">DamageSource</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_1a7e134df5e490f68204de4444ad54e672"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> <emphasis role="strong">Weapon</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>通过动画进行伤害判定的 Skill。 要求要进行判定的动画中设置了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events">IMeleeWeaponAnimationEvents</link> 中对应的动画事件。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/WeaponAnimatedMeleeSkillBehaviour.cs</section>
+</section>

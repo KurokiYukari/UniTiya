@@ -1,0 +1,95 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Tiya\+Actor.\+Tiya\+Actor\+State\+Machine Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine}\index{Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine@{Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine}}
+
+
+适用于所有 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} 的状态机  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Tiya\+Actor.\+Tiya\+Actor\+State\+Machine\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.658228cm]{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a1c04a1fe2b14fcea1af1a05226044a95}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a1c04a1fe2b14fcea1af1a05226044a95}} 
+void {\bfseries Jump} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a078dc1a6d468cc69b4f078b2d345d787}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a078dc1a6d468cc69b4f078b2d345d787}} 
+void {\bfseries Lock} (Lock\+Cmd\+Type cmd\+Type)
+\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a53b747e3500ac576f4ee4fc614a62b2a}{Move}} (Vector3 direction)
+\begin{DoxyCompactList}\small\item\em 设置一个方向，然后尝试朝目标方向进行主动移动。 主动移动不保证一定会生效（比如在空中时，会设置方向但并不会立即朝目标方向移动，而是落地后再朝目标方向移动） \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a4cd79f6817c4e5f2dd5e802e0215d586}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a4cd79f6817c4e5f2dd5e802e0215d586}} 
+void {\bfseries Simple\+Move} (Vector3 displacement)
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_abcb91562ab086e09aadb18e6b47d31a4}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_abcb91562ab086e09aadb18e6b47d31a4}} 
+void {\bfseries Switch\+Locomotion\+Mode} (\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} mode)
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a476dc660f75a058f9b7ecf7bc5728c17}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a476dc660f75a058f9b7ecf7bc5728c17}} 
+void {\bfseries View} (Vector2 direction)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_afe98e46aa862fa29411f6faa8ac614a3}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_afe98e46aa862fa29411f6faa8ac614a3}} 
+const string {\bfseries FREEGROUND\+\_\+\+STATEGROUP} = \char`\"{}FREEGROUND\+\_\+\+GROUP\char`\"{}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a924a3291a358348a96895e166abbce81}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a924a3291a358348a96895e166abbce81}} 
+const string {\bfseries IDLE\+\_\+\+STATE} = \char`\"{}IDLE\+\_\+\+STATE\char`\"{}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_afa5fc7a382303491f0cf0aa8133cedb7}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_afa5fc7a382303491f0cf0aa8133cedb7}} 
+const string {\bfseries LOCOMOTION\+\_\+\+STATE} = \char`\"{}LOCOMOTION\+\_\+\+STATE\char`\"{}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_aef2bb0d490ba7b38284ce90c11720c2b}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_aef2bb0d490ba7b38284ce90c11720c2b}} 
+const string {\bfseries FREEFALL\+\_\+\+STATE} = \char`\"{}FREEFALL\+\_\+\+STATE\char`\"{}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a86655ec69917f495ef3565cd0be31700}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a86655ec69917f495ef3565cd0be31700}} 
+void {\bfseries Awake} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a9058415f52186b3e7aebcd94c1011fab}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a9058415f52186b3e7aebcd94c1011fab}} 
+override object {\bfseries Subject}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a1322578a36e31dbe38bc58cc72029063}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a1322578a36e31dbe38bc58cc72029063}} 
+override string {\bfseries Entry\+State\+Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+适用于所有 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} 的状态机 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a53b747e3500ac576f4ee4fc614a62b2a}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a53b747e3500ac576f4ee4fc614a62b2a}} 
+\index{Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine@{Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine}!Move@{Move}}
+\index{Move@{Move}!Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine@{Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Tiya\+Actor.\+Tiya\+Actor\+State\+Machine.\+Move (\begin{DoxyParamCaption}\item[{Vector3}]{direction }\end{DoxyParamCaption})}
+
+
+
+设置一个方向，然后尝试朝目标方向进行主动移动。 主动移动不保证一定会生效（比如在空中时，会设置方向但并不会立即朝目标方向移动，而是落地后再朝目标方向移动） 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a151d2d6ad23629a155f1ff4187854fa0}{Sarachan.\+Uni\+Tiya.\+IActor\+Actions}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya\+Actor/Tiya\+Actor\+State\+Machine.\+cs\end{DoxyCompactItemize}

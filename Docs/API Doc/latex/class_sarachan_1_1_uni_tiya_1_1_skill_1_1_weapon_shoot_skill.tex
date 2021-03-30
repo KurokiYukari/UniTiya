@@ -1,0 +1,63 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Skill.\+Weapon\+Shoot\+Skill Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill}\index{Sarachan.UniTiya.Skill.WeaponShootSkill@{Sarachan.UniTiya.Skill.WeaponShootSkill}}
+
+
+依赖于 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill}{Weapon\+Projectile\+Skill}} 的射击 Weapon\+Skill。 其 Perform 是根据当前射击模式进行射击，并且提供额外 Action 来切换模式。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Skill.\+Weapon\+Shoot\+Skill\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a4a85012d7e4e9a5046ab709eb74e3173}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a4a85012d7e4e9a5046ab709eb74e3173}} 
+void {\bfseries Single\+Shoot} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a2a15256de31af8116b9c7cc2c805479d}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a2a15256de31af8116b9c7cc2c805479d}} 
+void {\bfseries Triple\+Shoot} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_adf75ce3e50709a15790676f4d2e78315}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_adf75ce3e50709a15790676f4d2e78315}} 
+void {\bfseries Start\+Auto\+Shoot} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a48ebf02bd54cdb2fd0106c7e46470806}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a48ebf02bd54cdb2fd0106c7e46470806}} 
+void {\bfseries Stop\+Auto\+Shoot} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a87ce7a400e553240ab40b2e61701baca}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a87ce7a400e553240ab40b2e61701baca}} 
+void {\bfseries Change\+Mode} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_adab97b8073f7773eb773b539d65cb6cf}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_adab97b8073f7773eb773b539d65cb6cf}} 
+override void {\bfseries On\+Init} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a69a2784486b36c907b927ace9bf29958}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a69a2784486b36c907b927ace9bf29958}} 
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill}{Weapon\+Projectile\+Skill}} {\bfseries Single\+Shoot\+Skill}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a484758af36411cc01851afddee5b4e20}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a484758af36411cc01851afddee5b4e20}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller}{IWeapon\+Controller}} {\bfseries Weapon}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a0f9aad44393b84269b32a061e142f581}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a0f9aad44393b84269b32a061e142f581}} 
+Projectile\+Mode {\bfseries Current\+Mode} = 0\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a14f3bb2e3050899151992ded3c43694c}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_a14f3bb2e3050899151992ded3c43694c}} 
+Input\+Action {\bfseries Change\+Mode\+Trigger}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+依赖于 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill}{Weapon\+Projectile\+Skill}} 的射击 Weapon\+Skill。 其 Perform 是根据当前射击模式进行射击，并且提供额外 Action 来切换模式。 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Skills/Weapon\+Shoot\+Skill\+Behaviour.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.ISkill Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.ISkill</primary></indexterm>
+<para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 接口。Skill 是对行为的一种抽象，它会尝试去执行某种行为（但不一定成功）。 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 支持两种行为： <itemizedlist>
+</itemizedlist>
+<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> 中实现，<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 对行为无影响。 </para>
+
+<para><itemizedlist>
+</itemizedlist>
+<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> 返回 true 时开始，<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 时结束。 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 只有在行为开始状态才有实际意义，其余状态对行为无影响。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.ISkill:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> ()</para>
+
+<para>尝试使用该技能。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> ()</para>
+
+<para>取消当前正在使用的行为 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1aea0dfe8cb5caff578a740db89e85b6d6"/>Action <emphasis role="strong">OnPerforming</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1af989f44558815277469c3bc6411f5864"/>Action <emphasis role="strong">OnCanceling</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 接口。Skill 是对行为的一种抽象，它会尝试去执行某种行为（但不一定成功）。 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 支持两种行为： <itemizedlist>
+</itemizedlist>
+<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> 中实现，<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 对行为无影响。 </para>
+
+<para><itemizedlist>
+</itemizedlist>
+<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> 返回 true 时开始，<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 时结束。 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 只有在行为开始状态才有实际意义，其余状态对行为无影响。 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df"/>    <section>
+    <title>Cancel()</title>
+<indexterm><primary>Cancel</primary><secondary>Sarachan.UniTiya.Skill.ISkill</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.ISkill</primary><secondary>Cancel</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Skill.ISkill.Cancel ( )</computeroutput></para><para>
+
+<para>取消当前正在使用的行为 </para>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_1ad3ae9748bea1bfba414e5824f39c5e61">Sarachan.UniTiya.Skill.TiyaSkill</link>, and <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a58fa11572172fabfd3d5416369e05b4d">Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566"/>    <section>
+    <title>TryToPerform()</title>
+<indexterm><primary>TryToPerform</primary><secondary>Sarachan.UniTiya.Skill.ISkill</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.ISkill</primary><secondary>TryToPerform</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.Skill.ISkill.TryToPerform ( )</computeroutput></para><para>
+
+<para>尝试使用该技能。 </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>使用成功返回 true，否则返回 false</para>
+</formalpara>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_1af089e680c065bee45f9ca2b7632f3342">Sarachan.UniTiya.Skill.TiyaSkill</link>, and <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1af9106c0bdabebda5e1ee6eef2bbf70d9">Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Skills/ISkill.cs</section>
+</section>

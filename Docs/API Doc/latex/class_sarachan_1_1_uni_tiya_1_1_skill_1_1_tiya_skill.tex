@@ -1,0 +1,103 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Skill.\+Tiya\+Skill Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill}\index{Sarachan.UniTiya.Skill.TiyaSkill@{Sarachan.UniTiya.Skill.TiyaSkill}}
+
+
+可配置的 Skill，可以通过序列化配置，或者继承重写 On\+Init， 在其中配置事件、consumer 等来实现自定义的 Skill。 初始状态下，\+Skill 是 Disable 的，需要先调用 Enable 才能使用。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Skill.\+Tiya\+Skill\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.131313cm]{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_af089e680c065bee45f9ca2b7632f3342}{Try\+To\+Perform}} ()
+\begin{DoxyCompactList}\small\item\em 尝试使用该技能。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad3ae9748bea1bfba414e5824f39c5e61}{Cancel}} ()
+\begin{DoxyCompactList}\small\item\em 取消当前正在使用的行为 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a9593f8523a11bc4c243acc90f5b0d834}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a9593f8523a11bc4c243acc90f5b0d834}} 
+void {\bfseries Enable} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a1340d364f13f655b8e4982b9099fb6eb}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a1340d364f13f655b8e4982b9099fb6eb}} 
+void {\bfseries Disable} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a72d63b354b15ae83fbcd9dc460267d31}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a72d63b354b15ae83fbcd9dc460267d31}} 
+virtual void {\bfseries On\+Init} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad9bd7205df80ccfe2f972b2f79e7694d}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad9bd7205df80ccfe2f972b2f79e7694d}} 
+Game\+Object {\bfseries Skill\+Performer}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a58262038fe6f085b3bfa35abee56e636}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a58262038fe6f085b3bfa35abee56e636}} 
+bool {\bfseries Enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a05ce3db8456da2f0260a0988630342e8}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a05ce3db8456da2f0260a0988630342e8}} 
+System.\+Action {\bfseries On\+Enable}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a68ec9b15134c205523a9214f7bc6e62b}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a68ec9b15134c205523a9214f7bc6e62b}} 
+System.\+Action {\bfseries On\+Disable}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a259ea603e74e2d0833e95249645f5cc6}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a259ea603e74e2d0833e95249645f5cc6}} 
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer}{Multi\+Consumer}} {\bfseries Skill\+Consumers}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad38f5e224855277727df0841070cb68e}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad38f5e224855277727df0841070cb68e}} 
+System.\+Action {\bfseries On\+Performing}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a6fe867436fe5f34f6435f9f9e307f07a}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_a6fe867436fe5f34f6435f9f9e307f07a}} 
+System.\+Action {\bfseries On\+Canceling}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+可配置的 Skill，可以通过序列化配置，或者继承重写 On\+Init， 在其中配置事件、consumer 等来实现自定义的 Skill。 初始状态下，\+Skill 是 Disable 的，需要先调用 Enable 才能使用。 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad3ae9748bea1bfba414e5824f39c5e61}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad3ae9748bea1bfba414e5824f39c5e61}} 
+\index{Sarachan.UniTiya.Skill.TiyaSkill@{Sarachan.UniTiya.Skill.TiyaSkill}!Cancel@{Cancel}}
+\index{Cancel@{Cancel}!Sarachan.UniTiya.Skill.TiyaSkill@{Sarachan.UniTiya.Skill.TiyaSkill}}
+\doxysubsubsection{\texorpdfstring{Cancel()}{Cancel()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Skill.\+Tiya\+Skill.\+Cancel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+取消当前正在使用的行为 
+
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_af089e680c065bee45f9ca2b7632f3342}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_af089e680c065bee45f9ca2b7632f3342}} 
+\index{Sarachan.UniTiya.Skill.TiyaSkill@{Sarachan.UniTiya.Skill.TiyaSkill}!TryToPerform@{TryToPerform}}
+\index{TryToPerform@{TryToPerform}!Sarachan.UniTiya.Skill.TiyaSkill@{Sarachan.UniTiya.Skill.TiyaSkill}}
+\doxysubsubsection{\texorpdfstring{TryToPerform()}{TryToPerform()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+Skill.\+Tiya\+Skill.\+Try\+To\+Perform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+尝试使用该技能。 
+
+\begin{DoxyReturn}{Returns}
+使用成功返回 true，否则返回 false
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Skills/Tiya\+Skill\+Behaviour.\+cs\end{DoxyCompactItemize}

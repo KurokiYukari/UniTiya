@@ -1,0 +1,59 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Tiya\+Weapon.\+Tiya\+Weapon\+Controller Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller}\index{Sarachan.UniTiya.TiyaWeapon.TiyaWeaponController@{Sarachan.UniTiya.TiyaWeapon.TiyaWeaponController}}
+
+
+可配置的武器，通过组合 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 构造武器。 Extra\+Skills 可以定义对应的 Input\+Action；\+Input\+Action 只有在 Owner.\+Is\+Player 的情况下才会生效。 所有该武器的 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 和 Input\+Action 的 Enable 只会在改武器 Owner 已被设置的情况下发生，会在设置 Owner 时、组件 Enable 时调用； 而所有 Skil 和 Input\+Action 的 Disable 会在组件 Disable 时调用。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Tiya\+Weapon.\+Tiya\+Weapon\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.723077cm]{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a5be7dd52054f2c88af1b0e102af66a3b}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a5be7dd52054f2c88af1b0e102af66a3b}} 
+void {\bfseries Start} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_ac684957378727dd2778176c9f4609245}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_ac684957378727dd2778176c9f4609245}} 
+void {\bfseries On\+Enable} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_ac565bbec1603978a02a2352726a2433a}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_ac565bbec1603978a02a2352726a2433a}} 
+void {\bfseries On\+Disable} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a6d17e722d271212b92fed6027902fa19}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a6d17e722d271212b92fed6027902fa19}} 
+Game\+Object {\bfseries Weapon\+Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_aa25f2318f86cc1b027b2b02649d9d317}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_aa25f2318f86cc1b027b2b02649d9d317}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}}? {\bfseries Owner}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_adb7a7ffd483806a65ec50a5370ea6b22}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_adb7a7ffd483806a65ec50a5370ea6b22}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}} {\bfseries Default\+Actions}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a9e02daf83bdc08108ebc55d81eb2e7dc}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a9e02daf83bdc08108ebc55d81eb2e7dc}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}} {\bfseries Actor\+Weapon\+Actions}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a063c7d2383301c2e54fa4c141fc2a15c}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a063c7d2383301c2e54fa4c141fc2a15c}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}{ISkill}} {\bfseries Normal\+Attack\+Skill}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a0ff706e3bf7d034534065f897c0c85ef}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_a0ff706e3bf7d034534065f897c0c85ef}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}{ISkill}} {\bfseries Special\+Attack\+Skill}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_ac4f2b9e3604fe18318662ce0f7629c2c}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_ac4f2b9e3604fe18318662ce0f7629c2c}} 
+IEnumerable$<$(\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}{ISkill}} skill, Input\+Action trigger\+Action)$>$ {\bfseries Extra\+Skill\+Binds}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+可配置的武器，通过组合 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 构造武器。 Extra\+Skills 可以定义对应的 Input\+Action；\+Input\+Action 只有在 Owner.\+Is\+Player 的情况下才会生效。 所有该武器的 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 和 Input\+Action 的 Enable 只会在改武器 Owner 已被设置的情况下发生，会在设置 Owner 时、组件 Enable 时调用； 而所有 Skil 和 Input\+Action 的 Disable 会在组件 Disable 时调用。 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya\+Weapon/Tiya\+Weapon\+Controller.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_behaviour_tree" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base">BehaviourTreeNodeBase</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_composite_node">CompositeNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_decorator_node">DecoratorNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_leaf_node">LeafNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node">RandomSelectorNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_sequence_node">RandomSequenceNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node">SelectorNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_sequence_node">SequenceNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node">DelayNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_inverter_node">InverterNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node">RepeaterNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeat_until_fail_node">RepeatUntilFailNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_succeeder_node">SucceederNode</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link></para>
+
+<para>行为树实现 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1a4db868f2316ac1018a2dc1fa21d59f89"/>enum class <emphasis role="strong">BehaviourTreeNodeType</emphasis> { <emphasis role="strong">Composite</emphasis>
+, <emphasis role="strong">Decorator</emphasis>
+, <emphasis role="strong">Leaf</emphasis>
+ }</para>
+</listitem>
+            <listitem><para><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1a532fcafb68ea159afeb37e7dce17a6a8"/>enum class <emphasis role="strong">BehaviourTreeResult</emphasis> { <emphasis role="strong">Success</emphasis>
+, <emphasis role="strong">Failure</emphasis>
+, <emphasis role="strong">Running</emphasis>
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

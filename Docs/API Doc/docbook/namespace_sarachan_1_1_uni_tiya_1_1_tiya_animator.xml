@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter">ActorTiyaAnimatorAdapter</link></para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的适配器 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_actor_tiya_animator_adapter">IActorTiyaAnimatorAdapter</link></para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的适配器接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter">IWeaponTiyaAnimatorAdapter</link></para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> 的接口 </para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">TiyaAnimatorTools</emphasis></para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 的工具类 </para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind">WeaponLocomotionAnimationBind</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind">WeaponActionAnimationBind</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base">WeaponTiyaAnimatorAdapterBase</link></para>
+
+<para>实现了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter">IWeaponTiyaAnimatorAdapter</link> 的基 Behaviour，他已经处理了权重的配置 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

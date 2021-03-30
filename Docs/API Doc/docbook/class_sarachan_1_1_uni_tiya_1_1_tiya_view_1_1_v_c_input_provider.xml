@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaView.VCInputProvider Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCInputProvider</primary></indexterm>
+<para>
+
+<para>修改自 Cinemachine.CinemachineInputProvider 原来的脚本会自动 enable InputAction，这里把这个功能删除。 应该添加到 ViewController 的 FreeLookVC 以重载输入。 不手动添加也可以（TiyaViewController 会自动添加），但可能会有一个（没有实际影响的）Error Log。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaView.VCInputProvider:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>virtual float <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a052ddaa4c45cdf2104a135ae3e935747">GetAxisValue</link> (int axis)</para>
+
+<para>Implementation of AxisState.IInputAxisProvider.GetAxisValue(). Axis index ranges from 0...2 for X, Y, and Z. Reads the action associated with the axis. </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a5a6e99390d02c5f96cf9c685b5bd45e1">PlayerIndex</link> = -1</para>
+
+<para>Leave this at -1 for single-player games. For multi-player games, set this to be the player index, and the actions will be read from that player&apos;s controls </para>
+</listitem>
+            <listitem><para>InputActionReference <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a65bb283fac97b595525146ce7d879186">XYAxis</link></para>
+
+<para>Vector2 action for XY movement </para>
+</listitem>
+            <listitem><para>InputActionReference <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1af5b8c22413193c83b6443fef6e656052">ZAxis</link></para>
+
+<para>Float action for Z movement </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>InputAction <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a8454583f35af9b78c126ea52068373f8">ResolveForPlayer</link> (int axis, InputActionReference actionRef)</para>
+
+<para>In a multi-player context, actions are associated with specific players This resolves the appropriate action reference for the specified player. </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1aec05e518409497a5b1e4b77197ee8d2c"/>virtual void <emphasis role="strong">OnDisable</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>修改自 Cinemachine.CinemachineInputProvider 原来的脚本会自动 enable InputAction，这里把这个功能删除。 应该添加到 ViewController 的 FreeLookVC 以重载输入。 不手动添加也可以（TiyaViewController 会自动添加），但可能会有一个（没有实际影响的）Error Log。 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a052ddaa4c45cdf2104a135ae3e935747"/>    <section>
+    <title>GetAxisValue()</title>
+<indexterm><primary>GetAxisValue</primary><secondary>Sarachan.UniTiya.TiyaView.VCInputProvider</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCInputProvider</primary><secondary>GetAxisValue</secondary></indexterm>
+<para><computeroutput>virtual float Sarachan.UniTiya.TiyaView.VCInputProvider.GetAxisValue (int axis)<computeroutput>[virtual]</computeroutput></computeroutput></para><para>
+
+<para>Implementation of AxisState.IInputAxisProvider.GetAxisValue(). Axis index ranges from 0...2 for X, Y, and Z. Reads the action associated with the axis. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>axis</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The current axis value</para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a8454583f35af9b78c126ea52068373f8"/>    <section>
+    <title>ResolveForPlayer()</title>
+<indexterm><primary>ResolveForPlayer</primary><secondary>Sarachan.UniTiya.TiyaView.VCInputProvider</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCInputProvider</primary><secondary>ResolveForPlayer</secondary></indexterm>
+<para><computeroutput>InputAction Sarachan.UniTiya.TiyaView.VCInputProvider.ResolveForPlayer (int axis, InputActionReference actionRef)<computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>In a multi-player context, actions are associated with specific players This resolves the appropriate action reference for the specified player. </para>
+</para>
+
+<para>Because the resolution involves a search, we also cache the returned action to make future resolutions faster.</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>axis</entry>
+                                <entry>
+<para>Which input axis (0, 1, or 2)</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>actionRef</entry>
+                                <entry>
+<para>Which action reference to resolve</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>The cached action for the player specified in PlayerIndex</para>
+</formalpara>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a5a6e99390d02c5f96cf9c685b5bd45e1"/>    <section>
+    <title>PlayerIndex</title>
+<indexterm><primary>PlayerIndex</primary><secondary>Sarachan.UniTiya.TiyaView.VCInputProvider</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCInputProvider</primary><secondary>PlayerIndex</secondary></indexterm>
+<para><computeroutput>int Sarachan.UniTiya.TiyaView.VCInputProvider.PlayerIndex = -1</computeroutput></para><para>
+
+<para>Leave this at -1 for single-player games. For multi-player games, set this to be the player index, and the actions will be read from that player&apos;s controls </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1a65bb283fac97b595525146ce7d879186"/>    <section>
+    <title>XYAxis</title>
+<indexterm><primary>XYAxis</primary><secondary>Sarachan.UniTiya.TiyaView.VCInputProvider</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCInputProvider</primary><secondary>XYAxis</secondary></indexterm>
+<para><computeroutput>InputActionReference Sarachan.UniTiya.TiyaView.VCInputProvider.XYAxis</computeroutput></para><para>
+
+<para>Vector2 action for XY movement </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_1af5b8c22413193c83b6443fef6e656052"/>    <section>
+    <title>ZAxis</title>
+<indexterm><primary>ZAxis</primary><secondary>Sarachan.UniTiya.TiyaView.VCInputProvider</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCInputProvider</primary><secondary>ZAxis</secondary></indexterm>
+<para><computeroutput>InputActionReference Sarachan.UniTiya.TiyaView.VCInputProvider.ZAxis</computeroutput></para><para>
+
+<para>Float action for Z movement </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaView/VCInputProvider.cs</section>
+</section>

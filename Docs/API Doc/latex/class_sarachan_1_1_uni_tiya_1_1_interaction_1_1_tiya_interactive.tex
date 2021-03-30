@@ -1,0 +1,94 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Interaction.\+Tiya\+Interactive Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive}\index{Sarachan.UniTiya.Interaction.TiyaInteractive@{Sarachan.UniTiya.Interaction.TiyaInteractive}}
+
+
+可配置的交互类。可以通过继承或配置 Event 自定义。 交互的的条件是 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler}{IInteractive\+Object\+Handler}} 是否在 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive}{Tiya\+Interactive}} Game\+Object 的 Trigger 内。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Interaction.\+Tiya\+Interactive\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.616822cm]{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1_1_interact_event}{Interact\+Event}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a6c65d99470490edb47b388fa1b10a54b}{Interact}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} actor)
+\begin{DoxyCompactList}\small\item\em 执行交互逻辑 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_af6432f14926b5c79d415ea2b9342763f}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_af6432f14926b5c79d415ea2b9342763f}} 
+static \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive}{Tiya\+Interactive}} {\bfseries Create\+Default\+Interactive\+Object} (string obj\+Name=\char`\"{}Tiya Interactive\char`\"{}, float radius=4)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a90628b5e91e21c3caf51ce4625016412}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a90628b5e91e21c3caf51ce4625016412}} 
+virtual void {\bfseries Interact\+Override} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} actor)
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a4b7d5f99f40c3a05c962f2517c9a396a}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a4b7d5f99f40c3a05c962f2517c9a396a}} 
+void {\bfseries Awake} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a07f88b8e530bfcd50bc76bad7d33334e}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a07f88b8e530bfcd50bc76bad7d33334e}} 
+void {\bfseries On\+Trigger\+Enter} (Collider other)
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_aafa098495c884d142d0d74efa7bd0dc9}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_aafa098495c884d142d0d74efa7bd0dc9}} 
+void {\bfseries On\+Trigger\+Exit} (Collider other)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a442124a257847ac79771fbc7331dcc1b}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a442124a257847ac79771fbc7331dcc1b}} 
+string {\bfseries Interact\+Label}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a7d8ee1b4967eab1e6c08fcc378cceaed}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a7d8ee1b4967eab1e6c08fcc378cceaed}} 
+Hash\+Set$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler}{IInteractive\+Object\+Handler}} $>$ {\bfseries Connetted\+Handlers} = new Hash\+Set$<$\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler}{IInteractive\+Object\+Handler}}$>$()\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a9de00ee690563c5075414ae500fa707d}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a9de00ee690563c5075414ae500fa707d}} 
+Game\+Object {\bfseries Interactive\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a3c4b3ad9491d1286c3d6b432dab09f06}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a3c4b3ad9491d1286c3d6b432dab09f06}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} $>$ {\bfseries On\+Interacting}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+可配置的交互类。可以通过继承或配置 Event 自定义。 交互的的条件是 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler}{IInteractive\+Object\+Handler}} 是否在 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive}{Tiya\+Interactive}} Game\+Object 的 Trigger 内。 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a6c65d99470490edb47b388fa1b10a54b}\label{class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_a6c65d99470490edb47b388fa1b10a54b}} 
+\index{Sarachan.UniTiya.Interaction.TiyaInteractive@{Sarachan.UniTiya.Interaction.TiyaInteractive}!Interact@{Interact}}
+\index{Interact@{Interact}!Sarachan.UniTiya.Interaction.TiyaInteractive@{Sarachan.UniTiya.Interaction.TiyaInteractive}}
+\doxysubsubsection{\texorpdfstring{Interact()}{Interact()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Interaction.\+Tiya\+Interactive.\+Interact (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}}}]{actor }\end{DoxyParamCaption})}
+
+
+
+执行交互逻辑 
+
+
+\begin{DoxyParams}{Parameters}
+{\em actor} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive_a408944c5bbc2c8bdde2040e402a3762e}{Sarachan.\+Uni\+Tiya.\+IInteractive}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Interaction/Tiya\+Interactive.\+cs\end{DoxyCompactItemize}

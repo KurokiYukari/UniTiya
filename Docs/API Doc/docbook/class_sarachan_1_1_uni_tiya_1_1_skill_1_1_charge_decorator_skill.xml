@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.ChargeDecoratorSkill Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.ChargeDecoratorSkill</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.ChargeDecoratorSkill:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill_1a9202db6eb6bc29b4a2ef6c577fbfb4b1"/>override void <emphasis role="strong">OnInit</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill_1a2d5320e328f5eaf28f6334c72bc9e368"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link> <emphasis role="strong">DecoratedSkill</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill_1a6a3aa62a6ce8b5857672c6a1536d1317"/>float? <emphasis role="strong">ChargeTime</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill_1affafe7e770311ac10d10db9bf9192f95"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link>, float &gt; <emphasis role="strong">OnBeforeChargePerform</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill_1a9292e2645c177490b5544b3d13b1a135"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link>, float &gt; <emphasis role="strong">OnAfterChargePerform</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/ChargeSkillBehaviour.cs</section>

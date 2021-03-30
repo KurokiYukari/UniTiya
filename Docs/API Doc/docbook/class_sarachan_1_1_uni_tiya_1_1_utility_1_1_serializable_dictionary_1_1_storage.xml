@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1_1_storage" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.SerializableDictionary&lt; TKey, TValue, TValueStorage &gt;.Storage&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.SerializableDictionary&lt; TKey, TValue, TValueStorage &gt;.Storage&lt; T &gt;</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1_1_storage_1a4e6557841732e3b563a4510fa5469e86"/>T <emphasis role="strong">data</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/SerializableDictionary.cs</section>

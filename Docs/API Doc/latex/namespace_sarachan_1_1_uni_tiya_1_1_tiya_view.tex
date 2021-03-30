@@ -1,0 +1,15 @@
+\hypertarget{namespace_sarachan_1_1_uni_tiya_1_1_tiya_view}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Tiya\+View Namespace Reference}
+\label{namespace_sarachan_1_1_uni_tiya_1_1_tiya_view}\index{Sarachan.UniTiya.TiyaView@{Sarachan.UniTiya.TiyaView}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view}{Tiya\+Actor\+Camera\+View}}
+\begin{DoxyCompactList}\small\item\em 视角控制器，基于 Cinemachine 实现 \end{DoxyCompactList}\item 
+struct \mbox{\hyperlink{struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration}{Tiya\+Actor\+Camera\+View\+Configuration}}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view}{Tiya\+Actor\+View}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{IActor\+View}} 的实现 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl}{VCFollow\+Ctrl}}
+\begin{DoxyCompactList}\small\item\em 辅助 Behaviour，由 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view}{Tiya\+Actor\+Camera\+View}} 动态创建 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider}{VCInput\+Provider}}
+\begin{DoxyCompactList}\small\item\em 修改自 Cinemachine.\+Cinemachine\+Input\+Provider 原来的脚本会自动 enable Input\+Action，这里把这个功能删除。 应该添加到 View\+Controller 的 Free\+Look\+VC 以重载输入。 不手动添加也可以（\+Tiya\+View\+Controller 会自动添加），但可能会有一个（没有实际影响的）\+Error Log。 \end{DoxyCompactList}\end{DoxyCompactItemize}

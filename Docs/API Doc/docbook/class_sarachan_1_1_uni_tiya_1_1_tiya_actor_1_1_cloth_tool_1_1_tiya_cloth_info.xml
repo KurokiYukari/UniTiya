@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</primary></indexterm>
+<para>
+
+<para>暖暖衣服 Prefab 的组件，用于向外界提供自身的各种信息 衣服绑定到暖暖身上是根据骨骼的名字绑定的 可以有多出的骨骼，请将多出的骨骼新建一个父节点，将父节点置于 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a8361b037871128bd1413aa2cf3c2b0b6">AddedBonesRoots</link> 数组中 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>SkinnedMeshRenderer[] <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1aff039e8c45917c70b77b97f89b16a6d1">BaseMeshRenderer</link></para>
+
+<para>Cloth 的基础网格（基础网格以外的网格是可选的 </para>
+</listitem>
+            <listitem><para>SkinnedMeshRenderer[] <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a7a349e394a400f0d8c38e588b622451f">OptionalMeshRenderers</link></para>
+
+<para>Cloth 的可选网格 </para>
+</listitem>
+            <listitem><para>Transform[] <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a8361b037871128bd1413aa2cf3c2b0b6">AddedBonesRoots</link></para>
+
+<para>相对于穿上该 Cloth 的 Prefab，该 Cloth 多出的骨骼的根结点们 注意：这个根结点是不在 SkinnedMeshRenderer 的 bones 中的，需要用户自己创建 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>SkinnedMeshRenderer[] <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1abc44fe3caf7bb25602111a7be29633ff">AllMeshRenderers</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Cloth 的所有网格（Base + Optional） </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>暖暖衣服 Prefab 的组件，用于向外界提供自身的各种信息 衣服绑定到暖暖身上是根据骨骼的名字绑定的 可以有多出的骨骼，请将多出的骨骼新建一个父节点，将父节点置于 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a8361b037871128bd1413aa2cf3c2b0b6">AddedBonesRoots</link> 数组中 </para>
+
+
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a8361b037871128bd1413aa2cf3c2b0b6"/>    <section>
+    <title>AddedBonesRoots</title>
+<indexterm><primary>AddedBonesRoots</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</primary><secondary>AddedBonesRoots</secondary></indexterm>
+<para><computeroutput>Transform [] Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo.AddedBonesRoots</computeroutput></para><para>
+
+<para>相对于穿上该 Cloth 的 Prefab，该 Cloth 多出的骨骼的根结点们 注意：这个根结点是不在 SkinnedMeshRenderer 的 bones 中的，需要用户自己创建 </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1aff039e8c45917c70b77b97f89b16a6d1"/>    <section>
+    <title>BaseMeshRenderer</title>
+<indexterm><primary>BaseMeshRenderer</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</primary><secondary>BaseMeshRenderer</secondary></indexterm>
+<para><computeroutput>SkinnedMeshRenderer [] Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo.BaseMeshRenderer</computeroutput></para><para>
+
+<para>Cloth 的基础网格（基础网格以外的网格是可选的 </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a7a349e394a400f0d8c38e588b622451f"/>    <section>
+    <title>OptionalMeshRenderers</title>
+<indexterm><primary>OptionalMeshRenderers</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</primary><secondary>OptionalMeshRenderers</secondary></indexterm>
+<para><computeroutput>SkinnedMeshRenderer [] Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo.OptionalMeshRenderers</computeroutput></para><para>
+
+<para>Cloth 的可选网格 </para>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1abc44fe3caf7bb25602111a7be29633ff"/>    <section>
+    <title>AllMeshRenderers</title>
+<indexterm><primary>AllMeshRenderers</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo</primary><secondary>AllMeshRenderers</secondary></indexterm>
+<para><computeroutput>SkinnedMeshRenderer [] Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothInfo.AllMeshRenderers<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Cloth 的所有网格（Base + Optional） </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaActor/ClothTool/TiyaClothInfo.cs</section>
+</section>

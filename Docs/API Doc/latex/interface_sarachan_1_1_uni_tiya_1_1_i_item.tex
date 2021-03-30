@@ -1,0 +1,104 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IItem Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_item}\index{Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}}
+
+
+物品接口  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IItem\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{interface_sarachan_1_1_uni_tiya_1_1_i_item}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item_a1bcc3841627cadc6efeb2fff02ab6019}{Use\+Item}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} item\+Owner)
+\begin{DoxyCompactList}\small\item\em 使用 item \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item_a945d1262d357cd051c6650a186e372dc}{Item\+ID}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 物品种类 ID \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_af2b7eab8e5022d32ac39dabde813b77c}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_af2b7eab8e5022d32ac39dabde813b77c}} 
+string {\bfseries Item\+Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_a2c3a06acbc0dd03baab5d1b1414d8e0e}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_a2c3a06acbc0dd03baab5d1b1414d8e0e}} 
+string {\bfseries Description}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item_ac50ef1f0a6379012120ec681f45d69b2}{Is\+Stackable}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 是否可堆叠。可堆叠物品同 ID 则是完全相同的，不可堆叠物品则是种类相同，但具体属性值等可能不同。 具体可见 Tiya\+Tools.\+Item\+Equals(\+IItem, IItem) 方法。 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}{Tiya\+Item\+Type}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item_a4cc8a12f2aa76553b2e9d7d637ca3403}{Item\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 物品种类 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_a3ae88d921f5202c7270b77361802fcc8}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_a3ae88d921f5202c7270b77361802fcc8}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} $>$ {\bfseries On\+Using\+Item}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+物品接口 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_a1bcc3841627cadc6efeb2fff02ab6019}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_a1bcc3841627cadc6efeb2fff02ab6019}} 
+\index{Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}!UseItem@{UseItem}}
+\index{UseItem@{UseItem}!Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}}
+\doxysubsubsection{\texorpdfstring{UseItem()}{UseItem()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IItem.\+Use\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}}}]{item\+Owner }\end{DoxyParamCaption})}
+
+
+
+使用 item 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Owner} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a32269111d3dfde0a19b68011b9fbfb39}{Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_ac50ef1f0a6379012120ec681f45d69b2}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_ac50ef1f0a6379012120ec681f45d69b2}} 
+\index{Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}!IsStackable@{IsStackable}}
+\index{IsStackable@{IsStackable}!Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}}
+\doxysubsubsection{\texorpdfstring{IsStackable}{IsStackable}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IItem.\+Is\+Stackable\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+是否可堆叠。可堆叠物品同 ID 则是完全相同的，不可堆叠物品则是种类相同，但具体属性值等可能不同。 具体可见 Tiya\+Tools.\+Item\+Equals(\+IItem, IItem) 方法。 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_a945d1262d357cd051c6650a186e372dc}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_a945d1262d357cd051c6650a186e372dc}} 
+\index{Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}!ItemID@{ItemID}}
+\index{ItemID@{ItemID}!Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}}
+\doxysubsubsection{\texorpdfstring{ItemID}{ItemID}}
+{\footnotesize\ttfamily int Sarachan.\+Uni\+Tiya.\+IItem.\+Item\+ID\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+物品种类 ID 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_item_a4cc8a12f2aa76553b2e9d7d637ca3403}\label{interface_sarachan_1_1_uni_tiya_1_1_i_item_a4cc8a12f2aa76553b2e9d7d637ca3403}} 
+\index{Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}!ItemType@{ItemType}}
+\index{ItemType@{ItemType}!Sarachan.UniTiya.IItem@{Sarachan.UniTiya.IItem}}
+\doxysubsubsection{\texorpdfstring{ItemType}{ItemType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}{Tiya\+Item\+Type}} Sarachan.\+Uni\+Tiya.\+IItem.\+Item\+Type\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+物品种类 
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IItem.\+cs\end{DoxyCompactItemize}

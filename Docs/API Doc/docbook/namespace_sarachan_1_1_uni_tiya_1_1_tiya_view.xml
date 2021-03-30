@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_view" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaView Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaView</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view">TiyaActorCameraView</link></para>
+
+<para>视角控制器，基于 Cinemachine 实现 </para>
+</listitem>
+            <listitem><para>struct <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view">TiyaActorView</link></para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link> 的实现 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl">VCFollowCtrl</link></para>
+
+<para>辅助 Behaviour，由 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view">TiyaActorCameraView</link> 动态创建 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider">VCInputProvider</link></para>
+
+<para>修改自 Cinemachine.CinemachineInputProvider 原来的脚本会自动 enable InputAction，这里把这个功能删除。 应该添加到 ViewController 的 FreeLookVC 以重载输入。 不手动添加也可以（TiyaViewController 会自动添加），但可能会有一个（没有实际影响的）Error Log。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

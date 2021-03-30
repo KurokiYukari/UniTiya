@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.SerializableDictionaryBase&lt; TKey, TValue, TValueStorage &gt; Class Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.SerializableDictionaryBase&lt; TKey, TValue, TValueStorage &gt;</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.SerializableDictionaryBase&lt; TKey, TValue, TValueStorage &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base_1a313062811b5cb573c77def0cebaf92a9"/>void <emphasis role="strong">CopyFrom</emphasis> (IDictionary&lt; TKey, TValue &gt; dict)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base_1ad36993d6804be5b0d681b911d8873f43"/>void <emphasis role="strong">OnAfterDeserialize</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base_1ac51c116d886d5014dbb13650354062df"/>void <emphasis role="strong">OnBeforeSerialize</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base_1af48e52454faa10ca636f5c784eb6f56c"/><emphasis role="strong">SerializableDictionaryBase</emphasis> (SerializationInfo info, StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base_1aba165b5d500228bc2c21dabfaa50659c"/>abstract void <emphasis role="strong">SetValue</emphasis> (TValueStorage[] storage, int i, TValue value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base_1a8d59a4aa55053810bec5e30495e4a1fd"/>abstract TValue <emphasis role="strong">GetValue</emphasis> (TValueStorage[] storage, int i)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/SerializableDictionary.cs</section>

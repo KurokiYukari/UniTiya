@@ -1,0 +1,16 @@
+A Property\+Attribute/\+Property\+Drawer combination that allows for properties in Unity\hypertarget{md__runtime__tiya_property_attributes__set_property__r_e_a_d_m_e_autotoc_md0}{}\doxysection{Example}\label{md__runtime__tiya_property_attributes__set_property__r_e_a_d_m_e_autotoc_md0}
+Unity allows you to serialize private fields with \mbox{[}Serialize\+Field\mbox{]}. Use the new \mbox{[}Set\+Property\mbox{]} attribute to have a public property set every time the field is modified in Unity\textquotesingle{}s inspector. NOTE\+: It is okay to have private setters for public properties. Vanilla classes (i.\+e. non-\/\+Mono\+Behaviours) also work as well. \begin{DoxyVerb}[SerializeField, SetProperty("Number")]
+private float number;
+public float Number
+{
+    get
+    {
+        return number;
+    }
+    private set
+    {
+        number = Mathf.Clamp01(value);
+    }
+}
+\end{DoxyVerb}
+ 

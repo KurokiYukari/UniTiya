@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.WeaponProjectileSkill Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.WeaponProjectileSkill</primary></indexterm>
+<para>
+
+<para>SkillPerformer 需要是 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> 的 GameObject。 向 Weapon Owner 的 AimPose 方向投掷一个 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile">TiyaProjectile</link> 的 Skill。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.WeaponProjectileSkill:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill_1adf5ee51dfcee9ddf474c4b78d353dd07"/>override void <emphasis role="strong">OnInit</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill_1ab43581a9550d1732b7591fb4e5ba7efc"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> <emphasis role="strong">Weapon</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill_1a31ec0deee5f5a439021bb76645b45ad1"/>float <emphasis role="strong">ShotColdDownTime</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill_1a8fe86e93d2932459a0df761e361945ec"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer">ColdDownConsumer</link> <emphasis role="strong">ShotCDConsumer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill_1a16ea7f40e2f0de96a3fc6d903ce64ebc"/>float <emphasis role="strong">InitialSpeed</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill_1a3d9111e984d6fa5612f543018a45260a"/>GameObject <emphasis role="strong">RecentProjectileObject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>SkillPerformer 需要是 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> 的 GameObject。 向 Weapon Owner 的 AimPose 方向投掷一个 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile">TiyaProjectile</link> 的 Skill。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/WeaponProjectileSkill.cs</section>
+</section>

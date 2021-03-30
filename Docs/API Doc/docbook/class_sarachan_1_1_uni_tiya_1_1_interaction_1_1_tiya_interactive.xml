@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive" xml:lang="en-US">
+<title>Sarachan.UniTiya.Interaction.TiyaInteractive Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Interaction.TiyaInteractive</primary></indexterm>
+<para>
+
+<para>可配置的交互类。可以通过继承或配置 Event 自定义。 交互的的条件是 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler">IInteractiveObjectHandler</link> 是否在 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive">TiyaInteractive</link> GameObject 的 Trigger 内。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Interaction.TiyaInteractive:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1_1_interact_event">InteractEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a6c65d99470490edb47b388fa1b10a54b">Interact</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</para>
+
+<para>执行交互逻辑 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1af6432f14926b5c79d415ea2b9342763f"/>static <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive">TiyaInteractive</link> <emphasis role="strong">CreateDefaultInteractiveObject</emphasis> (string objName=&quot;Tiya Interactive&quot;, float radius=4)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a90628b5e91e21c3caf51ce4625016412"/>virtual void <emphasis role="strong">InteractOverride</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a4b7d5f99f40c3a05c962f2517c9a396a"/>void <emphasis role="strong">Awake</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a07f88b8e530bfcd50bc76bad7d33334e"/>void <emphasis role="strong">OnTriggerEnter</emphasis> (Collider other)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1aafa098495c884d142d0d74efa7bd0dc9"/>void <emphasis role="strong">OnTriggerExit</emphasis> (Collider other)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a442124a257847ac79771fbc7331dcc1b"/>string <emphasis role="strong">InteractLabel</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a7d8ee1b4967eab1e6c08fcc378cceaed"/>HashSet&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler">IInteractiveObjectHandler</link> &gt; <emphasis role="strong">ConnettedHandlers</emphasis> = new HashSet&lt;<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler">IInteractiveObjectHandler</link>&gt;()<computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a9de00ee690563c5075414ae500fa707d"/>GameObject <emphasis role="strong">InteractiveObject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a3c4b3ad9491d1286c3d6b432dab09f06"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> &gt; <emphasis role="strong">OnInteracting</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>可配置的交互类。可以通过继承或配置 Event 自定义。 交互的的条件是 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler">IInteractiveObjectHandler</link> 是否在 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive">TiyaInteractive</link> GameObject 的 Trigger 内。 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a6c65d99470490edb47b388fa1b10a54b"/>    <section>
+    <title>Interact()</title>
+<indexterm><primary>Interact</primary><secondary>Sarachan.UniTiya.Interaction.TiyaInteractive</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Interaction.TiyaInteractive</primary><secondary>Interact</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Interaction.TiyaInteractive.Interact (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</computeroutput></para><para>
+
+<para>执行交互逻辑 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>actor</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1a408944c5bbc2c8bdde2040e402a3762e">Sarachan.UniTiya.IInteractive</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Interaction/TiyaInteractive.cs</section>
+</section>

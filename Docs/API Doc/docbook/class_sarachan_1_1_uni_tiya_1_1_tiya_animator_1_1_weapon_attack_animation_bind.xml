@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.WeaponAttackAnimationBind Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.WeaponAttackAnimationBind</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1aff1c7acc440d1261dd5b4c761bbeb764"/>bool <emphasis role="strong">IsEmpty</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1a56c2be56df452b8cedb2d97350a57956"/><emphasis role="strong">WeaponAttackAnimationBind</emphasis> (bool isHoldLoop=false, List&lt; AnimationClip &gt; animationList=null, TiyaAnimatorTools.Layer layer=TiyaAnimatorTools.Layer.Base)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1acc6acb5200e23830b915cca83511daa7"/>System.Action <emphasis role="strong">OnDoAttack</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1abfa9de8be19d396df88d9e7c2d915e39"/>int <emphasis role="strong">AttackSegmentCount</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1a2dbde8cefa75b43ec06b3f41d9b01c00"/>bool <emphasis role="strong">IsHoldLoop</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1a078cd927ea874247a07dea8653b8d379"/>List&lt; AnimationClip &gt; <emphasis role="strong">AnimationList</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind_1adaf71ff00b3fc9fd10d19d961b32ce36"/>TiyaAnimatorTools.Layer <emphasis role="strong">Layer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaAnimator/IWeaponTiyaAnimatorAdapter.cs</section>

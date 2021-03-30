@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaPropertyAttributes Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaPropertyAttributes</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute">DisableAttribute</link></para>
+
+<para>将一个 SerializedField （根据条件）设为 Disable </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_hide_if_attribute">HideIfAttribute</link></para>
+
+<para>将一个 SerializedField 根据条件隐藏 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_multi_enum_attribute">MultiEnumAttribute</link></para>
+
+<para>多选 Enum SerializedField </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_set_property_attribute">SetPropertyAttribute</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_type_restriction_attribute">TypeRestrictionAttribute</link></para>
+
+<para>修饰任何派生自 UnityEngine.Object SerializedField。 该 Attribute 保证该字段一定能通过 TiyaTools.ConvertTo&lt;T&gt;(UnityEngine.Object) 方法 转换成指定类型的对象。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

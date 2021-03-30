@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.TiyaActorController Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.TiyaActorController</primary></indexterm>
+<para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的实现 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaActor.TiyaActorController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a2e53c834c9a883f270f76167ffb461e7"/>void <emphasis role="strong">SimpleMove</emphasis> (Vector3 displacement)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1afe99df3c702aafa0d99389f5eb7adb6d"/>void <emphasis role="strong">TurnThenMoveForward</emphasis> (Vector3 direction)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a20991e78d4aabbf9bf94ba1b7661947e"/>void <emphasis role="strong">StrafeMove</emphasis> (Vector3 direction)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a3f53234d0258e839bed36f82d703ffd6"/>void <emphasis role="strong">StopMoving</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a9defc1da04978d7bd4362a06cda3b48d"/>void <emphasis role="strong">TurnTo</emphasis> (Vector3 direction)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1ae4a72b6cd4ace810dda693501535839b"/>void <emphasis role="strong">Jump</emphasis> ()</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1aacec2d182320cb89cfc94201a6eace63">ChangeModelTo</link> (GameObject modelPrefab)</para>
+
+<para>将 modelPrefab 替换当前 Controller 的 model </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a4862353ec2beedf29c6971e49ff07141"/>GameObject <emphasis role="strong">GameObject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a476d67f1edf0ddd5fb55baa7c97acce9"/>bool <emphasis role="strong">IsPlayer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a26c1d54522ec170f95b987ef5e1dc5d7"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link> <emphasis role="strong">ActorView</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a05d073526554259ac5e78f5aa37eb2ac"/>bool <emphasis role="strong">CanMove</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a962235d19f5e5141dbc0724de4dec38f"/>bool <emphasis role="strong">CanJump</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1ab49895a8d31c85a8a4ff550095ef2044"/>float <emphasis role="strong">Acceleration</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a77a718f9e18dcccfe79f252e50ee1a41"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor">ICommandProcessor</link>&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller">TiyaActorController</link> &gt; <emphasis role="strong">CommandProcessor</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a80e216e805de86b059d81f331b2f5514"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link> <emphasis role="strong">DefaultActions</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a705c6cf697539dc04e709c8c98442f72"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link> <emphasis role="strong">ActorActions</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a9decc38f1c08e03f5542212e22aab1b6"/>Animator <emphasis role="strong">Animator</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1ac36fc7ec513fa62ede6b9b1463ea1aa8"/>bool <emphasis role="strong">ApplyRootMotion</emphasis> = false<computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a8ab31488b938e2dc65bf7eae9464e3ea"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties">IActorProperties</link> <emphasis role="strong">GameProperties</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a00eaf01cd394b14f1d2432e78b492d4e"/>Transform <emphasis role="strong">ActorTransform</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a45f3853e6c00e5dba5ba11bcbb1cbe74"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager">IEquipmentManager</link> <emphasis role="strong">EquipmentManager</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a547426ff575228b342eb9d5c9e35a52d"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link> <emphasis role="strong">Inventory</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a317153b4efaf863b1ea0085357951b27"/><link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">ActorAimMode</link> <emphasis role="strong">AimMode</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a2a6dcef1131619a6cffb42550177f464"/>Vector3 <emphasis role="strong">Velocity</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a595276c2ab0122c7f26381274eb6503e"/><link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link>? <emphasis role="strong">LocomotionMode</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a2caacc8e2a6831443ce89eda4f1e762a"/>float <emphasis role="strong">ScaledSpeed</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a9341980f0443008dca7ada07ae315eae"/>bool <emphasis role="strong">IsGround</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1aee4a41044281a37894a03480a52ad861"/>bool <emphasis role="strong">IsMoving</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a7df8ff7769cdd3348372ccecc3348706"/>System.Action <emphasis role="strong">OnStartMoving</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a9f9f82f018569a277bf0f94280f0afbf"/>System.Action <emphasis role="strong">OnStopMoving</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a3a52b8f814ee68ffc9049ae3a7d68440"/>System.Action <emphasis role="strong">OnJump</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a934b6b644e582ae5ae7c711226a08d5f"/>System.Action <emphasis role="strong">OnLeavingGround</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1ae2355a8e071ef755e0cc1f9f500d1ee0"/>System.Action <emphasis role="strong">OnLanding</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1a8fc314242d10a947148e8996326a3cb7"/>System.Action&lt; <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link>, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> &gt; <emphasis role="strong">OnChangeLocomotionMode</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的实现 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller_1aacec2d182320cb89cfc94201a6eace63"/>    <section>
+    <title>ChangeModelTo()</title>
+<indexterm><primary>ChangeModelTo</primary><secondary>Sarachan.UniTiya.TiyaActor.TiyaActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.TiyaActorController</primary><secondary>ChangeModelTo</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaActor.TiyaActorController.ChangeModelTo (GameObject modelPrefab)</computeroutput></para><para>
+
+<para>将 modelPrefab 替换当前 Controller 的 model </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>modelPrefab</entry>
+                                <entry>
+<para>一个具有 chrtModelInfo 组件的 GameObject</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaActor/TiyaActorController.cs</section>
+</section>

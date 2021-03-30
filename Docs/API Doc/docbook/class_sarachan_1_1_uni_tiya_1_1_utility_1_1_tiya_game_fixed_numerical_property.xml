@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.TiyaGameFixedNumericalProperty Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.TiyaGameFixedNumericalProperty</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.TiyaGameFixedNumericalProperty:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property_1a85b2ef9bc67e2d192e7489e9e639632e"/>float <emphasis role="strong">BaseValue</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property_1ab1d00376ceba770aeb76f8c2a7306d6d"/>float <emphasis role="strong">ExtraValue</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property_1a81c9661ec1d4ef77341137d32a569d2d"/>float <emphasis role="strong">Value</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/TiyaGameNumericalProperty.cs</section>

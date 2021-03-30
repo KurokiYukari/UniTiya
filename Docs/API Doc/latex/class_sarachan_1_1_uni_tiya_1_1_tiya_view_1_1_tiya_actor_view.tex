@@ -1,0 +1,167 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view}\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+
+
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{IActor\+View}} 的实现  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.727273cm]{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a0d130239be9a29c9a249521ce85a1e76}{View}} (Vector2 delta\+Rotation)
+\begin{DoxyCompactList}\small\item\em 根据 direction 指⽰的⽅向改变当前视⾓ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a270a1e0a41d4d794396f9bbbbc50e153}{Reset\+View}} ()
+\begin{DoxyCompactList}\small\item\em 将 View 还原到初始状态 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_abfe2fb3fbfdc3eab6c116a59e44a8843}{Lock}} (Lock\+Cmd\+Type lock\+Cmd\+Type)
+\begin{DoxyCompactList}\small\item\em 将视角锁定向附近的敌人。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a751eb7f70edd50fca4c51928e8b9dc45}{Temp\+Rotate}} (float pitch\+Angle)
+\begin{DoxyCompactList}\small\item\em 制造一个暂时的强制视角偏移。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_ae03e6c5f3557780ee4ff56efaf4815e3}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_ae03e6c5f3557780ee4ff56efaf4815e3}} 
+void {\bfseries Awake} ()
+\item 
+virtual void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a6e083d8536ac270e51ebe91e67b30ca8}{On\+Locking\+Late\+Update}} (long frame\+Count)
+\begin{DoxyCompactList}\small\item\em 锁定时每帧的回调 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a67b291e0152af659f75d20239de48eaf}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a67b291e0152af659f75d20239de48eaf}} 
+virtual Transform {\bfseries View\+Transform}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_af922befa47a17c6e6b2ec8cd525cd881}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_af922befa47a17c6e6b2ec8cd525cd881}} 
+bool {\bfseries Is\+Locked}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a98a82702eabc17373f282c442aa93e0d}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a98a82702eabc17373f282c442aa93e0d}} 
+Game\+Object {\bfseries Lock\+Target}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Vector3 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_aa81ac89a19fa427185e667dd3cb5a2e6}{Lock\+Half\+Extents}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 锁定的半范围 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a36cc03c2abd12462752fb4f2088b597f}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a36cc03c2abd12462752fb4f2088b597f}} 
+System.\+Action$<$ Game\+Object $>$ {\bfseries On\+Lock}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_ab0de97c642e63ef1bc80bf4a10bcb78b}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_ab0de97c642e63ef1bc80bf4a10bcb78b}} 
+System.\+Action$<$ Game\+Object $>$ {\bfseries On\+Unlock}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{IActor\+View}} 的实现 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_abfe2fb3fbfdc3eab6c116a59e44a8843}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_abfe2fb3fbfdc3eab6c116a59e44a8843}} 
+\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}!Lock@{Lock}}
+\index{Lock@{Lock}!Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+\doxysubsubsection{\texorpdfstring{Lock()}{Lock()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View.\+Lock (\begin{DoxyParamCaption}\item[{Lock\+Cmd\+Type}]{lock\+Cmd\+Type }\end{DoxyParamCaption})}
+
+
+
+将视角锁定向附近的敌人。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lock\+Cmd\+Type} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a363cb76e796cfea746d73525306603ab}{Sarachan.\+Uni\+Tiya.\+IActor\+View}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a6e083d8536ac270e51ebe91e67b30ca8}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a6e083d8536ac270e51ebe91e67b30ca8}} 
+\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}!OnLockingLateUpdate@{OnLockingLateUpdate}}
+\index{OnLockingLateUpdate@{OnLockingLateUpdate}!Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+\doxysubsubsection{\texorpdfstring{OnLockingLateUpdate()}{OnLockingLateUpdate()}}
+{\footnotesize\ttfamily virtual void Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View.\+On\+Locking\+Late\+Update (\begin{DoxyParamCaption}\item[{long}]{frame\+Count }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+锁定时每帧的回调 
+
+
+\begin{DoxyParams}{Parameters}
+{\em frame\+Count} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a270a1e0a41d4d794396f9bbbbc50e153}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a270a1e0a41d4d794396f9bbbbc50e153}} 
+\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}!ResetView@{ResetView}}
+\index{ResetView@{ResetView}!Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+\doxysubsubsection{\texorpdfstring{ResetView()}{ResetView()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View.\+Reset\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+将 View 还原到初始状态 
+
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a4eba364b140e9571d4ea17bbfe64a687}{Sarachan.\+Uni\+Tiya.\+IActor\+View}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a751eb7f70edd50fca4c51928e8b9dc45}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a751eb7f70edd50fca4c51928e8b9dc45}} 
+\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}!TempRotate@{TempRotate}}
+\index{TempRotate@{TempRotate}!Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+\doxysubsubsection{\texorpdfstring{TempRotate()}{TempRotate()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View.\+Temp\+Rotate (\begin{DoxyParamCaption}\item[{float}]{pitch\+Angle }\end{DoxyParamCaption})}
+
+
+
+制造一个暂时的强制视角偏移。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pitch\+Angle} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_adc7360b135870f114e08423b583ab6e6}{Sarachan.\+Uni\+Tiya.\+IActor\+View}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a0d130239be9a29c9a249521ce85a1e76}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a0d130239be9a29c9a249521ce85a1e76}} 
+\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}!View@{View}}
+\index{View@{View}!Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+\doxysubsubsection{\texorpdfstring{View()}{View()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View.\+View (\begin{DoxyParamCaption}\item[{Vector2}]{delta\+Rotation }\end{DoxyParamCaption})}
+
+
+
+根据 direction 指⽰的⽅向改变当前视⾓ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Rotation} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a62f9628c0459585f4cef4d36b2724168}{Sarachan.\+Uni\+Tiya.\+IActor\+View}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_aa81ac89a19fa427185e667dd3cb5a2e6}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_aa81ac89a19fa427185e667dd3cb5a2e6}} 
+\index{Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}!LockHalfExtents@{LockHalfExtents}}
+\index{LockHalfExtents@{LockHalfExtents}!Sarachan.UniTiya.TiyaView.TiyaActorView@{Sarachan.UniTiya.TiyaView.TiyaActorView}}
+\doxysubsubsection{\texorpdfstring{LockHalfExtents}{LockHalfExtents}}
+{\footnotesize\ttfamily Vector3 Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View.\+Lock\+Half\+Extents\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+锁定的半范围 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya\+View/Tiya\+Actor\+View.\+cs\end{DoxyCompactItemize}

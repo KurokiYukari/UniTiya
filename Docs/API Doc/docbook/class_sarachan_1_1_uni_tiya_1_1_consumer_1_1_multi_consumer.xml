@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer" xml:lang="en-US">
+<title>Sarachan.UniTiya.Consumer.MultiConsumer Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Consumer.MultiConsumer</primary></indexterm>
+<para>
+
+<para>复合 Consumer。 要求所有 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_consumer">Consumer</link> 的 CanConsume 都为 true 才执行所有 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_consumer">Consumer</link> 的 Consume()。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Consumer.MultiConsumer:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer_1a61295af2f19df470e4d93f500e70bbea"/>bool <emphasis role="strong">Consume</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer_1aba21b89f2ad23d90cdafef89d8652d03"/>IEnumerator&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer">IConsumer</link> &gt; <emphasis role="strong">GetEnumerator</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer_1a299166371a2a5b61f27f888d385e3b05"/>List&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer">IConsumer</link> &gt; <emphasis role="strong">ConsumerList</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer_1aef3f6d04f7c69eb79d19171ad054cffd"/>bool <emphasis role="strong">CanConsume</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>复合 Consumer。 要求所有 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_consumer">Consumer</link> 的 CanConsume 都为 true 才执行所有 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_consumer">Consumer</link> 的 Consume()。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Consumer/MultiConsumer.cs</section>
+</section>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaWeapon.TiyaWeaponController Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaWeapon.TiyaWeaponController</primary></indexterm>
+<para>
+
+<para>可配置的武器，通过组合 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 构造武器。 ExtraSkills 可以定义对应的 InputAction；InputAction 只有在 Owner.IsPlayer 的情况下才会生效。 所有该武器的 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 和 InputAction 的 Enable 只会在改武器 Owner 已被设置的情况下发生，会在设置 Owner 时、组件 Enable 时调用； 而所有 Skil 和 InputAction 的 Disable 会在组件 Disable 时调用。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaWeapon.TiyaWeaponController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1a5be7dd52054f2c88af1b0e102af66a3b"/>void <emphasis role="strong">Start</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1ac684957378727dd2778176c9f4609245"/>void <emphasis role="strong">OnEnable</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1ac565bbec1603978a02a2352726a2433a"/>void <emphasis role="strong">OnDisable</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1a6d17e722d271212b92fed6027902fa19"/>GameObject <emphasis role="strong">WeaponGameObject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1aa25f2318f86cc1b027b2b02649d9d317"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link>? <emphasis role="strong">Owner</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1adb7a7ffd483806a65ec50a5370ea6b22"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions">IWeaponActorActions</link> <emphasis role="strong">DefaultActions</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1a9e02daf83bdc08108ebc55d81eb2e7dc"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions">IWeaponActorActions</link> <emphasis role="strong">ActorWeaponActions</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1a063c7d2383301c2e54fa4c141fc2a15c"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link> <emphasis role="strong">NormalAttackSkill</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1a0ff706e3bf7d034534065f897c0c85ef"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link> <emphasis role="strong">SpecialAttackSkill</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller_1ac4f2b9e3604fe18318662ce0f7629c2c"/>IEnumerable&lt;(<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link> skill, InputAction triggerAction)&gt; <emphasis role="strong">ExtraSkillBinds</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>可配置的武器，通过组合 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 构造武器。 ExtraSkills 可以定义对应的 InputAction；InputAction 只有在 Owner.IsPlayer 的情况下才会生效。 所有该武器的 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 和 InputAction 的 Enable 只会在改武器 Owner 已被设置的情况下发生，会在设置 Owner 时、组件 Enable 时调用； 而所有 Skil 和 InputAction 的 Disable 会在组件 Disable 时调用。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaWeapon/TiyaWeaponController.cs</section>
+</section>

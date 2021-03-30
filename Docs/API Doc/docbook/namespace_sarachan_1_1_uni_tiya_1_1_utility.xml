@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_utility" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source">TiyaBasicDamageSource</link></para>
+
+<para>基础的可配置 DamageableSource </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_a_s___param_resetter">AS_ParamResetter</link></para>
+
+<para>适用于 Animator State 的参数重置器 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration">GamePropertyConfiguration</link></para>
+
+<para>一个可配置的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties">IGameProperties</link> 实现 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration">RuntimePropertyConfiguration</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer">PropertyValueSynchronizer</link></para>
+
+<para>可配置的属性同步器。通过反射寻找指定 Unity.Object 中的某个属性，通过 Value 进行同步。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_int_property_value_synchronizer">IntPropertyValueSynchronizer</link></para>
+
+<para>int 类型的 PropertyValueSynchronizer&lt;T&gt; </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_random_obj_initializer">RandomObjInitializer</link></para>
+
+<para>一个随机 Prefab 生成器，会根据权重通过对象池生成随机生成 Prefab。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base">SerializableDictionaryBase</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary">SerializableDictionary</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_timed_obj_recycler">TimedObjRecycler</link></para>
+
+<para>定时对象回收器，会通过 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool">IGameObjectPool</link> 回收。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_enable_agent">TiyaEnableAgent</link></para>
+
+<para>一个实现了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_enable">IEnable</link> 接口基础逻辑的代理类，通过配置其 event 来实现具体的功能。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property">TiyaGameDynamicNumericalProperty</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property">TiyaGameFixedNumericalProperty</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

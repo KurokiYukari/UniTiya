@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base" xml:lang="en-US">
+<title>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>状态基类，通过配置其事件来自定义状态 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1ad9b2197baa256e4b82e1b82f49fc8b61"/><emphasis role="strong">StateBase</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine">TiyaStateMachine</link> stateMachine, <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link> stateGroup=null)</para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1ae4ce421449552ea01658c9d6960d7ddf">AddTransition</link> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition">StateTransition</link> transition)</para>
+
+<para>向 State 中添加一个转换 </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1aec727ce1f1ce5aced0661f00f4aa2b54"/>void <emphasis role="strong">EnterState</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a9104b5be3491a25baecd7261261adbe9"/>void <emphasis role="strong">ExitState</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a53c566b4ebc32644468c5068f28795cf"/>void <emphasis role="strong">UpdateState</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a82559e8d5caff5fb18a07c305d019996"/><emphasis role="strong">StateBase</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine">TiyaStateMachine</link> stateMachine, <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link>&lt; T &gt; stateGroup=null)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine">TiyaStateMachine</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a51b0e0d4bb6a93d96e6e7c7ee1bcb783">StateMachine</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>State 所属的 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_state_machine">StateMachine</link> </para>
+</listitem>
+            <listitem><para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a8581d0089f904b9e491a58ee3a1e4531">StateGroup</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>State 所属的 StateGroup </para>
+</listitem>
+            <listitem><para>object <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1afeb1280fbe16d60f3a6006ed44502b13">Subject</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>State 控制的主体对象 </para>
+</listitem>
+            <listitem><para>IEnumerable&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition">StateTransition</link> &gt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1abca3cb657316e97239bebd3bfc64f6cc">AllTransitionsEnumerable</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>State 的所有可能的转换 转换是有序的，会选择第一个满足条件的转换执行 </para>
+</listitem>
+            <listitem><para>IEnumerable&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link> &gt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1aaa4addde3180105e66330f6454cdd380">RecursionStateGroups</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>递归获取当前 state 的所有所属的 stateGroup </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a4b41b6f7ff83d22b8fbc9defceed83a7"/>new <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link>&lt; T &gt; <emphasis role="strong">StateGroup</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1ac67c5a2bb488b7d9761f2db4b7af03a5"/>new T <emphasis role="strong">Subject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a0b1ec3e0e0788f33e4b806b37c68a639"/>new IEnumerable&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link>&lt; T &gt; &gt; <emphasis role="strong">RecursionStateGroups</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1ab62a3175fd5ee23c3aa915c543b51ca3"/>System.Action <emphasis role="strong">OnStateEnter</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1aca6977bacdbeec4de5467ee7eecabfe1"/>System.Action <emphasis role="strong">OnStateExit</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a0f25f9be2c0705825f59b9ff155576ad"/>System.Action <emphasis role="strong">OnStateUpdate</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>状态基类，通过配置其事件来自定义状态 </para>
+
+
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link> 的泛型形式。参见 <formalpara><title>See also</title>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link></para>
+</formalpara>
+。</para>
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>T</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<simplesect><title>Type Constraints</title>
+<para><emphasis role="strong">T:class</emphasis></para>
+</simplesect>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1ae4ce421449552ea01658c9d6960d7ddf"/>    <section>
+    <title>AddTransition()</title>
+<indexterm><primary>AddTransition</primary><secondary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary><secondary>AddTransition</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">Sarachan.UniTiya.StateMachine.StateBase</link>&lt; T &gt;.AddTransition (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition">StateTransition</link> transition)</computeroutput></para><para>
+
+<para>向 State 中添加一个转换 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>transition</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1abca3cb657316e97239bebd3bfc64f6cc"/>    <section>
+    <title>AllTransitionsEnumerable</title>
+<indexterm><primary>AllTransitionsEnumerable</primary><secondary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary><secondary>AllTransitionsEnumerable</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;<link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition">StateTransition</link>&gt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">Sarachan.UniTiya.StateMachine.StateBase</link>&lt; T &gt;.AllTransitionsEnumerable<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>State 的所有可能的转换 转换是有序的，会选择第一个满足条件的转换执行 </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1aaa4addde3180105e66330f6454cdd380"/>    <section>
+    <title>RecursionStateGroups</title>
+<indexterm><primary>RecursionStateGroups</primary><secondary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary><secondary>RecursionStateGroups</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;<link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link>&gt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">Sarachan.UniTiya.StateMachine.StateBase</link>&lt; T &gt;.RecursionStateGroups<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>递归获取当前 state 的所有所属的 stateGroup </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a8581d0089f904b9e491a58ee3a1e4531"/>    <section>
+    <title>StateGroup</title>
+<indexterm><primary>StateGroup</primary><secondary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary><secondary>StateGroup</secondary></indexterm>
+<para><computeroutput><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">StateBase</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">Sarachan.UniTiya.StateMachine.StateBase</link>&lt; T &gt;.StateGroup<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>State 所属的 StateGroup </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1a51b0e0d4bb6a93d96e6e7c7ee1bcb783"/>    <section>
+    <title>StateMachine</title>
+<indexterm><primary>StateMachine</primary><secondary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary><secondary>StateMachine</secondary></indexterm>
+<para><computeroutput><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine">TiyaStateMachine</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">Sarachan.UniTiya.StateMachine.StateBase</link>&lt; T &gt;.StateMachine<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>State 所属的 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_state_machine">StateMachine</link> </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_1afeb1280fbe16d60f3a6006ed44502b13"/>    <section>
+    <title>Subject</title>
+<indexterm><primary>Subject</primary><secondary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateBase&lt; T &gt;</primary><secondary>Subject</secondary></indexterm>
+<para><computeroutput>object <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base">Sarachan.UniTiya.StateMachine.StateBase</link>&lt; T &gt;.Subject<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>State 控制的主体对象 </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/State Machine/StateBase.cs</section>
+</section>

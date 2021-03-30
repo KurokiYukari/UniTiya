@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_weapon" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaWeapon Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaWeapon</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller">TiyaWeaponController</link></para>
+
+<para>可配置的武器，通过组合 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 构造武器。 ExtraSkills 可以定义对应的 InputAction；InputAction 只有在 Owner.IsPlayer 的情况下才会生效。 所有该武器的 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 和 InputAction 的 Enable 只会在改武器 Owner 已被设置的情况下发生，会在设置 Owner 时、组件 Enable 时调用； 而所有 Skil 和 InputAction 的 Disable 会在组件 Disable 时调用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter">TiyaWeaponTiyaAnimationAdapter</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

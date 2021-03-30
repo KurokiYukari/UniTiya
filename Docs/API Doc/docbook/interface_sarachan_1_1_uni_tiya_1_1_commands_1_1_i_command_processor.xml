@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor" xml:lang="en-US">
+<title>Sarachan.UniTiya.Commands.ICommandProcessor&lt; out out T &gt; Interface Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Commands.ICommandProcessor&lt; out out T &gt;</primary></indexterm>
+<para>
+
+<para>命令处理器接口 </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor_1a525e4b30946dbd381d59c4c5cb142991">AddCommand</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command">ICommand</link>&lt; T &gt; cmd)</para>
+
+<para>向命令处理器中添加命令 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>命令处理器接口 </para>
+
+
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>T</entry>
+                                <entry>
+<para>执行命令的主体</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor_1a525e4b30946dbd381d59c4c5cb142991"/>    <section>
+    <title>AddCommand()</title>
+<indexterm><primary>AddCommand</primary><secondary>Sarachan.UniTiya.Commands.ICommandProcessor&lt; out out T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Commands.ICommandProcessor&lt; out out T &gt;</primary><secondary>AddCommand</secondary></indexterm>
+<para><computeroutput>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor">Sarachan.UniTiya.Commands.ICommandProcessor</link>&lt; out out T &gt;.AddCommand (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command">ICommand</link>&lt; T &gt; cmd)</computeroutput></para><para>
+
+<para>向命令处理器中添加命令 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>cmd</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Commands/ICommandProcessor.cs</section>
+</section>

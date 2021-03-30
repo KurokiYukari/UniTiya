@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.WeaponLocomotionAnimationBind Struct Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.WeaponLocomotionAnimationBind</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind_1a643f32689e61e2d9e739d631d7889f8d"/>bool <emphasis role="strong">IsEmpty</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind_1a40a41ce07eb4cf0fed737fe402f371a1"/><emphasis role="strong">WeaponLocomotionAnimationBind</emphasis> (AnimationClip idleAnimation, AnimationClip walkAnimation, AnimationClip runAnimation, TiyaAnimatorTools.Layer layer)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind_1a84da0682d8e4631d367c81cc63c6b18c"/>AnimationClip <emphasis role="strong">IdleAnimation</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind_1a67a33a7e1c5fb455b00fa299c8b89649"/>AnimationClip <emphasis role="strong">WalkAnimation</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind_1a6e4f3fc4e0401a3728feb04350574512"/>AnimationClip <emphasis role="strong">RunAnimation</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind_1a3a8a3e9955ad07528590276d9916d50f"/>TiyaAnimatorTools.Layer <emphasis role="strong">Layer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+Runtime/TiyaAnimator/IWeaponTiyaAnimatorAdapter.cs</section>

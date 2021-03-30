@@ -1,0 +1,173 @@
+\hypertarget{namespace_sarachan_1_1_uni_tiya}{}\doxysection{Sarachan.\+Uni\+Tiya Namespace Reference}
+\label{namespace_sarachan_1_1_uni_tiya}\index{Sarachan.UniTiya@{Sarachan.UniTiya}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties}{IGame\+Properties}}
+\begin{DoxyCompactList}\small\item\em 自定义属性器，在 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya}{Uni\+Tiya}} 中被用来作为定义游戏属性的工具。 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_dynamic_numerical_property}{IGame\+Dynamic\+Numerical\+Property}}
+\begin{DoxyCompactList}\small\item\em 代表游戏的动态属性值接口，比如角色 HP 之类的。 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property}{IGame\+Fixed\+Numerical\+Property}}
+\begin{DoxyCompactList}\small\item\em 代表游戏的固定属性值接口，比如角色的力量值之类的。 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view}{IActor\+Camera\+View}}
+\begin{DoxyCompactList}\small\item\em 玩家 Actor 的 View，它将 View 控制与 Camera 控制结合在一起 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}}
+\begin{DoxyCompactList}\small\item\em Actor 模块的接口，定义了 Actor 的属性和无条件行为 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}{IActor\+Actions}}
+\item 
+class {\bfseries Tiya\+Tools}
+\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties}{IActor\+Properties}}
+\begin{DoxyCompactList}\small\item\em Actor 的游戏属性 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{IActor\+View}}
+\begin{DoxyCompactList}\small\item\em Actor 的视线控制接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}}
+\begin{DoxyCompactList}\small\item\em 受到伤害接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}{IDamage\+Source}}
+\begin{DoxyCompactList}\small\item\em 伤害源 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager}{IEquipment\+Manager}}
+\begin{DoxyCompactList}\small\item\em 游戏对象的装备物品的管理器 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool}{IGame\+Object\+Pool}}
+\begin{DoxyCompactList}\small\item\em 对象池接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_inventory}{IInventory}}
+\begin{DoxyCompactList}\small\item\em 背包系统接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}}
+\begin{DoxyCompactList}\small\item\em 物品接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item_manager}{IItem\+Manager}}
+\begin{DoxyCompactList}\small\item\em Item 的管理器。 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive}{IInteractive}}
+\begin{DoxyCompactList}\small\item\em 可交互接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler}{IInteractive\+Object\+Handler}}
+\begin{DoxyCompactList}\small\item\em 交互主体接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller}{IWeapon\+Controller}}
+\begin{DoxyCompactList}\small\item\em Weapon\+Controller 接口 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}}
+\begin{DoxyCompactList}\small\item\em Weapon\+Controller 提供给 Actor 的方法接口。 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya}{Uni\+Tiya}} 中默认提供两个攻击入口 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ad708dd0e4fa82c13614ad88ef94ca268}{Normal\+Attack(\+Skill\+Cmd\+Type)}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_a2d8da9056d65f109f48579f5a669dae7}{Special\+Attack(\+Skill\+Cmd\+Type)}} \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_game_system}{Tiya\+Game\+System}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya}{Uni\+Tiya}} 游戏内容的全局对象获取入口。 在一个 Scene 中应该有且仅有一个该组件。 \end{DoxyCompactList}\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_enable}{IEnable}}
+\begin{DoxyCompactList}\small\item\em 有 Enable 功能的接口。 不建议给 Monobehaviour 之类的本来就有 Enable 功能的类实现该接口， 而是只给自定义类使用。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum class \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a3793ecd6f7d5d6ac6922109bc8134e96}{Camera\+View\+Mode}} \{ {\bfseries First}
+, {\bfseries Third}
+ \}
+\begin{DoxyCompactList}\small\item\em 可选的视角模式 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a5d32debf2ad7f00ce8166f45a24e83fb}\label{namespace_sarachan_1_1_uni_tiya_a5d32debf2ad7f00ce8166f45a24e83fb}} 
+enum class {\bfseries Lock\+Cmd\+Type} \{ {\bfseries Lock}
+, {\bfseries Unlock}
+, {\bfseries Lock\+To\+Next\+Target}
+, {\bfseries Lock\+To\+Pre\+Target}
+ \}
+\item 
+enum class \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}{Actor\+Aim\+Mode}} \{ \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1d70691175e3ae5b854b57e375a000bd}{Look\+At\+Actor\+Forward}}
+, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1efe2085f816102de3ff0f5cc015b680}{Look\+At\+Aim\+Pos}}
+, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1d2ffa45f68594c9c70df1a6a76ffdf0}{Turn\+Upper\+Body\+To\+Aim\+Direction}}
+ \}
+\begin{DoxyCompactList}\small\item\em Actor 与其 IActor\+Controller.\+Aim\+Transform 关联的方式。 \end{DoxyCompactList}\item 
+enum class \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} \{ \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269a7a16a854f32231a8df9326136b09ee62}{Walk}}
+, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269ac5301693c4e792bcd5a479ef38fb8f8d}{Run}}
+, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269affc3dc096e3578a9474b7976953f0ef9}{Sprint}}
+ \}
+\begin{DoxyCompactList}\small\item\em Actor 的移动模式 \end{DoxyCompactList}\item 
+enum class \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}{Tiya\+Item\+Type}} \{ \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60ad92a8333dd3ccb895cc65f7455b71206}{Material}}
+, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60a9ccda2d50a1ee1b73ee1f048eb397aa8}{Equipment}}
+, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60ad73e7002ee2fca37533fa36bac76c52f}{Expendable}}
+ \}
+\item 
+enum class \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}} \{ {\bfseries Perform\+Skill}
+, {\bfseries Cancel\+Skill}
+ \}
+\begin{DoxyCompactList}\small\item\em 攻击的模式。 一般来说，瞬时攻击只会使用到 Perform\+Skill，而另外一些持续性的攻击，则还需要 Cancel\+Skill 来取消持续攻击。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Enumeration Type Documentation}
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}\label{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}} 
+\index{Sarachan.UniTiya@{Sarachan.UniTiya}!ActorAimMode@{ActorAimMode}}
+\index{ActorAimMode@{ActorAimMode}!Sarachan.UniTiya@{Sarachan.UniTiya}}
+\doxysubsubsection{\texorpdfstring{ActorAimMode}{ActorAimMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}{Sarachan.\+Uni\+Tiya.\+Actor\+Aim\+Mode}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Actor 与其 IActor\+Controller.\+Aim\+Transform 关联的方式。 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LookAtActorForward@{LookAtActorForward}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!LookAtActorForward@{LookAtActorForward}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1d70691175e3ae5b854b57e375a000bd}\label{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1d70691175e3ae5b854b57e375a000bd}} 
+Look\+At\+Actor\+Forward&默认关联模式，不做改变。 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{LookAtAimPos@{LookAtAimPos}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!LookAtAimPos@{LookAtAimPos}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1efe2085f816102de3ff0f5cc015b680}\label{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1efe2085f816102de3ff0f5cc015b680}} 
+Look\+At\+Aim\+Pos&看向 Aim\+Pos。详见 Tiya\+Tools.\+Get\+Aim\+Focus\+Position(\+IActor\+Controller)。 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{TurnUpperBodyToAimDirection@{TurnUpperBodyToAimDirection}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!TurnUpperBodyToAimDirection@{TurnUpperBodyToAimDirection}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1d2ffa45f68594c9c70df1a6a76ffdf0}\label{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4eaa1d2ffa45f68594c9c70df1a6a76ffdf0}} 
+Turn\+Upper\+Body\+To\+Aim\+Direction&转动上半身，使之朝向 actor 的 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a7260b7d71c277336ad67f4a3eb1ea2be}{IActor\+View.\+View\+Transform}} forward 方向。 \\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}\label{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}} 
+\index{Sarachan.UniTiya@{Sarachan.UniTiya}!ActorLocomotionMode@{ActorLocomotionMode}}
+\index{ActorLocomotionMode@{ActorLocomotionMode}!Sarachan.UniTiya@{Sarachan.UniTiya}}
+\doxysubsubsection{\texorpdfstring{ActorLocomotionMode}{ActorLocomotionMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Sarachan.\+Uni\+Tiya.\+Actor\+Locomotion\+Mode}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+Actor 的移动模式 
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Walk@{Walk}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!Walk@{Walk}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269a7a16a854f32231a8df9326136b09ee62}\label{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269a7a16a854f32231a8df9326136b09ee62}} 
+Walk&速度更慢的 Run \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Run@{Run}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!Run@{Run}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269ac5301693c4e792bcd5a479ef38fb8f8d}\label{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269ac5301693c4e792bcd5a479ef38fb8f8d}} 
+Run&一般作为默认模式使用 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Sprint@{Sprint}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!Sprint@{Sprint}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269affc3dc096e3578a9474b7976953f0ef9}\label{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269affc3dc096e3578a9474b7976953f0ef9}} 
+Sprint&Sprint 会强制将人物转向移动的方向 \\
+\hline
+
+\end{DoxyEnumFields}
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a3793ecd6f7d5d6ac6922109bc8134e96}\label{namespace_sarachan_1_1_uni_tiya_a3793ecd6f7d5d6ac6922109bc8134e96}} 
+\index{Sarachan.UniTiya@{Sarachan.UniTiya}!CameraViewMode@{CameraViewMode}}
+\index{CameraViewMode@{CameraViewMode}!Sarachan.UniTiya@{Sarachan.UniTiya}}
+\doxysubsubsection{\texorpdfstring{CameraViewMode}{CameraViewMode}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a3793ecd6f7d5d6ac6922109bc8134e96}{Sarachan.\+Uni\+Tiya.\+Camera\+View\+Mode}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+可选的视角模式 
+
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}\label{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}} 
+\index{Sarachan.UniTiya@{Sarachan.UniTiya}!SkillCmdType@{SkillCmdType}}
+\index{SkillCmdType@{SkillCmdType}!Sarachan.UniTiya@{Sarachan.UniTiya}}
+\doxysubsubsection{\texorpdfstring{SkillCmdType}{SkillCmdType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Sarachan.\+Uni\+Tiya.\+Skill\+Cmd\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+
+
+攻击的模式。 一般来说，瞬时攻击只会使用到 Perform\+Skill，而另外一些持续性的攻击，则还需要 Cancel\+Skill 来取消持续攻击。 
+
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}\label{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}} 
+\index{Sarachan.UniTiya@{Sarachan.UniTiya}!TiyaItemType@{TiyaItemType}}
+\index{TiyaItemType@{TiyaItemType}!Sarachan.UniTiya@{Sarachan.UniTiya}}
+\doxysubsubsection{\texorpdfstring{TiyaItemType}{TiyaItemType}}
+{\footnotesize\ttfamily enum \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}{Sarachan.\+Uni\+Tiya.\+Tiya\+Item\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Material@{Material}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!Material@{Material}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60ad92a8333dd3ccb895cc65f7455b71206}\label{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60ad92a8333dd3ccb895cc65f7455b71206}} 
+Material&代表普通物品 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Equipment@{Equipment}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!Equipment@{Equipment}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60a9ccda2d50a1ee1b73ee1f048eb397aa8}\label{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60a9ccda2d50a1ee1b73ee1f048eb397aa8}} 
+Equipment&代表可以使用和取消使用的物品 \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Expendable@{Expendable}!Sarachan.UniTiya@{Sarachan.UniTiya}}\index{Sarachan.UniTiya@{Sarachan.UniTiya}!Expendable@{Expendable}}}\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60ad73e7002ee2fca37533fa36bac76c52f}\label{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60ad73e7002ee2fca37533fa36bac76c52f}} 
+Expendable&代表可以使用，使用后会消失的物品 \\
+\hline
+
+\end{DoxyEnumFields}

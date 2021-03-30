@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition" xml:lang="en-US">
+<title>Sarachan.UniTiya.StateMachine.StateTransition Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateTransition</primary></indexterm>
+<para>
+
+<para>State 的转换 </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1acdc2ba6b64d935770395d1b831fa36ce">StateTransition</link> (string destinationStateId=null, Func&lt; bool &gt; triggerCondition=null, Action onTransitionDone=null)</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1aaf97892e3c92c733447b9cb8a9d12065">CheckTransition</link> ()</para>
+
+<para>检测当前 transition 是否满足转换条件 应该在 State 的 OnStateUpdate 中检测。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1a5b6cde04b24900c28e4315850a8cf343">DoTransition</link> ()</para>
+
+<para>触发 Transition 回调 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1a2a422149bbeac96f845922f0c2b9e9df">DestinationStateId</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>转换目标 State 的 ID，null 代表退出当前状态，转向 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_state_machine">StateMachine</link> 的 EntryState。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1ae9851b0c4e65a6c646bff011259375d7"/>Action <emphasis role="strong">OnTransitionDone</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>State 的转换 </para>
+
+
+</section>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1acdc2ba6b64d935770395d1b831fa36ce"/>    <section>
+    <title>StateTransition()</title>
+<indexterm><primary>StateTransition</primary><secondary>Sarachan.UniTiya.StateMachine.StateTransition</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateTransition</primary><secondary>StateTransition</secondary></indexterm>
+<para><computeroutput>Sarachan.UniTiya.StateMachine.StateTransition.StateTransition (string destinationStateId = <computeroutput>null</computeroutput>
+, Func&lt; bool &gt; triggerCondition = <computeroutput>null</computeroutput>
+, Action onTransitionDone = <computeroutput>null</computeroutput>
+)</computeroutput></para><para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>destinationStateId</entry>
+                                <entry>
+<para>目标 State。默认是退出当前 State，交由状态机决定目标 State</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>triggerCondition</entry>
+                                <entry>
+<para>转换条件。默认是无条件转换</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1aaf97892e3c92c733447b9cb8a9d12065"/>    <section>
+    <title>CheckTransition()</title>
+<indexterm><primary>CheckTransition</primary><secondary>Sarachan.UniTiya.StateMachine.StateTransition</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateTransition</primary><secondary>CheckTransition</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.StateMachine.StateTransition.CheckTransition ( )</computeroutput></para><para>
+
+<para>检测当前 transition 是否满足转换条件 应该在 State 的 OnStateUpdate 中检测。 </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1a5b6cde04b24900c28e4315850a8cf343"/>    <section>
+    <title>DoTransition()</title>
+<indexterm><primary>DoTransition</primary><secondary>Sarachan.UniTiya.StateMachine.StateTransition</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateTransition</primary><secondary>DoTransition</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.StateMachine.StateTransition.DoTransition ( )</computeroutput></para><para>
+
+<para>触发 Transition 回调 </para>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_1a2a422149bbeac96f845922f0c2b9e9df"/>    <section>
+    <title>DestinationStateId</title>
+<indexterm><primary>DestinationStateId</primary><secondary>Sarachan.UniTiya.StateMachine.StateTransition</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.StateMachine.StateTransition</primary><secondary>DestinationStateId</secondary></indexterm>
+<para><computeroutput>string Sarachan.UniTiya.StateMachine.StateTransition.DestinationStateId<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>转换目标 State 的 ID，null 代表退出当前状态，转向 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_state_machine">StateMachine</link> 的 EntryState。 </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/State Machine/StateTransition.cs</section>
+</section>

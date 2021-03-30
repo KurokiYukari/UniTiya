@@ -1,0 +1,96 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Skill.\+Skill\+Ref\+Behaviour\+Base$<$ T $>$ Class Template Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base}\index{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$@{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$}}
+
+
+skill 的 Monobehaviour 形式，通过重写 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 实现。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Skill.\+Skill\+Ref\+Behaviour\+Base$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.700965cm]{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a8e0a8eac68ab3eee473f0139e471f3e7}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a8e0a8eac68ab3eee473f0139e471f3e7}} 
+void {\bfseries Disable} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_ad1bbc6f6d61984200e2e9606d7277d21}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_ad1bbc6f6d61984200e2e9606d7277d21}} 
+void {\bfseries Enable} ()
+\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_af9106c0bdabebda5e1ee6eef2bbf70d9}{Try\+To\+Perform}} ()
+\begin{DoxyCompactList}\small\item\em 尝试使用该技能。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a58fa11572172fabfd3d5416369e05b4d}{Cancel}} ()
+\begin{DoxyCompactList}\small\item\em 取消当前正在使用的行为 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a20c7f14bcd5c523415e6a79ac4b7e4c2}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a20c7f14bcd5c523415e6a79ac4b7e4c2}} 
+abstract T {\bfseries Skill}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_af0e0e627520e7adc80d24802e2199ff4}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_af0e0e627520e7adc80d24802e2199ff4}} 
+bool {\bfseries Enabled}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a472f64473efeae1599a94518d83540cc}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a472f64473efeae1599a94518d83540cc}} 
+Action {\bfseries On\+Performing}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_aead45dfbc7f1bce43a61776d4c20f9f9}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_aead45dfbc7f1bce43a61776d4c20f9f9}} 
+Action {\bfseries On\+Canceling}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a6c0b8132bb8cc8ba25f1fcec9b697705}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a6c0b8132bb8cc8ba25f1fcec9b697705}} 
+Action {\bfseries On\+Enable}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a3d546ed0fd23b8b521643129a828a371}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a3d546ed0fd23b8b521643129a828a371}} 
+Action {\bfseries On\+Disable}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+skill 的 Monobehaviour 形式，通过重写 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 实现。 
+
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}{ISkill}}}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a58fa11572172fabfd3d5416369e05b4d}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a58fa11572172fabfd3d5416369e05b4d}} 
+\index{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$@{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$}!Cancel@{Cancel}}
+\index{Cancel@{Cancel}!Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$@{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Cancel()}{Cancel()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base}{Sarachan.\+Uni\+Tiya.\+Skill.\+Skill\+Ref\+Behaviour\+Base}}$<$ T $>$.Cancel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+取消当前正在使用的行为 
+
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_af9106c0bdabebda5e1ee6eef2bbf70d9}\label{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_af9106c0bdabebda5e1ee6eef2bbf70d9}} 
+\index{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$@{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$}!TryToPerform@{TryToPerform}}
+\index{TryToPerform@{TryToPerform}!Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$@{Sarachan.UniTiya.Skill.SkillRefBehaviourBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{TryToPerform()}{TryToPerform()}}
+{\footnotesize\ttfamily bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base}{Sarachan.\+Uni\+Tiya.\+Skill.\+Skill\+Ref\+Behaviour\+Base}}$<$ T $>$.Try\+To\+Perform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+尝试使用该技能。 
+
+\begin{DoxyReturn}{Returns}
+使用成功返回 true，否则返回 false
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Skills/ISkill.\+cs\end{DoxyCompactItemize}

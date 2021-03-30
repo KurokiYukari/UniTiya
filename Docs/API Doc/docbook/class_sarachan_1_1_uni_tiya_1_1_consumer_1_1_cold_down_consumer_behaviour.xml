@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_behaviour" xml:lang="en-US">
+<title>Sarachan.UniTiya.Consumer.ColdDownConsumerBehaviour Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Consumer.ColdDownConsumerBehaviour</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Consumer.ColdDownConsumerBehaviour:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_behaviour.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_behaviour_1a2f0b6745e09d626f75c2b5ce6245b652"/>override <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer">IConsumer</link> <emphasis role="strong">Consumer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Consumer/ColdDownConsumerBehaviour.cs</section>

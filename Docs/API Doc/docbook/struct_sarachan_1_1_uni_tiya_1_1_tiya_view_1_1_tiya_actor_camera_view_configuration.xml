@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration Struct Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1_1_rig_configuration">RigConfiguration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>static <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link> <emphasis role="strong">DefaultFirstView</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>static <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link> <emphasis role="strong">DefaultThirdView</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1a3349fe0cfcb13c68eaa495440496b5a9"/><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1_1_rig_configuration">RigConfiguration</link> <emphasis role="strong">TopRig</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1ab9b5c0b9685f50bf24cd926a86cc5c7b"/><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1_1_rig_configuration">RigConfiguration</link> <emphasis role="strong">MiddleRig</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1a832853bbca826aecd62fd945e381549e"/><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1_1_rig_configuration">RigConfiguration</link> <emphasis role="strong">BottomRig</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1a8c5c7c92c13a9d020ac4bd59618d737b"/>float <emphasis role="strong">X_Speed</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1ac365c1733b3c0343a2b0c97fb10ba778"/>float <emphasis role="strong">Y_Speed</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1a078dc8d8121b34431b9443d75b379d17"/>    <section>
+    <title>DefaultFirstView</title>
+<indexterm><primary>DefaultFirstView</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration</primary><secondary>DefaultFirstView</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link> Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration.DefaultFirstView<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting>=&#32;<emphasis role="keyword">new</emphasis>&#32;TiyaActorCameraViewConfiguration()
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;TopRig&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;RigConfiguration(0.02f,&#32;0.01f),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MiddleRig&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;RigConfiguration(0,&#32;0.01f),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;BottomRig&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;RigConfiguration(-0.02f,&#32;0.01f),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;X_Speed&#32;=&#32;200f,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Y_Speed&#32;=&#32;1f
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+</programlisting>    </section><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1a8782c2644d0a602f16e403de0a9fceb7"/>    <section>
+    <title>DefaultThirdView</title>
+<indexterm><primary>DefaultThirdView</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration</primary><secondary>DefaultThirdView</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link> Sarachan.UniTiya.TiyaView.TiyaActorCameraViewConfiguration.DefaultThirdView<computeroutput>[static]</computeroutput>, <computeroutput>[get]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting>=&#32;<emphasis role="keyword">new</emphasis>&#32;TiyaActorCameraViewConfiguration()
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;TopRig&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;RigConfiguration(6f,&#32;2f),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;MiddleRig&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;RigConfiguration(2.5f,&#32;6f),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;BottomRig&#32;=&#32;<emphasis role="keyword">new</emphasis>&#32;RigConfiguration(0.4f,&#32;2f),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;X_Speed&#32;=&#32;300f,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;Y_Speed&#32;=&#32;3f
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;}
+</programlisting></section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+Runtime/TiyaView/TiyaActorCameraViewConfiguration.cs</section>
+</section>

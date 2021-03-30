@@ -1,0 +1,302 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item}\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+
+
+可配置的 Item。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.042305cm]{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_1_1_tiya_item_comparer}{Tiya\+Item\+Comparer}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a32269111d3dfde0a19b68011b9fbfb39}{Use\+Item}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} item\+Owner)
+\begin{DoxyCompactList}\small\item\em 使用 item \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a166f2ea0e43ef64bdf5ec48d348a8c17}{Get\+Property$<$ T $>$}} (string property\+Name)
+\begin{DoxyCompactList}\small\item\em 获取名为 property\+Name 的 Property \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ab2dc6cb6195457ecb7b7219ac32309f5}{Get\+Property$<$ T $>$}} (string property\+Name, out bool is\+Readonly)
+\begin{DoxyCompactList}\small\item\em 获取名为 property\+Name 的 Property \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ad63012d6b59b3539a88786353b25a2b2}{Add\+Property}} (string property\+Name, object value, bool is\+Read\+Only=false)
+\begin{DoxyCompactList}\small\item\em 添加一个原本不存在的 property。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a942b5296b5188abf1fb88c8689d32d63}{Set\+Property}} (string property\+Name, object value, bool is\+Read\+Only=false)
+\begin{DoxyCompactList}\small\item\em 强制设置一个 property，无论其是否存在，是否是 read\+Only。 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_aaf4676c0d94cdb8dfcfb8c2006927971}{Remove\+Property}} (string property\+Name)
+\begin{DoxyCompactList}\small\item\em 删除指定 property \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a7395d8aca46a373c004117cbe09e7c1a}{Contains\+Property}} (string property\+Name)
+\begin{DoxyCompactList}\small\item\em 是否包含指定 property \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_aaabe5460c544b6ce8cce0c27564fd668}{Is\+Readonly\+Property}} (string property\+Name)
+\begin{DoxyCompactList}\small\item\em 指定 proeprty 是否是 readonly \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a62bb515e406cc7f07602900e173a8cfa}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a62bb515e406cc7f07602900e173a8cfa}} 
+IEnumerator$<$(string property\+Name, object property\+Value, bool is\+Readonly)$>$ {\bfseries Get\+Enumerator} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_abe15fb8b9972a06a0d8043aeb4a8ba6f}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_abe15fb8b9972a06a0d8043aeb4a8ba6f}} 
+virtual void {\bfseries On\+Before\+Serialize} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a04bb2372302ec673e1509c4b769ff38c}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a04bb2372302ec673e1509c4b769ff38c}} 
+virtual void {\bfseries On\+After\+Deserialize} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ac5b257377b24041baf08fddc455f63f5}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ac5b257377b24041baf08fddc455f63f5}} 
+virtual void {\bfseries Use\+Item\+Override} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} item\+Owner)
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ab2099e70003d8cf7a68c49fe7e699e82}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ab2099e70003d8cf7a68c49fe7e699e82}} 
+void {\bfseries On\+Enable} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ae37d3d02388757e866a0fa159ae95145}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ae37d3d02388757e866a0fa159ae95145}} 
+int {\bfseries Item\+ID}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a26d21208adb4ac1d370800bf80896b58}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a26d21208adb4ac1d370800bf80896b58}} 
+string {\bfseries Item\+Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a35282f063e925d27ad331767dd5800af}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a35282f063e925d27ad331767dd5800af}} 
+string {\bfseries Description}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a773d8adb0450a0ff829157253b3e670b}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a773d8adb0450a0ff829157253b3e670b}} 
+bool {\bfseries Is\+Stackable}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a4ad745adc13f0c50b459d58f105ca13a}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a4ad745adc13f0c50b459d58f105ca13a}} 
+\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a4415b8bf0614cbbfb0b73b4be83fae60}{Tiya\+Item\+Type}} {\bfseries Item\+Type}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a3c5a453a2e41a3984559eafb1cd6c820}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a3c5a453a2e41a3984559eafb1cd6c820}} 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties}{IGame\+Properties}} {\bfseries Properties} = new \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration}{Runtime\+Property\+Configuration}}()\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ad90a57f468d632b5069d2c28e7aa6e19}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ad90a57f468d632b5069d2c28e7aa6e19}} 
+object {\bfseries this\mbox{[}string property\+Name\mbox{]}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a1d47d44ce006c1f2db4b3c886d3f70b2}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a1d47d44ce006c1f2db4b3c886d3f70b2}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} $>$ {\bfseries On\+Using\+Item}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+可配置的 Item。 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ad63012d6b59b3539a88786353b25a2b2}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ad63012d6b59b3539a88786353b25a2b2}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!AddProperty@{AddProperty}}
+\index{AddProperty@{AddProperty}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{AddProperty()}{AddProperty()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Add\+Property (\begin{DoxyParamCaption}\item[{string}]{property\+Name,  }\item[{object}]{value,  }\item[{bool}]{is\+Read\+Only = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+添加一个原本不存在的 property。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+{\em value} & \\
+\hline
+{\em is\+Read\+Only} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+存在指定 property 则返回 false，否则返回 true
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_a95af2f768af1c7dfe055a82e5f385efa}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a7395d8aca46a373c004117cbe09e7c1a}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a7395d8aca46a373c004117cbe09e7c1a}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!ContainsProperty@{ContainsProperty}}
+\index{ContainsProperty@{ContainsProperty}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{ContainsProperty()}{ContainsProperty()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Contains\+Property (\begin{DoxyParamCaption}\item[{string}]{property\+Name }\end{DoxyParamCaption})}
+
+
+
+是否包含指定 property 
+
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_a170cf8260a53ec1286822f6b027259e4}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a166f2ea0e43ef64bdf5ec48d348a8c17}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a166f2ea0e43ef64bdf5ec48d348a8c17}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!GetProperty$<$ T $>$@{GetProperty$<$ T $>$}}
+\index{GetProperty$<$ T $>$@{GetProperty$<$ T $>$}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{GetProperty$<$ T $>$()}{GetProperty< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily T Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Get\+Property$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{property\+Name }\end{DoxyParamCaption})}
+
+
+
+获取名为 property\+Name 的 Property 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Key\+Not\+Found\+Exception} & 不存在名为 property\+Name 的属性\\
+\hline
+{\em System.\+Invalid\+Cast\+Exception} & 无法将属性转换成类型 T\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_a8f93d84c438fbe4606bb629ae1efd8c4}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ab2dc6cb6195457ecb7b7219ac32309f5}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_ab2dc6cb6195457ecb7b7219ac32309f5}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!GetProperty$<$ T $>$@{GetProperty$<$ T $>$}}
+\index{GetProperty$<$ T $>$@{GetProperty$<$ T $>$}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{GetProperty$<$ T $>$()}{GetProperty< T >()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily T Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Get\+Property$<$ T $>$ (\begin{DoxyParamCaption}\item[{string}]{property\+Name,  }\item[{out bool}]{is\+Readonly }\end{DoxyParamCaption})}
+
+
+
+获取名为 property\+Name 的 Property 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+{\em is\+Readonly} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Key\+Not\+Found\+Exception} & 不存在名为 property\+Name 的属性\\
+\hline
+{\em System.\+Invalid\+Cast\+Exception} & 无法将属性转换成类型 T\\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_afa46559193ea53af8b1d914c2f58f94b}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_aaabe5460c544b6ce8cce0c27564fd668}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_aaabe5460c544b6ce8cce0c27564fd668}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!IsReadonlyProperty@{IsReadonlyProperty}}
+\index{IsReadonlyProperty@{IsReadonlyProperty}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{IsReadonlyProperty()}{IsReadonlyProperty()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Is\+Readonly\+Property (\begin{DoxyParamCaption}\item[{string}]{property\+Name }\end{DoxyParamCaption})}
+
+
+
+指定 proeprty 是否是 readonly 
+
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_a2be70b8603361462ac427c8b68732f11}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_aaf4676c0d94cdb8dfcfb8c2006927971}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_aaf4676c0d94cdb8dfcfb8c2006927971}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!RemoveProperty@{RemoveProperty}}
+\index{RemoveProperty@{RemoveProperty}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{RemoveProperty()}{RemoveProperty()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Remove\+Property (\begin{DoxyParamCaption}\item[{string}]{property\+Name }\end{DoxyParamCaption})}
+
+
+
+删除指定 property 
+
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+存在指定 property 则返回 true，否则返回 false
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_a6a3e641d91011d2ccaaa705e3d6bf0f0}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a942b5296b5188abf1fb88c8689d32d63}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a942b5296b5188abf1fb88c8689d32d63}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!SetProperty@{SetProperty}}
+\index{SetProperty@{SetProperty}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{SetProperty()}{SetProperty()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Set\+Property (\begin{DoxyParamCaption}\item[{string}]{property\+Name,  }\item[{object}]{value,  }\item[{bool}]{is\+Read\+Only = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+强制设置一个 property，无论其是否存在，是否是 read\+Only。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em property\+Name} & \\
+\hline
+{\em value} & \\
+\hline
+{\em is\+Read\+Only} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_a10402b3acbe012d0c3ae1cbace1f1b30}{Sarachan.\+Uni\+Tiya.\+IGame\+Properties}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a32269111d3dfde0a19b68011b9fbfb39}\label{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_a32269111d3dfde0a19b68011b9fbfb39}} 
+\index{Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}!UseItem@{UseItem}}
+\index{UseItem@{UseItem}!Sarachan.UniTiya.ItemSystem.TiyaItem@{Sarachan.UniTiya.ItemSystem.TiyaItem}}
+\doxysubsubsection{\texorpdfstring{UseItem()}{UseItem()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Item.\+Use\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}}}]{item\+Owner }\end{DoxyParamCaption})}
+
+
+
+使用 item 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item\+Owner} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item_a1bcc3841627cadc6efeb2fff02ab6019}{Sarachan.\+Uni\+Tiya.\+IItem}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Item\+System/Tiya\+Item.\+cs\end{DoxyCompactItemize}

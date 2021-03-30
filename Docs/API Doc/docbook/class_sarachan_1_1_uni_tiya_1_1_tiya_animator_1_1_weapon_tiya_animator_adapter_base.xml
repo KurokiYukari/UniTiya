@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.WeaponTiyaAnimatorAdapterBase Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.WeaponTiyaAnimatorAdapterBase</primary></indexterm>
+<para>
+
+<para>实现了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter">IWeaponTiyaAnimatorAdapter</link> 的基 Behaviour，他已经处理了权重的配置 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaAnimator.WeaponTiyaAnimatorAdapterBase:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1af89b426040436548a79af95b7768e5e9"/>void <emphasis role="strong">Awake</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1a80b28126f69162f1412311b97add39f7"/>void <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1a56b49cae23d186a2a841f29a60080a42"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> <emphasis role="strong">Weapon</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1af6da549fc46e45470c342cbd6cb00d67"/>Animator <emphasis role="strong">OwnerAnimator</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1a6a0451ef99d5bcd66020f5515e636444"/>TiyaAnimatorTools.Layer <emphasis role="strong">CurrentTiyaAnimatorLayer</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1ae708b9bfdae84f0d2b64a5e524cc0483"/>abstract <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind">WeaponLocomotionAnimationBind</link> <emphasis role="strong">LocomotionAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1a48a61ca9ac5f4b696bdbf9e27aba2bde"/>abstract <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link> <emphasis role="strong">NormalAttackAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1a1aaec015c095a9cfa0b957b216bace24"/>abstract <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link> <emphasis role="strong">SpecialAttackAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base_1af539846c08bd244abd279c07f0cce420"/>abstract IEnumerable&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind">WeaponActionAnimationBind</link> &gt; <emphasis role="strong">ExtraActionAnimationBinds</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>实现了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter">IWeaponTiyaAnimatorAdapter</link> 的基 Behaviour，他已经处理了权重的配置 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaAnimator/WeaponTiyaAnimatorAdapterBase.cs</section>
+</section>

@@ -1,0 +1,164 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{}\doxysection{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base$<$ T $>$ Class Template Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+
+
+状态基类，通过配置其事件来自定义状态  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ad9b2197baa256e4b82e1b82f49fc8b61}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ad9b2197baa256e4b82e1b82f49fc8b61}} 
+{\bfseries State\+Base} (\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine}{Tiya\+State\+Machine}} state\+Machine, \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}} state\+Group=null)
+\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ae4ce421449552ea01658c9d6960d7ddf}{Add\+Transition}} (\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition}{State\+Transition}} transition)
+\begin{DoxyCompactList}\small\item\em 向 State 中添加一个转换 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aec727ce1f1ce5aced0661f00f4aa2b54}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aec727ce1f1ce5aced0661f00f4aa2b54}} 
+void {\bfseries Enter\+State} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a9104b5be3491a25baecd7261261adbe9}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a9104b5be3491a25baecd7261261adbe9}} 
+void {\bfseries Exit\+State} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a53c566b4ebc32644468c5068f28795cf}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a53c566b4ebc32644468c5068f28795cf}} 
+void {\bfseries Update\+State} ()
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a82559e8d5caff5fb18a07c305d019996}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a82559e8d5caff5fb18a07c305d019996}} 
+{\bfseries State\+Base} (\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine}{Tiya\+State\+Machine}} state\+Machine, \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}}$<$ T $>$ state\+Group=null)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine}{Tiya\+State\+Machine}} \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a51b0e0d4bb6a93d96e6e7c7ee1bcb783}{State\+Machine}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em State 所属的 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_state_machine}{State\+Machine}} \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}} \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a8581d0089f904b9e491a58ee3a1e4531}{State\+Group}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em State 所属的 State\+Group \end{DoxyCompactList}\item 
+object \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_afeb1280fbe16d60f3a6006ed44502b13}{Subject}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em State 控制的主体对象 \end{DoxyCompactList}\item 
+IEnumerable$<$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition}{State\+Transition}} $>$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_abca3cb657316e97239bebd3bfc64f6cc}{All\+Transitions\+Enumerable}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em State 的所有可能的转换 转换是有序的，会选择第一个满足条件的转换执行 \end{DoxyCompactList}\item 
+IEnumerable$<$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}} $>$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aaa4addde3180105e66330f6454cdd380}{Recursion\+State\+Groups}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 递归获取当前 state 的所有所属的 state\+Group \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a4b41b6f7ff83d22b8fbc9defceed83a7}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a4b41b6f7ff83d22b8fbc9defceed83a7}} 
+new \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}}$<$ T $>$ {\bfseries State\+Group}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ac67c5a2bb488b7d9761f2db4b7af03a5}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ac67c5a2bb488b7d9761f2db4b7af03a5}} 
+new T {\bfseries Subject}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a0b1ec3e0e0788f33e4b806b37c68a639}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a0b1ec3e0e0788f33e4b806b37c68a639}} 
+new IEnumerable$<$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}}$<$ T $>$ $>$ {\bfseries Recursion\+State\+Groups}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ab62a3175fd5ee23c3aa915c543b51ca3}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ab62a3175fd5ee23c3aa915c543b51ca3}} 
+System.\+Action {\bfseries On\+State\+Enter}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aca6977bacdbeec4de5467ee7eecabfe1}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aca6977bacdbeec4de5467ee7eecabfe1}} 
+System.\+Action {\bfseries On\+State\+Exit}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a0f25f9be2c0705825f59b9ff155576ad}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a0f25f9be2c0705825f59b9ff155576ad}} 
+System.\+Action {\bfseries On\+State\+Update}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+状态基类，通过配置其事件来自定义状态 
+
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}} 的泛型形式。参见 \begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}}
+
+
+\end{DoxySeeAlso}
+。
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & \\
+\hline
+\end{DoxyTemplParams}
+\begin{Desc}
+\item[Type Constraints]\begin{description}
+\item[{\em T} : {\em class}]\end{description}
+\end{Desc}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ae4ce421449552ea01658c9d6960d7ddf}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_ae4ce421449552ea01658c9d6960d7ddf}} 
+\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}!AddTransition@{AddTransition}}
+\index{AddTransition@{AddTransition}!Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{AddTransition()}{AddTransition()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base}}$<$ T $>$.Add\+Transition (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition}{State\+Transition}}}]{transition }\end{DoxyParamCaption})}
+
+
+
+向 State 中添加一个转换 
+
+
+\begin{DoxyParams}{Parameters}
+{\em transition} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_abca3cb657316e97239bebd3bfc64f6cc}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_abca3cb657316e97239bebd3bfc64f6cc}} 
+\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}!AllTransitionsEnumerable@{AllTransitionsEnumerable}}
+\index{AllTransitionsEnumerable@{AllTransitionsEnumerable}!Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{AllTransitionsEnumerable}{AllTransitionsEnumerable}}
+{\footnotesize\ttfamily IEnumerable$<$\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition}{State\+Transition}}$>$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base}}$<$ T $>$.All\+Transitions\+Enumerable\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+State 的所有可能的转换 转换是有序的，会选择第一个满足条件的转换执行 
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aaa4addde3180105e66330f6454cdd380}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_aaa4addde3180105e66330f6454cdd380}} 
+\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}!RecursionStateGroups@{RecursionStateGroups}}
+\index{RecursionStateGroups@{RecursionStateGroups}!Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{RecursionStateGroups}{RecursionStateGroups}}
+{\footnotesize\ttfamily IEnumerable$<$\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}}$>$ \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base}}$<$ T $>$.Recursion\+State\+Groups\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+递归获取当前 state 的所有所属的 state\+Group 
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a8581d0089f904b9e491a58ee3a1e4531}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a8581d0089f904b9e491a58ee3a1e4531}} 
+\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}!StateGroup@{StateGroup}}
+\index{StateGroup@{StateGroup}!Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{StateGroup}{StateGroup}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{State\+Base}} \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base}}$<$ T $>$.State\+Group\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+State 所属的 State\+Group 
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a51b0e0d4bb6a93d96e6e7c7ee1bcb783}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_a51b0e0d4bb6a93d96e6e7c7ee1bcb783}} 
+\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}!StateMachine@{StateMachine}}
+\index{StateMachine@{StateMachine}!Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{StateMachine}{StateMachine}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine}{Tiya\+State\+Machine}} \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base}}$<$ T $>$.State\+Machine\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+State 所属的 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_state_machine}{State\+Machine}} 
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_afeb1280fbe16d60f3a6006ed44502b13}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base_afeb1280fbe16d60f3a6006ed44502b13}} 
+\index{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}!Subject@{Subject}}
+\index{Subject@{Subject}!Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$@{Sarachan.UniTiya.StateMachine.StateBase$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Subject}{Subject}}
+{\footnotesize\ttfamily object \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base}{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Base}}$<$ T $>$.Subject\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+State 控制的主体对象 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+State Machine/State\+Base.\+cs\end{DoxyCompactItemize}

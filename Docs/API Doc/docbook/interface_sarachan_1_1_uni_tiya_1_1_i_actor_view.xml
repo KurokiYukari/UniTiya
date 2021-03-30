@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view" xml:lang="en-US">
+<title>Sarachan.UniTiya.IActorView Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary></indexterm>
+<para>
+
+<para>Actor 的视线控制接口 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IActorView:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_actor_view.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a62f9628c0459585f4cef4d36b2724168">View</link> (Vector2 deltaRotation)</para>
+
+<para>根据 direction 指⽰的⽅向改变当前视⾓ </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a4eba364b140e9571d4ea17bbfe64a687">ResetView</link> ()</para>
+
+<para>将 View 还原到初始状态 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a363cb76e796cfea746d73525306603ab">Lock</link> (LockCmdType lockCmdType)</para>
+
+<para>将视角锁定向附近的敌人。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1adc7360b135870f114e08423b583ab6e6">TempRotate</link> (float pitchAngle)</para>
+
+<para>制造一个暂时的强制视角偏移。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>Transform <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a7260b7d71c277336ad67f4a3eb1ea2be">ViewTransform</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor View 的 Transform 对于 Player，ViewTransform 的 forward 一般是与 Camera forward 相同的 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1ab3648d44024d32089f6390414c56883e">IsLocked</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>是否锁定敌人 </para>
+</listitem>
+            <listitem><para>GameObject <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1ae41c95707d8f7c0234e3cdc010513557">LockTarget</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>锁定的对象。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1aaf3ad4de34dbc804e880eaffe1392822"/>System.Action&lt; GameObject &gt; <emphasis role="strong">OnLock</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1ac519d42314d0bffed00fd693c311977b"/>System.Action&lt; GameObject &gt; <emphasis role="strong">OnUnlock</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Actor 的视线控制接口 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a363cb76e796cfea746d73525306603ab"/>    <section>
+    <title>Lock()</title>
+<indexterm><primary>Lock</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>Lock</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IActorView.Lock (LockCmdType lockCmdType)</computeroutput></para><para>
+
+<para>将视角锁定向附近的敌人。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>lockCmdType</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1abfe2fb3fbfdc3eab6c116a59e44a8843">Sarachan.UniTiya.TiyaView.TiyaActorView</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a4eba364b140e9571d4ea17bbfe64a687"/>    <section>
+    <title>ResetView()</title>
+<indexterm><primary>ResetView</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>ResetView</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IActorView.ResetView ( )</computeroutput></para><para>
+
+<para>将 View 还原到初始状态 </para>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a270a1e0a41d4d794396f9bbbbc50e153">Sarachan.UniTiya.TiyaView.TiyaActorView</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1adc7360b135870f114e08423b583ab6e6"/>    <section>
+    <title>TempRotate()</title>
+<indexterm><primary>TempRotate</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>TempRotate</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IActorView.TempRotate (float pitchAngle)</computeroutput></para><para>
+
+<para>制造一个暂时的强制视角偏移。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>pitchAngle</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a751eb7f70edd50fca4c51928e8b9dc45">Sarachan.UniTiya.TiyaView.TiyaActorView</link>, and <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a62efb353d669c360b312ff3eb698f427">Sarachan.UniTiya.TiyaView.TiyaActorCameraView</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a62f9628c0459585f4cef4d36b2724168"/>    <section>
+    <title>View()</title>
+<indexterm><primary>View</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>View</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IActorView.View (Vector2 deltaRotation)</computeroutput></para><para>
+
+<para>根据 direction 指⽰的⽅向改变当前视⾓ </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>deltaRotation</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1aae4710729582c27ba5d9b76b63166ffa">Sarachan.UniTiya.TiyaView.TiyaActorCameraView</link>, and <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_1a0d130239be9a29c9a249521ce85a1e76">Sarachan.UniTiya.TiyaView.TiyaActorView</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1ab3648d44024d32089f6390414c56883e"/>    <section>
+    <title>IsLocked</title>
+<indexterm><primary>IsLocked</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>IsLocked</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IActorView.IsLocked<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>是否锁定敌人 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1ae41c95707d8f7c0234e3cdc010513557"/>    <section>
+    <title>LockTarget</title>
+<indexterm><primary>LockTarget</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>LockTarget</secondary></indexterm>
+<para><computeroutput>GameObject Sarachan.UniTiya.IActorView.LockTarget<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>锁定的对象。 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a7260b7d71c277336ad67f4a3eb1ea2be"/>    <section>
+    <title>ViewTransform</title>
+<indexterm><primary>ViewTransform</primary><secondary>Sarachan.UniTiya.IActorView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorView</primary><secondary>ViewTransform</secondary></indexterm>
+<para><computeroutput>Transform Sarachan.UniTiya.IActorView.ViewTransform<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor View 的 Transform 对于 Player，ViewTransform 的 forward 一般是与 Camera forward 相同的 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IActorView.cs</section>
+</section>

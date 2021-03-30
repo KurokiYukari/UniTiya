@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.Listeners Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.Listeners</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_equip_weapon_listener">ItemEquipWeaponListener</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_box_damage_field_listener">ItemGenerateBoxDamageFieldListener</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_sphere_damage_field_listener">ItemGenerateSphereDamageFieldListener</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_health_listener">ItemHealthListener</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

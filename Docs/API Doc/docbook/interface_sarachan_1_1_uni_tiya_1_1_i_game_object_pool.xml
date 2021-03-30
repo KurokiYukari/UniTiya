@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool" xml:lang="en-US">
+<title>Sarachan.UniTiya.IGameObjectPool Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IGameObjectPool</primary></indexterm>
+<para>
+
+<para>对象池接口 </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_1a09ceeafd92d75d318ef5992fc09e64c3">InstantiatePrefab</link> (string prefabId, Vector3 position, Quaternion rotation)</para>
+
+<para>根据 prefabId 获取对应的 GameObject </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_1a72279b43affb14556a296745c71f484b">RecyclePrefab</link> (GameObject gameObject)</para>
+
+<para>回收 gameObject。如果 gameObject 不存在于池中，则直接 Destory </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>对象池接口 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_1a09ceeafd92d75d318ef5992fc09e64c3"/>    <section>
+    <title>InstantiatePrefab()</title>
+<indexterm><primary>InstantiatePrefab</primary><secondary>Sarachan.UniTiya.IGameObjectPool</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IGameObjectPool</primary><secondary>InstantiatePrefab</secondary></indexterm>
+<para><computeroutput>GameObject Sarachan.UniTiya.IGameObjectPool.InstantiatePrefab (string prefabId, Vector3 position, Quaternion rotation)</computeroutput></para><para>
+
+<para>根据 prefabId 获取对应的 GameObject </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>prefabId</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>position</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>rotation</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_1a72279b43affb14556a296745c71f484b"/>    <section>
+    <title>RecyclePrefab()</title>
+<indexterm><primary>RecyclePrefab</primary><secondary>Sarachan.UniTiya.IGameObjectPool</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IGameObjectPool</primary><secondary>RecyclePrefab</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IGameObjectPool.RecyclePrefab (GameObject gameObject)</computeroutput></para><para>
+
+<para>回收 gameObject。如果 gameObject 不存在于池中，则直接 Destory </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>gameObject</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IGameObjectPool.cs</section>
+</section>

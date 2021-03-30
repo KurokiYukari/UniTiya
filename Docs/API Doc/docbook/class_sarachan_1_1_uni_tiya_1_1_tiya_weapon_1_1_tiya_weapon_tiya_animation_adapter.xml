@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaWeapon.TiyaWeaponTiyaAnimationAdapter Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaWeapon.TiyaWeaponTiyaAnimationAdapter</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaWeapon.TiyaWeaponTiyaAnimationAdapter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter_1a21e2a68e08970e9f595a4d0a56c77cbf"/>void <emphasis role="strong">BindToWeapon</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller">TiyaWeaponController</link> weapon)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter_1af80e4b6ca67f2d6e8ed2c1833b49b5e1"/>override <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind">WeaponLocomotionAnimationBind</link> <emphasis role="strong">LocomotionAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter_1a4e1c5c52c356944be25b66810f695055"/>override <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link> <emphasis role="strong">NormalAttackAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter_1ad81415fba96fd2d8fb001fedee5a548f"/>override <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link> <emphasis role="strong">SpecialAttackAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter_1a4da09d3af4fef2096141255b0a53f1be"/>override IEnumerable&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind">WeaponActionAnimationBind</link> &gt; <emphasis role="strong">ExtraActionAnimationBinds</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter_1acc3e5c3f81c53e8edf35af547c002abc"/>new <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller">TiyaWeaponController</link> <emphasis role="strong">Weapon</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaWeapon/TiyaWeaponTiyaAnimationAdapter.cs</section>

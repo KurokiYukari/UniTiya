@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler" xml:lang="en-US">
+<title>Sarachan.UniTiya.IInteractiveObjectHandler Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IInteractiveObjectHandler</primary></indexterm>
+<para>
+
+<para>交互主体接口 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IInteractiveObjectHandler:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>ICollection&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link> &gt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler_1a7b6b8df6a906f25595abf7ae7974fbea">Interactives</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>交互主体目前所有可交互的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link> 对象 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>交互主体接口 </para>
+
+
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler_1a7b6b8df6a906f25595abf7ae7974fbea"/>    <section>
+    <title>Interactives</title>
+<indexterm><primary>Interactives</primary><secondary>Sarachan.UniTiya.IInteractiveObjectHandler</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IInteractiveObjectHandler</primary><secondary>Interactives</secondary></indexterm>
+<para><computeroutput>ICollection&lt;<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link>&gt; Sarachan.UniTiya.IInteractiveObjectHandler.Interactives<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>交互主体目前所有可交互的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link> 对象 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/InteractiveDeclarations.cs</section>
+</section>

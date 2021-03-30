@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.RepeaterNode Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.RepeaterNode</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.RepeaterNode:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node_1afea475135b15b0571dd309b33c508375"/><emphasis role="strong">RepeaterNode</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link> behaviourTree, <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base">BehaviourTreeNodeBase</link> decoratedNode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node_1a01de15d81993bee2f33bd4b93f4c0d80"/>override BehaviourTreeResult <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node_1a8c4471e05d5968e35bfc6461555059ff"/>override void <emphasis role="strong">Reset</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node_1a22337853b64212dee403b569ba94e49e"/>int <emphasis role="strong">RepeatTime</emphasis> = 1<computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/Decorator Nodes/RepeaterNode.cs</section>

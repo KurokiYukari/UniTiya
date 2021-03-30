@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>skill 的 Monobehaviour 形式，通过重写 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 实现。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a8e0a8eac68ab3eee473f0139e471f3e7"/>void <emphasis role="strong">Disable</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1ad1bbc6f6d61984200e2e9606d7277d21"/>void <emphasis role="strong">Enable</emphasis> ()</para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1af9106c0bdabebda5e1ee6eef2bbf70d9">TryToPerform</link> ()</para>
+
+<para>尝试使用该技能。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a58fa11572172fabfd3d5416369e05b4d">Cancel</link> ()</para>
+
+<para>取消当前正在使用的行为 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a20c7f14bcd5c523415e6a79ac4b7e4c2"/>abstract T <emphasis role="strong">Skill</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1af0e0e627520e7adc80d24802e2199ff4"/>bool <emphasis role="strong">Enabled</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a472f64473efeae1599a94518d83540cc"/>Action <emphasis role="strong">OnPerforming</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1aead45dfbc7f1bce43a61776d4c20f9f9"/>Action <emphasis role="strong">OnCanceling</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a6c0b8132bb8cc8ba25f1fcec9b697705"/>Action <emphasis role="strong">OnEnable</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a3d546ed0fd23b8b521643129a828a371"/>Action <emphasis role="strong">OnDisable</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>skill 的 Monobehaviour 形式，通过重写 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 实现。 </para>
+
+
+<simplesect><title>Type Constraints</title>
+<para><emphasis role="strong">T:<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link></emphasis></para>
+</simplesect>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1a58fa11572172fabfd3d5416369e05b4d"/>    <section>
+    <title>Cancel()</title>
+<indexterm><primary>Cancel</primary><secondary>Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</primary><secondary>Cancel</secondary></indexterm>
+<para><computeroutput>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base">Sarachan.UniTiya.Skill.SkillRefBehaviourBase</link>&lt; T &gt;.Cancel ( )</computeroutput></para><para>
+
+<para>取消当前正在使用的行为 </para>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Sarachan.UniTiya.Skill.ISkill</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_1af9106c0bdabebda5e1ee6eef2bbf70d9"/>    <section>
+    <title>TryToPerform()</title>
+<indexterm><primary>TryToPerform</primary><secondary>Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.SkillRefBehaviourBase&lt; T &gt;</primary><secondary>TryToPerform</secondary></indexterm>
+<para><computeroutput>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base">Sarachan.UniTiya.Skill.SkillRefBehaviourBase</link>&lt; T &gt;.TryToPerform ( )</computeroutput></para><para>
+
+<para>尝试使用该技能。 </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>使用成功返回 true，否则返回 false</para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">Sarachan.UniTiya.Skill.ISkill</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/ISkill.cs</section>
+</section>

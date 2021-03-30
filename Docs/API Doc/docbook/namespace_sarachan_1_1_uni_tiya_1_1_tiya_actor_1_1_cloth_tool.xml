@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.ClothTool Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info">TiyaActorModelInfo</link></para>
+
+<para>Actor Model Prefab 的组件，用于向外界提供 Model 细节信息 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer">TiyaClothChanger</link></para>
+
+<para>暖暖换衣服组件 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link></para>
+
+<para>暖暖衣服 Prefab 的组件，用于向外界提供自身的各种信息 衣服绑定到暖暖身上是根据骨骼的名字绑定的 可以有多出的骨骼，请将多出的骨骼新建一个父节点，将父节点置于 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info_1a8361b037871128bd1413aa2cf3c2b0b6">AddedBonesRoots</link> 数组中 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

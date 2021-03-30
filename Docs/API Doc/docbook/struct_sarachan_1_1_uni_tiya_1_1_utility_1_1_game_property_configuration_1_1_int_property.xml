@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_int_property" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.GamePropertyConfiguration.IntProperty Struct Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.GamePropertyConfiguration.IntProperty</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_int_property_1ad88b0aed73e0322e7edb6db346c9ae6c"/>int <emphasis role="strong">value</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_int_property_1a739fb8c0d7b21d0af8c6f47a58fc7b66"/>bool <emphasis role="strong">isReadonly</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+Runtime/Utility/GamePropertyConfiguration.cs</section>

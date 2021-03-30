@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.TiyaBasicDamageSource Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.TiyaBasicDamageSource</primary></indexterm>
+<para>
+
+<para>基础的可配置 DamageableSource </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.TiyaBasicDamageSource:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1_1_damage_event">DamageEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a7dcd52481f0a0929f76fcafdf20e61b3">OnBeforeDoDamage</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</para>
+
+<para>Damageable RecieveDamage 前回调 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1ad1a7746e906627d561d797528cfb9126">OnAfterDoDamage</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</para>
+
+<para>Damageable RecieveDamage 后回调 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a2b4757969bc7096284594789a99a58ac"/>virtual void <emphasis role="strong">OnBeforeDoDamageOverride</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1adcfdebcd3053f94b39e7f1e8dd266673"/>virtual void <emphasis role="strong">OnAfterDoDamageOverride</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a9a6236c76fe287e5f397ffc19843a309"/>virtual GameObject <emphasis role="strong">Producer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a2a58bf745dff8910b65cef1b5a8c8cb0"/>virtual float <emphasis role="strong">OriginDamageValue</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a8b2102292b6f88bc7069e0d23d702d99"/>float <emphasis role="strong">FinalDamageValue</emphasis><computeroutput> [get, protected set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1adddaa110ace823c6949f4bc432404bd8"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link>, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> &gt; <emphasis role="strong">OnBeforeDoDamageEvent</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a8a1aff7b11f1bf9764394b33dfd542c3"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link>, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> &gt; <emphasis role="strong">OnAfterDoDamageEvent</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>基础的可配置 DamageableSource </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1ad1a7746e906627d561d797528cfb9126"/>    <section>
+    <title>OnAfterDoDamage()</title>
+<indexterm><primary>OnAfterDoDamage</primary><secondary>Sarachan.UniTiya.Utility.TiyaBasicDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.TiyaBasicDamageSource</primary><secondary>OnAfterDoDamage</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Utility.TiyaBasicDamageSource.OnAfterDoDamage (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</computeroutput></para><para>
+
+<para>Damageable RecieveDamage 后回调 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>damageable</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a55bb8673eb4db2c2c934f3a885d18c90">Sarachan.UniTiya.IDamageSource</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a7dcd52481f0a0929f76fcafdf20e61b3"/>    <section>
+    <title>OnBeforeDoDamage()</title>
+<indexterm><primary>OnBeforeDoDamage</primary><secondary>Sarachan.UniTiya.Utility.TiyaBasicDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.TiyaBasicDamageSource</primary><secondary>OnBeforeDoDamage</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Utility.TiyaBasicDamageSource.OnBeforeDoDamage (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</computeroutput></para><para>
+
+<para>Damageable RecieveDamage 前回调 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>damageable</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a71bf88c5669c3946f1f9702fe14563fa">Sarachan.UniTiya.IDamageSource</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/DamageInteract/TiyaBasicDamageSource.cs</section>
+</section>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.SelectorNode Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.SelectorNode</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.SelectorNode:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node_1ad2a3646f0c366927445a7378e780a897"/><emphasis role="strong">SelectorNode</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link> behaviourTree)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node_1a4d96d4aed659c5b7d7ee886a93aacbd9"/>override BehaviourTreeResult <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node_1a877885e0710f04d16e0532992494ee6c"/>override void <emphasis role="strong">Reset</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/Composite Nodes/SelectorNode.cs</section>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.TiyaItemManager Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaItemManager</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.ItemSystem.TiyaItemManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager_1ae6fdc4c52df7ecb0f03cdb403d84ab2f">GetItemByID</link> (int itemID)</para>
+
+<para>获取一个 Item 种类 </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager_1a9e325553b3de7d2ccf8fdcf77acdf8b1">CreateItemByID</link> (int itemID)</para>
+
+<para>创建 itemID 种类 item 的一个实例，并返回该 Item </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager_1af51a96ef0a8f697603180563648f2d1f"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> <emphasis role="strong">this[int itemID]</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager_1a9e325553b3de7d2ccf8fdcf77acdf8b1"/>    <section>
+    <title>CreateItemByID()</title>
+<indexterm><primary>CreateItemByID</primary><secondary>Sarachan.UniTiya.ItemSystem.TiyaItemManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaItemManager</primary><secondary>CreateItemByID</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> Sarachan.UniTiya.ItemSystem.TiyaItemManager.CreateItemByID (int itemID)</computeroutput></para><para>
+
+<para>创建 itemID 种类 item 的一个实例，并返回该 Item </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>itemID</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item_manager_1a493a41ae68384b663deefe15aa0baecc">Sarachan.UniTiya.IItemManager</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager_1ae6fdc4c52df7ecb0f03cdb403d84ab2f"/>    <section>
+    <title>GetItemByID()</title>
+<indexterm><primary>GetItemByID</primary><secondary>Sarachan.UniTiya.ItemSystem.TiyaItemManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaItemManager</primary><secondary>GetItemByID</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> Sarachan.UniTiya.ItemSystem.TiyaItemManager.GetItemByID (int itemID)</computeroutput></para><para>
+
+<para>获取一个 Item 种类 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>itemID</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item_manager_1aa2bafacdfe4abcfeb461b700fecd8199">Sarachan.UniTiya.IItemManager</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/ItemSystem/TiyaItemManager.cs</section>
+</section>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo</primary></indexterm>
+<para>
+
+<para>Actor Model Prefab 的组件，用于向外界提供 Model 细节信息 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>SkinnedMeshRenderer[] <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info_1a9948cc244e622982431df7af3416eb70">BodySmrs</link></para>
+
+<para>Body 所有 Meshes </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info_1a2aed62da36ba79d7611f02004070c3de">BodyBonesCount</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>暖暖初始状态时的骨骼数目 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Actor Model Prefab 的组件，用于向外界提供 Model 细节信息 </para>
+
+
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info_1a9948cc244e622982431df7af3416eb70"/>    <section>
+    <title>BodySmrs</title>
+<indexterm><primary>BodySmrs</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo</primary><secondary>BodySmrs</secondary></indexterm>
+<para><computeroutput>SkinnedMeshRenderer [] Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo.BodySmrs</computeroutput></para><para>
+
+<para>Body 所有 Meshes </para>
+</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info_1a2aed62da36ba79d7611f02004070c3de"/>    <section>
+    <title>BodyBonesCount</title>
+<indexterm><primary>BodyBonesCount</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo</primary><secondary>BodyBonesCount</secondary></indexterm>
+<para><computeroutput>int Sarachan.UniTiya.TiyaActor.ClothTool.TiyaActorModelInfo.BodyBonesCount<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>暖暖初始状态时的骨骼数目 </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaActor/ClothTool/TiyaActorModelInfo.cs</section>
+</section>

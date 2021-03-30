@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable" xml:lang="en-US">
+<title>Sarachan.UniTiya.DamageInteract.TiyaDamageable Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.DamageInteract.TiyaDamageable</primary></indexterm>
+<para>
+
+<para>一个可配置的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> 实现，它可以通过配置事件、或继承重写 ReceiveDamageOverride(IDamageSource) 方法来配置 Damageable 行为。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.DamageInteract.TiyaDamageable:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable_1a09783f5be009d8faeba56d1e7a52a281">ReceiveDamage</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link> damageSource)</para>
+
+<para>接受伤害。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable_1af514851325332fc01ca22cdec14e199e"/>virtual void <emphasis role="strong">ReceiveDamageOverride</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link> damageSource)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable_1abe75ec125cdb8de150217cc88cdb9a55"/>GameObject <emphasis role="strong">Receiver</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable_1a0b55728f5bf7e2e02e0315bd7e3e293e"/>bool <emphasis role="strong">IsInvulnerable</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable_1aff91fbf9e0a87180dd50049b8cffb30a"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link>, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link> &gt; <emphasis role="strong">OnReceiveDamageEvent</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>一个可配置的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> 实现，它可以通过配置事件、或继承重写 ReceiveDamageOverride(IDamageSource) 方法来配置 Damageable 行为。 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable_1a09783f5be009d8faeba56d1e7a52a281"/>    <section>
+    <title>ReceiveDamage()</title>
+<indexterm><primary>ReceiveDamage</primary><secondary>Sarachan.UniTiya.DamageInteract.TiyaDamageable</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.DamageInteract.TiyaDamageable</primary><secondary>ReceiveDamage</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.DamageInteract.TiyaDamageable.ReceiveDamage (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link> damageSource)</computeroutput></para><para>
+
+<para>接受伤害。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>damageSource</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable_1af6aea620e7a5e24515b89c3e989f7c5f">Sarachan.UniTiya.IDamageable</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/DamageInteract/TiyaDamageable.cs</section>
+</section>

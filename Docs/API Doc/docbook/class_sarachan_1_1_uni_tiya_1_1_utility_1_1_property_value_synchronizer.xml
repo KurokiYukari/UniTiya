@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.PropertyValueSynchronizer&lt; T &gt; Class Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.PropertyValueSynchronizer&lt; T &gt;</primary></indexterm>
+<para>
+
+<para>可配置的属性同步器。通过反射寻找指定 Unity.Object 中的某个属性，通过 Value 进行同步。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.PropertyValueSynchronizer&lt; T &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1a6a34bd32ae6f390813685536d6d738a1"/>bool <emphasis role="strong">IsEmpty</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1a2bbf67f207e5c4de135832f5afc289a2"/><emphasis role="strong">PropertyValueSynchronizer</emphasis> (object subject, string propertyName)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1a2bbf67f207e5c4de135832f5afc289a2"/><emphasis role="strong">PropertyValueSynchronizer</emphasis> (object subject, string propertyName)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1adf682c8e68f9d0a837640822272d9512"/>object <emphasis role="strong">SubjectObject</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1a052c1d386165d70459ca21181c798225"/>string <emphasis role="strong">PropertyName</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1a2c611b5712b212b08c3119230ebb35a2"/>PropertyInfo <emphasis role="strong">PropertyInfo</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1ab1b042e7f88a95aad25fbc6383de4ca4"/>object <emphasis role="strong">Value</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer_1aeb54cff6c6d48ff6ab17fa5ff1e7db33"/>new T <emphasis role="strong">Value</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>可配置的属性同步器。通过反射寻找指定 Unity.Object 中的某个属性，通过 Value 进行同步。 </para>
+
+
+
+<para>可配置的属性同步器的泛型版本。通过反射寻找指定 Unity.Object 中的某个属性，通过 Value 进行同步。 如果需要序列化，则应该自行通过继承消除泛型并添加 System.SerializableAttribute 特性。</para>
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>T</entry>
+                                <entry>
+<para>同步的属性的类型</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/PropertyValueSynchronizer.cs</section>
+</section>

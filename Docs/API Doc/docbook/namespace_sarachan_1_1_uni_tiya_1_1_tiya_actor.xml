@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_actor" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller">TiyaActorController</link></para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的实现 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_equipment_manager">TiyaActorEquipmentManager</link></para>
+
+<para>适用于 Actor 的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager">IEquipmentManager</link> 实现 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_properties">TiyaActorProperties</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine">TiyaActorStateMachine</link></para>
+
+<para>适用于所有 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的状态机 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

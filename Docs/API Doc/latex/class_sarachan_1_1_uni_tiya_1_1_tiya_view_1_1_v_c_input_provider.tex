@@ -1,0 +1,121 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider}\index{Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}}
+
+
+修改自 Cinemachine.\+Cinemachine\+Input\+Provider 原来的脚本会自动 enable Input\+Action，这里把这个功能删除。 应该添加到 View\+Controller 的 Free\+Look\+VC 以重载输入。 不手动添加也可以（\+Tiya\+View\+Controller 会自动添加），但可能会有一个（没有实际影响的）\+Error Log。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual float \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a052ddaa4c45cdf2104a135ae3e935747}{Get\+Axis\+Value}} (int axis)
+\begin{DoxyCompactList}\small\item\em Implementation of Axis\+State.\+IInput\+Axis\+Provider.\+Get\+Axis\+Value(). Axis index ranges from 0...2 for X, Y, and Z. Reads the action associated with the axis. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a5a6e99390d02c5f96cf9c685b5bd45e1}{Player\+Index}} = -\/1
+\begin{DoxyCompactList}\small\item\em Leave this at -\/1 for single-\/player games. For multi-\/player games, set this to be the player index, and the actions will be read from that player\textquotesingle{}s controls \end{DoxyCompactList}\item 
+Input\+Action\+Reference \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a65bb283fac97b595525146ce7d879186}{XYAxis}}
+\begin{DoxyCompactList}\small\item\em Vector2 action for XY movement \end{DoxyCompactList}\item 
+Input\+Action\+Reference \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_af5b8c22413193c83b6443fef6e656052}{ZAxis}}
+\begin{DoxyCompactList}\small\item\em Float action for Z movement \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Input\+Action \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a8454583f35af9b78c126ea52068373f8}{Resolve\+For\+Player}} (int axis, Input\+Action\+Reference action\+Ref)
+\begin{DoxyCompactList}\small\item\em In a multi-\/player context, actions are associated with specific players This resolves the appropriate action reference for the specified player. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_aec05e518409497a5b1e4b77197ee8d2c}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_aec05e518409497a5b1e4b77197ee8d2c}} 
+virtual void {\bfseries On\+Disable} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+修改自 Cinemachine.\+Cinemachine\+Input\+Provider 原来的脚本会自动 enable Input\+Action，这里把这个功能删除。 应该添加到 View\+Controller 的 Free\+Look\+VC 以重载输入。 不手动添加也可以（\+Tiya\+View\+Controller 会自动添加），但可能会有一个（没有实际影响的）\+Error Log。 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a052ddaa4c45cdf2104a135ae3e935747}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a052ddaa4c45cdf2104a135ae3e935747}} 
+\index{Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}!GetAxisValue@{GetAxisValue}}
+\index{GetAxisValue@{GetAxisValue}!Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}}
+\doxysubsubsection{\texorpdfstring{GetAxisValue()}{GetAxisValue()}}
+{\footnotesize\ttfamily virtual float Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider.\+Get\+Axis\+Value (\begin{DoxyParamCaption}\item[{int}]{axis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implementation of Axis\+State.\+IInput\+Axis\+Provider.\+Get\+Axis\+Value(). Axis index ranges from 0...2 for X, Y, and Z. Reads the action associated with the axis. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em axis} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The current axis value
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a8454583f35af9b78c126ea52068373f8}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a8454583f35af9b78c126ea52068373f8}} 
+\index{Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}!ResolveForPlayer@{ResolveForPlayer}}
+\index{ResolveForPlayer@{ResolveForPlayer}!Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}}
+\doxysubsubsection{\texorpdfstring{ResolveForPlayer()}{ResolveForPlayer()}}
+{\footnotesize\ttfamily Input\+Action Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider.\+Resolve\+For\+Player (\begin{DoxyParamCaption}\item[{int}]{axis,  }\item[{Input\+Action\+Reference}]{action\+Ref }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+In a multi-\/player context, actions are associated with specific players This resolves the appropriate action reference for the specified player. 
+
+Because the resolution involves a search, we also cache the returned action to make future resolutions faster.
+
+
+\begin{DoxyParams}{Parameters}
+{\em axis} & Which input axis (0, 1, or 2)\\
+\hline
+{\em action\+Ref} & Which action reference to resolve\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The cached action for the player specified in Player\+Index
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a5a6e99390d02c5f96cf9c685b5bd45e1}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a5a6e99390d02c5f96cf9c685b5bd45e1}} 
+\index{Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}!PlayerIndex@{PlayerIndex}}
+\index{PlayerIndex@{PlayerIndex}!Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}}
+\doxysubsubsection{\texorpdfstring{PlayerIndex}{PlayerIndex}}
+{\footnotesize\ttfamily int Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider.\+Player\+Index = -\/1}
+
+
+
+Leave this at -\/1 for single-\/player games. For multi-\/player games, set this to be the player index, and the actions will be read from that player\textquotesingle{}s controls 
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a65bb283fac97b595525146ce7d879186}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_a65bb283fac97b595525146ce7d879186}} 
+\index{Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}!XYAxis@{XYAxis}}
+\index{XYAxis@{XYAxis}!Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}}
+\doxysubsubsection{\texorpdfstring{XYAxis}{XYAxis}}
+{\footnotesize\ttfamily Input\+Action\+Reference Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider.\+XYAxis}
+
+
+
+Vector2 action for XY movement 
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_af5b8c22413193c83b6443fef6e656052}\label{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider_af5b8c22413193c83b6443fef6e656052}} 
+\index{Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}!ZAxis@{ZAxis}}
+\index{ZAxis@{ZAxis}!Sarachan.UniTiya.TiyaView.VCInputProvider@{Sarachan.UniTiya.TiyaView.VCInputProvider}}
+\doxysubsubsection{\texorpdfstring{ZAxis}{ZAxis}}
+{\footnotesize\ttfamily Input\+Action\+Reference Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+VCInput\+Provider.\+ZAxis}
+
+
+
+Float action for Z movement 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya\+View/VCInput\+Provider.\+cs\end{DoxyCompactItemize}

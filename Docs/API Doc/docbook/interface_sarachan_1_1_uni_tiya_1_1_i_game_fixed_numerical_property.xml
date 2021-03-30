@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property" xml:lang="en-US">
+<title>Sarachan.UniTiya.IGameFixedNumericalProperty Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IGameFixedNumericalProperty</primary></indexterm>
+<para>
+
+<para>代表游戏的固定属性值接口，比如角色的力量值之类的。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IGameFixedNumericalProperty:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property_1a9a323459c8a970cf29d270c09020d2d4">BaseValue</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>基础属性值，一般作为角色的基础预先配置 </para>
+</listitem>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property_1a8530944d615abf579f58c80b63beab0f">ExtraValue</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>额外属性值，一般作为技能、装备等的效果影响而动态配置 </para>
+</listitem>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property_1a00e9df7e0cd5be318ca8fd9b22161a44">Value</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>最终属性值结果，一般直接为 BaseValue + ExtraValue </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>代表游戏的固定属性值接口，比如角色的力量值之类的。 </para>
+
+
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property_1a9a323459c8a970cf29d270c09020d2d4"/>    <section>
+    <title>BaseValue</title>
+<indexterm><primary>BaseValue</primary><secondary>Sarachan.UniTiya.IGameFixedNumericalProperty</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IGameFixedNumericalProperty</primary><secondary>BaseValue</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IGameFixedNumericalProperty.BaseValue<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>基础属性值，一般作为角色的基础预先配置 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property_1a8530944d615abf579f58c80b63beab0f"/>    <section>
+    <title>ExtraValue</title>
+<indexterm><primary>ExtraValue</primary><secondary>Sarachan.UniTiya.IGameFixedNumericalProperty</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IGameFixedNumericalProperty</primary><secondary>ExtraValue</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IGameFixedNumericalProperty.ExtraValue<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>额外属性值，一般作为技能、装备等的效果影响而动态配置 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property_1a00e9df7e0cd5be318ca8fd9b22161a44"/>    <section>
+    <title>Value</title>
+<indexterm><primary>Value</primary><secondary>Sarachan.UniTiya.IGameFixedNumericalProperty</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IGameFixedNumericalProperty</primary><secondary>Value</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IGameFixedNumericalProperty.Value<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>最终属性值结果，一般直接为 BaseValue + ExtraValue </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/GamePropertiesInterfaces.cs</section>
+</section>

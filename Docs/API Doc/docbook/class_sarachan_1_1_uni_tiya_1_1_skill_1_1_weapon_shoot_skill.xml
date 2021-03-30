@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.WeaponShootSkill Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.WeaponShootSkill</primary></indexterm>
+<para>
+
+<para>依赖于 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill">WeaponProjectileSkill</link> 的射击 WeaponSkill。 其 Perform 是根据当前射击模式进行射击，并且提供额外 Action 来切换模式。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.WeaponShootSkill:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a4a85012d7e4e9a5046ab709eb74e3173"/>void <emphasis role="strong">SingleShoot</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a2a15256de31af8116b9c7cc2c805479d"/>void <emphasis role="strong">TripleShoot</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1adf75ce3e50709a15790676f4d2e78315"/>void <emphasis role="strong">StartAutoShoot</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a48ebf02bd54cdb2fd0106c7e46470806"/>void <emphasis role="strong">StopAutoShoot</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a87ce7a400e553240ab40b2e61701baca"/>void <emphasis role="strong">ChangeMode</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1adab97b8073f7773eb773b539d65cb6cf"/>override void <emphasis role="strong">OnInit</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a69a2784486b36c907b927ace9bf29958"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill">WeaponProjectileSkill</link> <emphasis role="strong">SingleShootSkill</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a484758af36411cc01851afddee5b4e20"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> <emphasis role="strong">Weapon</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a0f9aad44393b84269b32a061e142f581"/>ProjectileMode <emphasis role="strong">CurrentMode</emphasis> = 0<computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_1a14f3bb2e3050899151992ded3c43694c"/>InputAction <emphasis role="strong">ChangeModeTrigger</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>依赖于 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill">WeaponProjectileSkill</link> 的射击 WeaponSkill。 其 Perform 是根据当前射击模式进行射击，并且提供额外 Action 来切换模式。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/WeaponShootSkillBehaviour.cs</section>
+</section>

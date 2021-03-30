@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.AmmunitionSkill Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.AmmunitionSkill</primary></indexterm>
+<para>
+
+<para>弹药控制 Skill，Perform 是进行 Reload。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.AmmunitionSkill:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_1af573f6767f6a7d5e95f9d6d86d311ac8"/>override void <emphasis role="strong">OnInit</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_1af67edc76ba6dfa43524c64efb33a28fe"/>float <emphasis role="strong">ReloadTime</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_1a27a31eee3d117c87dbcbfdc583ecc3c3"/>int <emphasis role="strong">CurrentBulletsCount</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_1a82560c5b33376cd54256a18431750cf3"/>UnityEvent <emphasis role="strong">OnCompleteReloading</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>弹药控制 Skill，Perform 是进行 Reload。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/AmmunitionSkillBehaviour.cs</section>
+</section>

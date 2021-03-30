@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter</primary></indexterm>
+<para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> 的接口 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind">WeaponLocomotionAnimationBind</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter_1aa776419e1b5efe599843f9a7f7100662">LocomotionAnimationBind</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>移动动画绑定 </para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter_1a634fc081463626c6159fb24e617d6695"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link> <emphasis role="strong">NormalAttackAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter_1a2e49f51c3c49b2ffc452d0ecb44a82b7"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind">WeaponAttackAnimationBind</link> <emphasis role="strong">SpecialAttackAnimationBind</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para>IEnumerable&lt; <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind">WeaponActionAnimationBind</link> &gt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter_1a54e48848ac472869c615528a69f55617">ExtraActionAnimationBinds</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>自定义行为动画绑定 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> 的接口 </para>
+
+
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter_1a54e48848ac472869c615528a69f55617"/>    <section>
+    <title>ExtraActionAnimationBinds</title>
+<indexterm><primary>ExtraActionAnimationBinds</primary><secondary>Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter</primary><secondary>ExtraActionAnimationBinds</secondary></indexterm>
+<para><computeroutput>IEnumerable&lt;<link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind">WeaponActionAnimationBind</link>&gt; Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter.ExtraActionAnimationBinds<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>自定义行为动画绑定 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter_1aa776419e1b5efe599843f9a7f7100662"/>    <section>
+    <title>LocomotionAnimationBind</title>
+<indexterm><primary>LocomotionAnimationBind</primary><secondary>Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter</primary><secondary>LocomotionAnimationBind</secondary></indexterm>
+<para><computeroutput><link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind">WeaponLocomotionAnimationBind</link> Sarachan.UniTiya.TiyaAnimator.IWeaponTiyaAnimatorAdapter.LocomotionAnimationBind<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>移动动画绑定 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/TiyaAnimator/IWeaponTiyaAnimatorAdapter.cs</section>
+</section>

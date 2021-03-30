@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view" xml:lang="en-US">
+<title>Sarachan.UniTiya.IActorCameraView Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IActorCameraView</primary></indexterm>
+<para>
+
+<para>玩家 Actor 的 View，它将 View 控制与 Camera 控制结合在一起 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IActorCameraView:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_enable">IEnable</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view_1ae55320a5d650e7da1f0aafa5ec46e303">ControllerEnabler</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>启用 / 禁用对 Camera 的控制 </para>
+</listitem>
+            <listitem><para><link linkend="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96">CameraViewMode</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view_1a291661749738308a4ada9246aa676f82">Mode</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>控制当前的视角操控模式 </para>
+</listitem>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view_1a1ef34cc7c5f4569a6e046f6258a1866b">FieldOfView</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>视野控制 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>玩家 Actor 的 View，它将 View 控制与 Camera 控制结合在一起 </para>
+
+
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view_1ae55320a5d650e7da1f0aafa5ec46e303"/>    <section>
+    <title>ControllerEnabler</title>
+<indexterm><primary>ControllerEnabler</primary><secondary>Sarachan.UniTiya.IActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorCameraView</primary><secondary>ControllerEnabler</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_enable">IEnable</link> Sarachan.UniTiya.IActorCameraView.ControllerEnabler<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>启用 / 禁用对 Camera 的控制 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view_1a1ef34cc7c5f4569a6e046f6258a1866b"/>    <section>
+    <title>FieldOfView</title>
+<indexterm><primary>FieldOfView</primary><secondary>Sarachan.UniTiya.IActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorCameraView</primary><secondary>FieldOfView</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IActorCameraView.FieldOfView<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>视野控制 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view_1a291661749738308a4ada9246aa676f82"/>    <section>
+    <title>Mode</title>
+<indexterm><primary>Mode</primary><secondary>Sarachan.UniTiya.IActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorCameraView</primary><secondary>Mode</secondary></indexterm>
+<para><computeroutput><link linkend="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96">CameraViewMode</link> Sarachan.UniTiya.IActorCameraView.Mode<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>控制当前的视角操控模式 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IActorCameraView.cs</section>
+</section>

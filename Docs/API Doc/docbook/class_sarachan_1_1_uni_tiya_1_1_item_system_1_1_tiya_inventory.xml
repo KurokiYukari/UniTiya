@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.TiyaInventory Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaInventory</primary></indexterm>
+<para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link> 的实现 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.ItemSystem.TiyaInventory:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1_1_change_inventory_item_event">ChangeInventoryItemEvent</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1ad64734af49240c952d24fbed3eee25a3">ChangeInventoryItem</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, int itemCount)</para>
+
+<para>向背包中添加或删除指定 item </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a3e17d32fcffa9c4da555f8c356ca259c">AbandonItem</link> (IEnumerable&lt;(<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, int itemCount)&gt; items, Vector3? position=null)</para>
+
+<para>遗弃背包中的 item，并在指定 position 生成拾取该物体的可交互 GameObject </para>
+</listitem>
+            <listitem><para>int <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a480feac3191cedf74ce7dcf2906fd6f6">GetItemCount</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item)</para>
+
+<para>获取当前背包中 item 的数量 </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a18f7f93026ce4a86cbd48cc43d9b9956"/>bool <emphasis role="strong">HasEnoughItem</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, int itemCount=1)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a4bf463326a3119365e7afcf1307d41ba"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> <emphasis role="strong">InventoryOwnerActor</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a5d51c67232640a84ea5fbf8aec7d864a"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link>, int &gt; <emphasis role="strong">OnChangeInventoryItem</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link> 的实现 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a3e17d32fcffa9c4da555f8c356ca259c"/>    <section>
+    <title>AbandonItem()</title>
+<indexterm><primary>AbandonItem</primary><secondary>Sarachan.UniTiya.ItemSystem.TiyaInventory</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaInventory</primary><secondary>AbandonItem</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.ItemSystem.TiyaInventory.AbandonItem (IEnumerable&lt;(<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, int itemCount)&gt; items, Vector3? position = <computeroutput>null</computeroutput>
+)</computeroutput></para><para>
+
+<para>遗弃背包中的 item，并在指定 position 生成拾取该物体的可交互 GameObject </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>items</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>position</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory_1a665ac4944eb6df5890deb17d88085408">Sarachan.UniTiya.IInventory</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1ad64734af49240c952d24fbed3eee25a3"/>    <section>
+    <title>ChangeInventoryItem()</title>
+<indexterm><primary>ChangeInventoryItem</primary><secondary>Sarachan.UniTiya.ItemSystem.TiyaInventory</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaInventory</primary><secondary>ChangeInventoryItem</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.ItemSystem.TiyaInventory.ChangeInventoryItem (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, int itemCount)</computeroutput></para><para>
+
+<para>向背包中添加或删除指定 item </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>item</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>itemCount</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory_1a0addba247178892c948c6d5ac609c0f1">Sarachan.UniTiya.IInventory</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1a480feac3191cedf74ce7dcf2906fd6f6"/>    <section>
+    <title>GetItemCount()</title>
+<indexterm><primary>GetItemCount</primary><secondary>Sarachan.UniTiya.ItemSystem.TiyaInventory</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaInventory</primary><secondary>GetItemCount</secondary></indexterm>
+<para><computeroutput>int Sarachan.UniTiya.ItemSystem.TiyaInventory.GetItemCount (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item)</computeroutput></para><para>
+
+<para>获取当前背包中 item 的数量 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>item</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory_1aa76940a28a5969c51397940d84dce83d">Sarachan.UniTiya.IInventory</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/ItemSystem/TiyaInventory.cs</section>
+</section>

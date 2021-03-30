@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.WeaponActionAnimationBind Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.WeaponActionAnimationBind</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind_1a0e592fdafa826b2f93016c549469f449"/>bool <emphasis role="strong">IsEmpty</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind_1a28d216114c0d6f0dde44c031db0ff801"/>string <emphasis role="strong">AnimtatorStateName</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind_1ad64ca34144fc0bc98c471c2c77cb04e6"/>System.Action <emphasis role="strong">OnDoAction</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind_1aa3187c849639f13bdec4b22779deecfc"/>AnimationClip <emphasis role="strong">Animation</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind_1ad1d0b24e4291586f7bb9c746339e37cd"/>TiyaAnimatorTools.Layer <emphasis role="strong">Layer</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaAnimator/IWeaponTiyaAnimatorAdapter.cs</section>

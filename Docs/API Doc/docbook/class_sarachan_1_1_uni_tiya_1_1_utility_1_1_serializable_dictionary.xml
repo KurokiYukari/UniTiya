@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.SerializableDictionary&lt; TKey, TValue, TValueStorage &gt; Class Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.SerializableDictionary&lt; TKey, TValue, TValueStorage &gt;</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.SerializableDictionary&lt; TKey, TValue, TValueStorage &gt;:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1_1_storage">Storage</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1a75330d853ceb2651ac619940773fb920"/><emphasis role="strong">SerializableDictionary</emphasis> (IDictionary&lt; TKey, TValue &gt; dict)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1a75330d853ceb2651ac619940773fb920"/><emphasis role="strong">SerializableDictionary</emphasis> (IDictionary&lt; TKey, TValue &gt; dict)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1a6f18f8b1a88867f9c065adbe99c75835"/><emphasis role="strong">SerializableDictionary</emphasis> (SerializationInfo info, StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1ade19b136b05c7ccf32ce0b5ff6c3af2d"/>override TValue <emphasis role="strong">GetValue</emphasis> (TValue[] storage, int i)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1a124ed530745838f3e4afe9d47a1b7a9a"/>override void <emphasis role="strong">SetValue</emphasis> (TValue[] storage, int i, TValue value)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1a6f18f8b1a88867f9c065adbe99c75835"/><emphasis role="strong">SerializableDictionary</emphasis> (SerializationInfo info, StreamingContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1ab7e7fb663a110b54d7135f5b72c54399"/>override TValue <emphasis role="strong">GetValue</emphasis> (TValueStorage[] storage, int i)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1a636cd41bf07dbf9c51ac5ee23a961e4b"/>override void <emphasis role="strong">SetValue</emphasis> (TValueStorage[] storage, int i, TValue value)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/SerializableDictionary.cs</section>

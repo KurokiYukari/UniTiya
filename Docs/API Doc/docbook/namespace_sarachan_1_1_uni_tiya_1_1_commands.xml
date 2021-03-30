@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_commands" xml:lang="en-US">
+<title>Sarachan.UniTiya.Commands Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Commands</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <emphasis role="strong">ActorCommands</emphasis></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_commands_1_1_basic_command_processor">BasicCommandProcessor</link></para>
+
+<para>基础的命令处理器，在每次 Update 顺序执行命令队列里所有的命令。 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command">ICommand</link></para>
+
+<para>命令接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor">ICommandProcessor</link></para>
+
+<para>命令处理器接口 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

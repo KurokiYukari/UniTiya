@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller" xml:lang="en-US">
+<title>Sarachan.UniTiya.IActorController Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary></indexterm>
+<para>
+
+<para>Actor 模块的接口，定义了 Actor 的属性和无条件行为 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IActorController:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a17cb5ee3dfcc50c62bc1a03d0dda405e"/>GameObject <emphasis role="strong">GameObject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor">ICommandProcessor</link>&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> &gt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1aa09b6bf2ea2539ad5a9d7af7c0a16e02">CommandProcessor</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>命令处理器 </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties">IActorProperties</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ada7e3a02e1f6723ab36440217bf1966f">GameProperties</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的游戏属性 </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a062e3a40e4af881c7a80dc639853e3af">ActorView</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的视角控制器 </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager">IEquipmentManager</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a992ad3fccac62e1b357de44b3f9a9c06">EquipmentManager</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的装备管理器 </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a7402224a88363cff6fa871dc4c0f57ac">Inventory</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的背包 </para>
+</listitem>
+            <listitem><para>Transform <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a2dfd63d497976b085d28297e2adb3fe0">ActorTransform</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>用于获取 Actor 的世界定位和定向的 Transform。 建议不要直接用该 Transform 直接改变 actor 的位置和旋转（Tiya 语义上不保证这样的更改会生效），而是用 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 提供的方法执行需要的操作 </para>
+</listitem>
+            <listitem><para>Animator <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a07ccdddde73eb0593972b515c86a33f8">Animator</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的 Animator </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ae9d7a0d62bc702ebdb5c32ce31bd08af">DefaultActions</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的默认无条件行为 </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a042e48b25f288f7a278ff1cfa48bb115">ActorActions</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>Actor 的行为重载 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ac9b3e81161872a046c1a36a7c4616d7b">IsPlayer</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>指示是否是玩家 </para>
+</listitem>
+            <listitem><para>Vector3 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ae55b878f779d245c829b26c273202c36">Velocity</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>当前的速度 </para>
+</listitem>
+            <listitem><para><link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a870478256e3d7e34999ad3919d6840f5">LocomotionMode</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Actor 当前的移动方式，详见 <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> </para>
+</listitem>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1aed9a72348b556cd3df97dfb2815d5428">ScaledSpeed</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>被缩放到固定的范围的速度，一般用于传递给 Animator 设置动画。 </para>
+</listitem>
+            <listitem><para><link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">ActorAimMode</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a2baa094375333e0867eb597a8454699d">AimMode</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>Actor 与 AimPose 向关联的模式，详见 <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">ActorAimMode</link> </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ac5b8f70c04784c0d8df1d541060673b5">IsGround</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>是否在地面 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a5a7c5bebe3433e83df499a8adc9ca412">IsMoving</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>是否在主动移动。被动的移动（如被击飞、一些动画的 rootMotion 等）都不会使其为 true。 在空中的状态（比如跳跃）会将当前的 IsMoving 状态锁定，直到 IsGround 为 true 才会改变。 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a1d2050d7e9cdaf8587aa38aac1a0e453">CanMove</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>设置能否主动移动。将之设为 false 会强制停止当前的主动移动。 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a4c16e55d7c0148594da747f73fca99ba">CanJump</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>设置能否跳跃。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para>System.Action <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a1415cff8628c6da1fb67fc2b11facead">OnStartMoving</link></para>
+
+<para>开始主动移动事件 </para>
+</listitem>
+            <listitem><para>System.Action <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a352b1ce0df0a974fd92a40887d5c9aa7">OnStopMoving</link></para>
+
+<para>停止主动移动事件 </para>
+</listitem>
+            <listitem><para>System.Action <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a3ca5a0a586389cce17be91eafad9ea7b">OnJump</link></para>
+
+<para>跳跃事件 </para>
+</listitem>
+            <listitem><para>System.Action <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a9a40f06577266ecf4c4380f9125e220c">OnLeavingGround</link></para>
+
+<para>离开地面事件 </para>
+</listitem>
+            <listitem><para>System.Action <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a8ab3837283366c361a3e34f9f7d67ba3">OnLanding</link></para>
+
+<para>落地事件 </para>
+</listitem>
+            <listitem><para>System.Action&lt; <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link>, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> &gt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1afef5a4983626d14c8e01cc6871f21565">OnChangeLocomotionMode</link></para>
+
+<para>改变 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a870478256e3d7e34999ad3919d6840f5">LocomotionMode</link> 事件，他在模式改变后的时候触发。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Actor 模块的接口，定义了 Actor 的属性和无条件行为 </para>
+
+
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a042e48b25f288f7a278ff1cfa48bb115"/>    <section>
+    <title>ActorActions</title>
+<indexterm><primary>ActorActions</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>ActorActions</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link> Sarachan.UniTiya.IActorController.ActorActions<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的行为重载 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a2dfd63d497976b085d28297e2adb3fe0"/>    <section>
+    <title>ActorTransform</title>
+<indexterm><primary>ActorTransform</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>ActorTransform</secondary></indexterm>
+<para><computeroutput>Transform Sarachan.UniTiya.IActorController.ActorTransform<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>用于获取 Actor 的世界定位和定向的 Transform。 建议不要直接用该 Transform 直接改变 actor 的位置和旋转（Tiya 语义上不保证这样的更改会生效），而是用 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 提供的方法执行需要的操作 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a062e3a40e4af881c7a80dc639853e3af"/>    <section>
+    <title>ActorView</title>
+<indexterm><primary>ActorView</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>ActorView</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link> Sarachan.UniTiya.IActorController.ActorView<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的视角控制器 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a2baa094375333e0867eb597a8454699d"/>    <section>
+    <title>AimMode</title>
+<indexterm><primary>AimMode</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>AimMode</secondary></indexterm>
+<para><computeroutput><link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">ActorAimMode</link> Sarachan.UniTiya.IActorController.AimMode<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Actor 与 AimPose 向关联的模式，详见 <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">ActorAimMode</link> </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a07ccdddde73eb0593972b515c86a33f8"/>    <section>
+    <title>Animator</title>
+<indexterm><primary>Animator</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>Animator</secondary></indexterm>
+<para><computeroutput>Animator Sarachan.UniTiya.IActorController.Animator<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的 Animator </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a4c16e55d7c0148594da747f73fca99ba"/>    <section>
+    <title>CanJump</title>
+<indexterm><primary>CanJump</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>CanJump</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IActorController.CanJump<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>设置能否跳跃。 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a1d2050d7e9cdaf8587aa38aac1a0e453"/>    <section>
+    <title>CanMove</title>
+<indexterm><primary>CanMove</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>CanMove</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IActorController.CanMove<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>设置能否主动移动。将之设为 false 会强制停止当前的主动移动。 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1aa09b6bf2ea2539ad5a9d7af7c0a16e02"/>    <section>
+    <title>CommandProcessor</title>
+<indexterm><primary>CommandProcessor</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>CommandProcessor</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor">ICommandProcessor</link>&lt;<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link>&gt; Sarachan.UniTiya.IActorController.CommandProcessor<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>命令处理器 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ae9d7a0d62bc702ebdb5c32ce31bd08af"/>    <section>
+    <title>DefaultActions</title>
+<indexterm><primary>DefaultActions</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>DefaultActions</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link> Sarachan.UniTiya.IActorController.DefaultActions<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的默认无条件行为 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a992ad3fccac62e1b357de44b3f9a9c06"/>    <section>
+    <title>EquipmentManager</title>
+<indexterm><primary>EquipmentManager</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>EquipmentManager</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager">IEquipmentManager</link> Sarachan.UniTiya.IActorController.EquipmentManager<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的装备管理器 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ada7e3a02e1f6723ab36440217bf1966f"/>    <section>
+    <title>GameProperties</title>
+<indexterm><primary>GameProperties</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>GameProperties</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties">IActorProperties</link> Sarachan.UniTiya.IActorController.GameProperties<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的游戏属性 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a7402224a88363cff6fa871dc4c0f57ac"/>    <section>
+    <title>Inventory</title>
+<indexterm><primary>Inventory</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>Inventory</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link> Sarachan.UniTiya.IActorController.Inventory<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的背包 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ac5b8f70c04784c0d8df1d541060673b5"/>    <section>
+    <title>IsGround</title>
+<indexterm><primary>IsGround</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>IsGround</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IActorController.IsGround<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>是否在地面 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a5a7c5bebe3433e83df499a8adc9ca412"/>    <section>
+    <title>IsMoving</title>
+<indexterm><primary>IsMoving</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>IsMoving</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IActorController.IsMoving<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>是否在主动移动。被动的移动（如被击飞、一些动画的 rootMotion 等）都不会使其为 true。 在空中的状态（比如跳跃）会将当前的 IsMoving 状态锁定，直到 IsGround 为 true 才会改变。 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ac9b3e81161872a046c1a36a7c4616d7b"/>    <section>
+    <title>IsPlayer</title>
+<indexterm><primary>IsPlayer</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>IsPlayer</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IActorController.IsPlayer<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>指示是否是玩家 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a870478256e3d7e34999ad3919d6840f5"/>    <section>
+    <title>LocomotionMode</title>
+<indexterm><primary>LocomotionMode</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>LocomotionMode</secondary></indexterm>
+<para><computeroutput><link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> Sarachan.UniTiya.IActorController.LocomotionMode<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>Actor 当前的移动方式，详见 <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1aed9a72348b556cd3df97dfb2815d5428"/>    <section>
+    <title>ScaledSpeed</title>
+<indexterm><primary>ScaledSpeed</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>ScaledSpeed</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IActorController.ScaledSpeed<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>被缩放到固定的范围的速度，一般用于传递给 Animator 设置动画。 </para>
+</para>
+
+<para>对应于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a870478256e3d7e34999ad3919d6840f5">LocomotionMode</link> ，scaledSpeed 的最大值被限定为： Walk -&gt; 1 ; Run -&gt; 2 ; Sprint -&gt; 3 </para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1ae55b878f779d245c829b26c273202c36"/>    <section>
+    <title>Velocity</title>
+<indexterm><primary>Velocity</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>Velocity</secondary></indexterm>
+<para><computeroutput>Vector3 Sarachan.UniTiya.IActorController.Velocity<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>当前的速度 </para>
+</para>
+</section>
+</section>
+<section>
+<title>Event Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1afef5a4983626d14c8e01cc6871f21565"/>    <section>
+    <title>OnChangeLocomotionMode</title>
+<indexterm><primary>OnChangeLocomotionMode</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>OnChangeLocomotionMode</secondary></indexterm>
+<para><computeroutput>System.Action&lt;<link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link>, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link>&gt; Sarachan.UniTiya.IActorController.OnChangeLocomotionMode</computeroutput></para><para>
+
+<para>改变 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a870478256e3d7e34999ad3919d6840f5">LocomotionMode</link> 事件，他在模式改变后的时候触发。 </para>
+</para>
+
+<para>第一个参数为前一个 LocomotionMode，第二个参数为当前 LocomotionMode </para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a3ca5a0a586389cce17be91eafad9ea7b"/>    <section>
+    <title>OnJump</title>
+<indexterm><primary>OnJump</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>OnJump</secondary></indexterm>
+<para><computeroutput>System.Action Sarachan.UniTiya.IActorController.OnJump</computeroutput></para><para>
+
+<para>跳跃事件 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a8ab3837283366c361a3e34f9f7d67ba3"/>    <section>
+    <title>OnLanding</title>
+<indexterm><primary>OnLanding</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>OnLanding</secondary></indexterm>
+<para><computeroutput>System.Action Sarachan.UniTiya.IActorController.OnLanding</computeroutput></para><para>
+
+<para>落地事件 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a9a40f06577266ecf4c4380f9125e220c"/>    <section>
+    <title>OnLeavingGround</title>
+<indexterm><primary>OnLeavingGround</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>OnLeavingGround</secondary></indexterm>
+<para><computeroutput>System.Action Sarachan.UniTiya.IActorController.OnLeavingGround</computeroutput></para><para>
+
+<para>离开地面事件 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a1415cff8628c6da1fb67fc2b11facead"/>    <section>
+    <title>OnStartMoving</title>
+<indexterm><primary>OnStartMoving</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>OnStartMoving</secondary></indexterm>
+<para><computeroutput>System.Action Sarachan.UniTiya.IActorController.OnStartMoving</computeroutput></para><para>
+
+<para>开始主动移动事件 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_1a352b1ce0df0a974fd92a40887d5c9aa7"/>    <section>
+    <title>OnStopMoving</title>
+<indexterm><primary>OnStopMoving</primary><secondary>Sarachan.UniTiya.IActorController</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorController</primary><secondary>OnStopMoving</secondary></indexterm>
+<para><computeroutput>System.Action Sarachan.UniTiya.IActorController.OnStopMoving</computeroutput></para><para>
+
+<para>停止主动移动事件 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IActorController.cs</section>
+</section>

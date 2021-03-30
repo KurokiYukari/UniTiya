@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_equip_weapon_listener" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.Listeners.ItemEquipWeaponListener Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.Listeners.ItemEquipWeaponListener</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.ItemSystem.Listeners.ItemEquipWeaponListener:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_equip_weapon_listener.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_equip_weapon_listener_1a184dda74ea3492e89aa623c9860d4662"/>void <emphasis role="strong">EquipItem</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/ItemSystem/Listeners/ItemEquipWeaponListener.cs</section>

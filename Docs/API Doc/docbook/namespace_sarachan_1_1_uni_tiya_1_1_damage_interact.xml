@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_damage_interact" xml:lang="en-US">
+<title>Sarachan.UniTiya.DamageInteract Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.DamageInteract</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_basic_actor_damageable">TiyaBasicActorDamageable</link></para>
+
+<para>适用于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> 实现。 会根据 DamageSource 的 FinalDamageValue 减少 HP。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable">TiyaDamageable</link></para>
+
+<para>一个可配置的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> 实现，它可以通过配置事件、或继承重写 ReceiveDamageOverride(IDamageSource) 方法来配置 Damageable 行为。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

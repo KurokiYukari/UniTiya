@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager" xml:lang="en-US">
+<title>Sarachan.UniTiya.IEquipmentManager Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IEquipmentManager</primary></indexterm>
+<para>
+
+<para>游戏对象的装备物品的管理器 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IEquipmentManager:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a3b19b478defb0cc4674e406ec9ea1842">EquipWeapon</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> weaponItem, GameObject weaponPrefab)</para>
+
+<para>装备武器 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a16df468bce8446e6dbc787fb5b79dec0">EquipWeapon</link> ()</para>
+
+<para>装备默认武器（卸下当前武器） </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a1abad275e9331bebc409e80eff7ee18c">CurrentWeaponItem</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>当前武器 Item </para>
+</listitem>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a78b46bb58cbb8e1be9433850bf48eb6c">CurrentWeapon</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>当前武器实体 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a26b3d489327078ba1487f83a3a37fa88">EnableTwoHandIK</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>当前武器是否启用双手（左手） IK </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>游戏对象的装备物品的管理器 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a16df468bce8446e6dbc787fb5b79dec0"/>    <section>
+    <title>EquipWeapon()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>EquipWeapon</primary><secondary>Sarachan.UniTiya.IEquipmentManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IEquipmentManager</primary><secondary>EquipWeapon</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IEquipmentManager.EquipWeapon ( )</computeroutput></para><para>
+
+<para>装备默认武器（卸下当前武器） </para>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_equipment_manager_1a86ccdd96cd610296a00166f32b7c7390">Sarachan.UniTiya.TiyaActor.TiyaActorEquipmentManager</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a3b19b478defb0cc4674e406ec9ea1842"/>    <section>
+    <title>EquipWeapon()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>EquipWeapon</primary><secondary>Sarachan.UniTiya.IEquipmentManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IEquipmentManager</primary><secondary>EquipWeapon</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IEquipmentManager.EquipWeapon (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> weaponItem, GameObject weaponPrefab)</computeroutput></para><para>
+
+<para>装备武器 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>weaponItem</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>weaponPrefab</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_equipment_manager_1ac915c4d3c1b58c239c074e91ecf871e8">Sarachan.UniTiya.TiyaActor.TiyaActorEquipmentManager</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a78b46bb58cbb8e1be9433850bf48eb6c"/>    <section>
+    <title>CurrentWeapon</title>
+<indexterm><primary>CurrentWeapon</primary><secondary>Sarachan.UniTiya.IEquipmentManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IEquipmentManager</primary><secondary>CurrentWeapon</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> Sarachan.UniTiya.IEquipmentManager.CurrentWeapon<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>当前武器实体 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a1abad275e9331bebc409e80eff7ee18c"/>    <section>
+    <title>CurrentWeaponItem</title>
+<indexterm><primary>CurrentWeaponItem</primary><secondary>Sarachan.UniTiya.IEquipmentManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IEquipmentManager</primary><secondary>CurrentWeaponItem</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> Sarachan.UniTiya.IEquipmentManager.CurrentWeaponItem<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>当前武器 Item </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager_1a26b3d489327078ba1487f83a3a37fa88"/>    <section>
+    <title>EnableTwoHandIK</title>
+<indexterm><primary>EnableTwoHandIK</primary><secondary>Sarachan.UniTiya.IEquipmentManager</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IEquipmentManager</primary><secondary>EnableTwoHandIK</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.IEquipmentManager.EnableTwoHandIK<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>当前武器是否启用双手（左手） IK </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IEquipmentManager.cs</section>
+</section>

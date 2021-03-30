@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya" xml:lang="en-US">
+<title>Sarachan.UniTiya Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties">IGameProperties</link></para>
+
+<para>自定义属性器，在 <link linkend="_namespace_sarachan_1_1_uni_tiya">UniTiya</link> 中被用来作为定义游戏属性的工具。 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_dynamic_numerical_property">IGameDynamicNumericalProperty</link></para>
+
+<para>代表游戏的动态属性值接口，比如角色 HP 之类的。 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property">IGameFixedNumericalProperty</link></para>
+
+<para>代表游戏的固定属性值接口，比如角色的力量值之类的。 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view">IActorCameraView</link></para>
+
+<para>玩家 Actor 的 View，它将 View 控制与 Camera 控制结合在一起 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link></para>
+
+<para>Actor 模块的接口，定义了 Actor 的属性和无条件行为 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions">IActorActions</link></para>
+</listitem>
+            <listitem><para>class <emphasis role="strong">TiyaTools</emphasis></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties">IActorProperties</link></para>
+
+<para>Actor 的游戏属性 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view">IActorView</link></para>
+
+<para>Actor 的视线控制接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link></para>
+
+<para>受到伤害接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link></para>
+
+<para>伤害源 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager">IEquipmentManager</link></para>
+
+<para>游戏对象的装备物品的管理器 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool">IGameObjectPool</link></para>
+
+<para>对象池接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link></para>
+
+<para>背包系统接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link></para>
+
+<para>物品接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item_manager">IItemManager</link></para>
+
+<para>Item 的管理器。 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link></para>
+
+<para>可交互接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler">IInteractiveObjectHandler</link></para>
+
+<para>交互主体接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link></para>
+
+<para>WeaponController 接口 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions">IWeaponActorActions</link></para>
+
+<para>WeaponController 提供给 Actor 的方法接口。 <link linkend="_namespace_sarachan_1_1_uni_tiya">UniTiya</link> 中默认提供两个攻击入口 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ad708dd0e4fa82c13614ad88ef94ca268">NormalAttack(SkillCmdType)</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1a2d8da9056d65f109f48579f5a669dae7">SpecialAttack(SkillCmdType)</link> </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_game_system">TiyaGameSystem</link></para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya">UniTiya</link> 游戏内容的全局对象获取入口。 在一个 Scene 中应该有且仅有一个该组件。 </para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_enable">IEnable</link></para>
+
+<para>有 Enable 功能的接口。 不建议给 Monobehaviour 之类的本来就有 Enable 功能的类实现该接口， 而是只给自定义类使用。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para>enum class <link linkend="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96">CameraViewMode</link> { <emphasis role="strong">First</emphasis>
+, <emphasis role="strong">Third</emphasis>
+ }</para>
+
+<para>可选的视角模式 </para>
+</listitem>
+            <listitem><para><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a5d32debf2ad7f00ce8166f45a24e83fb"/>enum class <emphasis role="strong">LockCmdType</emphasis> { <emphasis role="strong">Lock</emphasis>
+, <emphasis role="strong">Unlock</emphasis>
+, <emphasis role="strong">LockToNextTarget</emphasis>
+, <emphasis role="strong">LockToPreTarget</emphasis>
+ }</para>
+</listitem>
+            <listitem><para>enum class <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">ActorAimMode</link> { <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4eaa1d70691175e3ae5b854b57e375a000bd">LookAtActorForward</link>
+, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4eaa1efe2085f816102de3ff0f5cc015b680">LookAtAimPos</link>
+, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4eaa1d2ffa45f68594c9c70df1a6a76ffdf0">TurnUpperBodyToAimDirection</link>
+ }</para>
+
+<para>Actor 与其 IActorController.AimTransform 关联的方式。 </para>
+</listitem>
+            <listitem><para>enum class <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> { <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269a7a16a854f32231a8df9326136b09ee62">Walk</link>
+, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269ac5301693c4e792bcd5a479ef38fb8f8d">Run</link>
+, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269affc3dc096e3578a9474b7976953f0ef9">Sprint</link>
+ }</para>
+
+<para>Actor 的移动模式 </para>
+</listitem>
+            <listitem><para>enum class <link linkend="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60">TiyaItemType</link> { <link linkend="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60ad92a8333dd3ccb895cc65f7455b71206">Material</link>
+, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60a9ccda2d50a1ee1b73ee1f048eb397aa8">Equipment</link>
+, <link linkend="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60ad73e7002ee2fca37533fa36bac76c52f">Expendable</link>
+ }</para>
+</listitem>
+            <listitem><para>enum class <link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link> { <emphasis role="strong">PerformSkill</emphasis>
+, <emphasis role="strong">CancelSkill</emphasis>
+ }</para>
+
+<para>攻击的模式。 一般来说，瞬时攻击只会使用到 PerformSkill，而另外一些持续性的攻击，则还需要 CancelSkill 来取消持续攻击。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Enumeration Type Documentation</title>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea"/>    <section>
+    <title>ActorAimMode</title>
+<indexterm><primary>ActorAimMode</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>ActorAimMode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4ea">Sarachan.UniTiya.ActorAimMode</link><computeroutput>[strong]</computeroutput></computeroutput></para><para>
+
+<para>Actor 与其 IActorController.AimTransform 关联的方式。 </para>
+</para>
+<informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>LookAtActorForward</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>LookAtActorForward</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4eaa1d70691175e3ae5b854b57e375a000bd"/>LookAtActorForward</entry><entry>
+<para>默认关联模式，不做改变。 </para>
+</entry></row><row><entry><indexterm><primary>LookAtAimPos</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>LookAtAimPos</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4eaa1efe2085f816102de3ff0f5cc015b680"/>LookAtAimPos</entry><entry>
+<para>看向 AimPos。详见 TiyaTools.GetAimFocusPosition(IActorController)。 </para>
+</entry></row><row><entry><indexterm><primary>TurnUpperBodyToAimDirection</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>TurnUpperBodyToAimDirection</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a444266ab04199976c627173111c4f4eaa1d2ffa45f68594c9c70df1a6a76ffdf0"/>TurnUpperBodyToAimDirection</entry><entry>
+<para>转动上半身，使之朝向 actor 的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a7260b7d71c277336ad67f4a3eb1ea2be">IActorView.ViewTransform</link> forward 方向。 </para>
+</entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+    </section><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269"/>    <section>
+    <title>ActorLocomotionMode</title>
+<indexterm><primary>ActorLocomotionMode</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>ActorLocomotionMode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">Sarachan.UniTiya.ActorLocomotionMode</link><computeroutput>[strong]</computeroutput></computeroutput></para><para>
+
+<para>Actor 的移动模式 </para>
+</para>
+<informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Walk</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>Walk</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269a7a16a854f32231a8df9326136b09ee62"/>Walk</entry><entry>
+<para>速度更慢的 Run </para>
+</entry></row><row><entry><indexterm><primary>Run</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>Run</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269ac5301693c4e792bcd5a479ef38fb8f8d"/>Run</entry><entry>
+<para>一般作为默认模式使用 </para>
+</entry></row><row><entry><indexterm><primary>Sprint</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>Sprint</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269affc3dc096e3578a9474b7976953f0ef9"/>Sprint</entry><entry>
+<para>Sprint 会强制将人物转向移动的方向 </para>
+</entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+    </section><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96"/>    <section>
+    <title>CameraViewMode</title>
+<indexterm><primary>CameraViewMode</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>CameraViewMode</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96">Sarachan.UniTiya.CameraViewMode</link><computeroutput>[strong]</computeroutput></computeroutput></para><para>
+
+<para>可选的视角模式 </para>
+</para>
+    </section><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b"/>    <section>
+    <title>SkillCmdType</title>
+<indexterm><primary>SkillCmdType</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>SkillCmdType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">Sarachan.UniTiya.SkillCmdType</link><computeroutput>[strong]</computeroutput></computeroutput></para><para>
+
+<para>攻击的模式。 一般来说，瞬时攻击只会使用到 PerformSkill，而另外一些持续性的攻击，则还需要 CancelSkill 来取消持续攻击。 </para>
+</para>
+    </section><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60"/>    <section>
+    <title>TiyaItemType</title>
+<indexterm><primary>TiyaItemType</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>TiyaItemType</secondary></indexterm>
+<para><computeroutput>enum <link linkend="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60">Sarachan.UniTiya.TiyaItemType</link><computeroutput>[strong]</computeroutput></computeroutput></para><informaltable frame="all">
+<title>Enumerator</title>
+    <tgroup cols="2" align="left" colsep="1" rowsep="1">
+      <colspec colname='c1'/>
+      <colspec colname='c2'/>
+<tbody>
+<row><entry><indexterm><primary>Material</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>Material</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60ad92a8333dd3ccb895cc65f7455b71206"/>Material</entry><entry>
+<para>代表普通物品 </para>
+</entry></row><row><entry><indexterm><primary>Equipment</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>Equipment</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60a9ccda2d50a1ee1b73ee1f048eb397aa8"/>Equipment</entry><entry>
+<para>代表可以使用和取消使用的物品 </para>
+</entry></row><row><entry><indexterm><primary>Expendable</primary><secondary>Sarachan.UniTiya</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya</primary><secondary>Expendable</secondary></indexterm>
+<anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1a4415b8bf0614cbbfb0b73b4be83fae60ad73e7002ee2fca37533fa36bac76c52f"/>Expendable</entry><entry>
+<para>代表可以使用，使用后会消失的物品 </para>
+</entry></row>    </tbody>
+    </tgroup>
+</informaltable>
+</section>
+</section>
+</section>

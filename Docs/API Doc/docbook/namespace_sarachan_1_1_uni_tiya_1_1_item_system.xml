@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_item_system" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory">TiyaInventory</link></para>
+
+<para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_inventory">IInventory</link> 的实现 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item">TiyaItem</link></para>
+
+<para>可配置的 Item。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager">TiyaItemManager</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item">TiyaWeaponItem</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

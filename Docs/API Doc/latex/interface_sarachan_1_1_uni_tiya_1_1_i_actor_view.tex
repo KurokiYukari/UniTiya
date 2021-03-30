@@ -1,0 +1,159 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IActor\+View Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+
+
+Actor 的视线控制接口  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IActor\+View\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.727273cm]{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a62f9628c0459585f4cef4d36b2724168}{View}} (Vector2 delta\+Rotation)
+\begin{DoxyCompactList}\small\item\em 根据 direction 指⽰的⽅向改变当前视⾓ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a4eba364b140e9571d4ea17bbfe64a687}{Reset\+View}} ()
+\begin{DoxyCompactList}\small\item\em 将 View 还原到初始状态 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a363cb76e796cfea746d73525306603ab}{Lock}} (Lock\+Cmd\+Type lock\+Cmd\+Type)
+\begin{DoxyCompactList}\small\item\em 将视角锁定向附近的敌人。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_adc7360b135870f114e08423b583ab6e6}{Temp\+Rotate}} (float pitch\+Angle)
+\begin{DoxyCompactList}\small\item\em 制造一个暂时的强制视角偏移。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Transform \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a7260b7d71c277336ad67f4a3eb1ea2be}{View\+Transform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor View 的 Transform 对于 Player，\+View\+Transform 的 forward 一般是与 Camera forward 相同的 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ab3648d44024d32089f6390414c56883e}{Is\+Locked}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 是否锁定敌人 \end{DoxyCompactList}\item 
+Game\+Object \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ae41c95707d8f7c0234e3cdc010513557}{Lock\+Target}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 锁定的对象。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_aaf3ad4de34dbc804e880eaffe1392822}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_aaf3ad4de34dbc804e880eaffe1392822}} 
+System.\+Action$<$ Game\+Object $>$ {\bfseries On\+Lock}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ac519d42314d0bffed00fd693c311977b}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ac519d42314d0bffed00fd693c311977b}} 
+System.\+Action$<$ Game\+Object $>$ {\bfseries On\+Unlock}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Actor 的视线控制接口 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a363cb76e796cfea746d73525306603ab}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a363cb76e796cfea746d73525306603ab}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!Lock@{Lock}}
+\index{Lock@{Lock}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{Lock()}{Lock()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IActor\+View.\+Lock (\begin{DoxyParamCaption}\item[{Lock\+Cmd\+Type}]{lock\+Cmd\+Type }\end{DoxyParamCaption})}
+
+
+
+将视角锁定向附近的敌人。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lock\+Cmd\+Type} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_abfe2fb3fbfdc3eab6c116a59e44a8843}{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a4eba364b140e9571d4ea17bbfe64a687}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a4eba364b140e9571d4ea17bbfe64a687}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!ResetView@{ResetView}}
+\index{ResetView@{ResetView}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{ResetView()}{ResetView()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IActor\+View.\+Reset\+View (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+将 View 还原到初始状态 
+
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a270a1e0a41d4d794396f9bbbbc50e153}{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_adc7360b135870f114e08423b583ab6e6}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_adc7360b135870f114e08423b583ab6e6}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!TempRotate@{TempRotate}}
+\index{TempRotate@{TempRotate}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{TempRotate()}{TempRotate()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IActor\+View.\+Temp\+Rotate (\begin{DoxyParamCaption}\item[{float}]{pitch\+Angle }\end{DoxyParamCaption})}
+
+
+
+制造一个暂时的强制视角偏移。 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pitch\+Angle} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a751eb7f70edd50fca4c51928e8b9dc45}{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View}}, and \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_a62efb353d669c360b312ff3eb698f427}{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+Camera\+View}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a62f9628c0459585f4cef4d36b2724168}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a62f9628c0459585f4cef4d36b2724168}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!View@{View}}
+\index{View@{View}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{View()}{View()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IActor\+View.\+View (\begin{DoxyParamCaption}\item[{Vector2}]{delta\+Rotation }\end{DoxyParamCaption})}
+
+
+
+根据 direction 指⽰的⽅向改变当前视⾓ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta\+Rotation} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_aae4710729582c27ba5d9b76b63166ffa}{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+Camera\+View}}, and \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view_a0d130239be9a29c9a249521ce85a1e76}{Sarachan.\+Uni\+Tiya.\+Tiya\+View.\+Tiya\+Actor\+View}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ab3648d44024d32089f6390414c56883e}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ab3648d44024d32089f6390414c56883e}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!IsLocked@{IsLocked}}
+\index{IsLocked@{IsLocked}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{IsLocked}{IsLocked}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IActor\+View.\+Is\+Locked\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+是否锁定敌人 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ae41c95707d8f7c0234e3cdc010513557}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_ae41c95707d8f7c0234e3cdc010513557}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!LockTarget@{LockTarget}}
+\index{LockTarget@{LockTarget}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{LockTarget}{LockTarget}}
+{\footnotesize\ttfamily Game\+Object Sarachan.\+Uni\+Tiya.\+IActor\+View.\+Lock\+Target\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+锁定的对象。 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a7260b7d71c277336ad67f4a3eb1ea2be}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_a7260b7d71c277336ad67f4a3eb1ea2be}} 
+\index{Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}!ViewTransform@{ViewTransform}}
+\index{ViewTransform@{ViewTransform}!Sarachan.UniTiya.IActorView@{Sarachan.UniTiya.IActorView}}
+\doxysubsubsection{\texorpdfstring{ViewTransform}{ViewTransform}}
+{\footnotesize\ttfamily Transform Sarachan.\+Uni\+Tiya.\+IActor\+View.\+View\+Transform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor View 的 Transform 对于 Player，\+View\+Transform 的 forward 一般是与 Camera forward 相同的 
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IActor\+View.\+cs\end{DoxyCompactItemize}

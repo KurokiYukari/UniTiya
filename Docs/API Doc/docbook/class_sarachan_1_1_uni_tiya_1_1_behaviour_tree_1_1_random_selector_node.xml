@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.RandomSelectorNode Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.RandomSelectorNode</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.RandomSelectorNode:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node_1a6c53a4ba54ea7661ec4ebb3c42033781"/><emphasis role="strong">RandomSelectorNode</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link> behaviourTree)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node_1a8ac1f561c656b4fdba4ad7ab4159b733"/>override BehaviourTreeResult <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node_1ab1ae3db8931d52557e8c20b3ea587174"/>override void <emphasis role="strong">Reset</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/Composite Nodes/RandomSelectorNode.cs</section>

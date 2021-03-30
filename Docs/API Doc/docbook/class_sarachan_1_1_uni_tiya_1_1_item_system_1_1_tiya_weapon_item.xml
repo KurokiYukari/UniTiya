@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.TiyaWeaponItem Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaWeaponItem</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.ItemSystem.TiyaWeaponItem:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item_1a3c3a0ccffa997b34877de135c267d654"/>override void <emphasis role="strong">OnBeforeSerialize</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item_1a3351562bc04de40c2a26ea0ca18d5797"/>override void <emphasis role="strong">OnAfterDeserialize</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item_1acb3523c662b45f2f32b359c8489e422e"/>override void <emphasis role="strong">UseItemOverride</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> itemOwner)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item_1ae61a4be393004f987ff62e5c7a04c2fe"/>GameObject <emphasis role="strong">WeaponPrefab</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/ItemSystem/TiyaWeaponItem.cs</section>

@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.RuntimePropertyConfiguration:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a5ff57b87cff81a901145ce8e56b2a22a"/>void <emphasis role="strong">SetPropertiesFrom</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties">IGameProperties</link> properties)</para>
+</listitem>
+            <listitem><para>T <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a1470f8b87a5ea58c4f7c69985f397225">GetProperty&lt; T &gt;</link> (string propertyName, out bool isReadonly)</para>
+
+<para>获取名为 propertyName 的 Property </para>
+</listitem>
+            <listitem><para>T <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a0524e82aba8de27dc29995535cc386f3">GetProperty&lt; T &gt;</link> (string propertyName)</para>
+
+<para>获取名为 propertyName 的 Property </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1acd9086999136bf5ec92c10fc882da215">AddProperty</link> (string propertyName, object value, bool isReadOnly=false)</para>
+
+<para>添加一个原本不存在的 property。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a130b73b777f380bbcbb7d3c9108e752c">SetProperty</link> (string propertyName, object value, bool isReadOnly=false)</para>
+
+<para>强制设置一个 property，无论其是否存在，是否是 readOnly。 </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1abd40ff41b17fde0bc7553bed6068a815">RemoveProperty</link> (string propertyName)</para>
+
+<para>删除指定 property </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a7fa4aa5d437aef06a1b50fe58c9eb779">ContainsProperty</link> (string propertyName)</para>
+
+<para>是否包含指定 property </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a6b617476d444d38e49623f236c4571b0">IsReadonlyProperty</link> (string propertyName)</para>
+
+<para>指定 proeprty 是否是 readonly </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1aa4a1d80e27c38dd1e2d9defb1c6ed86f"/>void <emphasis role="strong">Clear</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a824186de438932fae942afeb8a260bd2"/>IEnumerator&lt;(string propertyName, object propertyValue, bool isReadonly)&gt; <emphasis role="strong">GetEnumerator</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a436e00500e1945193d9bf74a1f2be579"/>object <emphasis role="strong">this[string propertyName]</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a8817727de9f6375f417cb2b77f61c0b9"/>int <emphasis role="strong">Count</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1acd9086999136bf5ec92c10fc882da215"/>    <section>
+    <title>AddProperty()</title>
+<indexterm><primary>AddProperty</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>AddProperty</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.AddProperty (string propertyName, object value, bool isReadOnly = <computeroutput>false</computeroutput>
+)</computeroutput></para><para>
+
+<para>添加一个原本不存在的 property。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>value</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>isReadOnly</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>存在指定 property 则返回 false，否则返回 true</para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1a95af2f768af1c7dfe055a82e5f385efa">Sarachan.UniTiya.IGameProperties</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a7fa4aa5d437aef06a1b50fe58c9eb779"/>    <section>
+    <title>ContainsProperty()</title>
+<indexterm><primary>ContainsProperty</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>ContainsProperty</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.ContainsProperty (string propertyName)</computeroutput></para><para>
+
+<para>是否包含指定 property </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1a170cf8260a53ec1286822f6b027259e4">Sarachan.UniTiya.IGameProperties</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a0524e82aba8de27dc29995535cc386f3"/>    <section>
+    <title>GetProperty&lt; T &gt;()<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>GetProperty&lt; T &gt;</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>GetProperty&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>T Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.GetProperty&lt; T &gt; (string propertyName)</computeroutput></para><para>
+
+<para>获取名为 propertyName 的 Property </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>T</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>KeyNotFoundException</entry>
+                                <entry>
+<para>不存在名为 propertyName 的属性</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>System.InvalidCastException</entry>
+                                <entry>
+<para>无法将属性转换成类型 T</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1a8f93d84c438fbe4606bb629ae1efd8c4">Sarachan.UniTiya.IGameProperties</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a1470f8b87a5ea58c4f7c69985f397225"/>    <section>
+    <title>GetProperty&lt; T &gt;()<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>GetProperty&lt; T &gt;</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>GetProperty&lt; T &gt;</secondary></indexterm>
+<para><computeroutput>T Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.GetProperty&lt; T &gt; (string propertyName, out bool isReadonly)</computeroutput></para><para>
+
+<para>获取名为 propertyName 的 Property </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>T</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>isReadonly</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+
+                <formalpara>
+                    <title>
+Exceptions                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>KeyNotFoundException</entry>
+                                <entry>
+<para>不存在名为 propertyName 的属性</para>
+</entry>
+                            </row>
+                            <row>
+                                <entry>System.InvalidCastException</entry>
+                                <entry>
+<para>无法将属性转换成类型 T</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1afa46559193ea53af8b1d914c2f58f94b">Sarachan.UniTiya.IGameProperties</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a6b617476d444d38e49623f236c4571b0"/>    <section>
+    <title>IsReadonlyProperty()</title>
+<indexterm><primary>IsReadonlyProperty</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>IsReadonlyProperty</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.IsReadonlyProperty (string propertyName)</computeroutput></para><para>
+
+<para>指定 proeprty 是否是 readonly </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para></para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1a2be70b8603361462ac427c8b68732f11">Sarachan.UniTiya.IGameProperties</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1abd40ff41b17fde0bc7553bed6068a815"/>    <section>
+    <title>RemoveProperty()</title>
+<indexterm><primary>RemoveProperty</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>RemoveProperty</secondary></indexterm>
+<para><computeroutput>bool Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.RemoveProperty (string propertyName)</computeroutput></para><para>
+
+<para>删除指定 property </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>存在指定 property 则返回 true，否则返回 false</para>
+</formalpara>
+</para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1a6a3e641d91011d2ccaaa705e3d6bf0f0">Sarachan.UniTiya.IGameProperties</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration_1a130b73b777f380bbcbb7d3c9108e752c"/>    <section>
+    <title>SetProperty()</title>
+<indexterm><primary>SetProperty</primary><secondary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Utility.RuntimePropertyConfiguration</primary><secondary>SetProperty</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Utility.RuntimePropertyConfiguration.SetProperty (string propertyName, object value, bool isReadOnly = <computeroutput>false</computeroutput>
+)</computeroutput></para><para>
+
+<para>强制设置一个 property，无论其是否存在，是否是 readOnly。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>propertyName</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>value</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>isReadOnly</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties_1a10402b3acbe012d0c3ae1cbace1f1b30">Sarachan.UniTiya.IGameProperties</link>.</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/GamePropertyConfiguration.cs</section>
+</section>

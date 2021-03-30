@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>UniTiya</title>
+    </info>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespace_sarachan.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_behaviour_tree.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_commands.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_consumer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_damage_interact.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_interaction.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_item_system.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_state_machine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_tiya_actor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_tiya_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_tiya_weapon.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespace_sarachan_1_1_uni_tiya_1_1_utility.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_actor_tiya_animator_adapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_a_s___param_resetter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_commands_1_1_basic_command_processor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_behaviour_consumer_ref.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1_1_change_inventory_item_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_skill_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_cmpt_hide_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_composite_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1_1_damage_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_decorator_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_drop_tiya_item_interactive.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_cmpt_hide_event_1_1_event_data.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_float_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_float_property_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_hide_if_attribute.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_actor_camera_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_actor_tiya_animator_adapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_actor_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_damageable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_damage_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_random_obj_initializer_1_1_i_d_weight_pair.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_enable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_game_dynamic_numerical_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_game_properties.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_interactive.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_inventory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_item_manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_int_consumer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_int_consumer_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1_1_interact_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_int_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_int_property_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_int_property_value_synchronizer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_inverter_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_equip_weapon_listener.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_box_damage_field_listener.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_sphere_damage_field_listener.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_health_listener.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_weapon_tiya_animator_adapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_leaf_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_multi_consumer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_multi_enum_attribute.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_object_property_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_property_value_synchronizer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_random_obj_initializer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_selector_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_random_sequence_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeater_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_repeat_until_fail_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration_1_1_rig_configuration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_scriptable_consumer_ref.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_selector_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_sequence_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_set_property_attribute.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_serializable_dictionary_1_1_storage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_string_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_string_property_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_succeeder_node.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_timed_obj_recycler.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_equipment_manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_properties.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_view.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_basic_actor_damageable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_damageable.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_enable_agent.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_tiya_game_dynamic_property_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_fixed_numerical_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_tiya_game_fixed_property_dictionary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_game_system.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_1_1_tiya_item_comparer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_item_manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_tiya_state_machine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_controller.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_weapon_item.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_weapon_1_1_tiya_weapon_tiya_animation_adapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_type_restriction_attribute.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_unity_object_property.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_input_provider.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_action_animation_bind.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_attack_animation_bind.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="struct_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_locomotion_animation_bind.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_melee_skill_animation_events_handler.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_behaviour.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_weapon_tiya_animator_adapter_base.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

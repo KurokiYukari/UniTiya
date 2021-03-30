@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaPropertyAttributes.DisableAttribute Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaPropertyAttributes.DisableAttribute</primary></indexterm>
+<para>
+
+<para>将一个 SerializedField （根据条件）设为 Disable </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaPropertyAttributes.DisableAttribute:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute_1a2003fe8fb03194eeebf8710b408d59ea"/><emphasis role="strong">DisableAttribute</emphasis> (string conditionFieldName, bool disableIfCondition)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute_1a8e18cb6f038f47f92b8f58549c87b086"/>string <emphasis role="strong">ConditionFieldName</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_property_attributes_1_1_disable_attribute_1a4f6e54ff316aed2b08969fe1faf16aa2"/>bool <emphasis role="strong">DisableIfCondition</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>将一个 SerializedField （根据条件）设为 Disable </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaPropertyAttributes/DisableAttribute.cs</section>
+</section>

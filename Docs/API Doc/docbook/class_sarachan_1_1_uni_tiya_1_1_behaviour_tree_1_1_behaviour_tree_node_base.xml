@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.BehaviourTreeNodeBase Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.BehaviourTreeNodeBase</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.BehaviourTreeNodeBase:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base_1ae5294a35a6eee8571e116531cc669b9f"/>virtual void <emphasis role="strong">Reset</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base_1a4aa1b813a58afb82045ed9bcc2c6b53a"/>abstract BehaviourTreeResult <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base_1a56ccb8fa8e3920fe8ca73e7548f84660"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link> <emphasis role="strong">BehaviourTree</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base_1ae20cbe759017d29edcd818ee4b87dc47"/>BehaviourTreeNodeType <emphasis role="strong">NodeType</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base_1ac6dda8b5ddac7c313e02e8a054ad9ab8"/>BehaviourTreeResult <emphasis role="strong">NodeResult</emphasis> = 0<computeroutput> [get, protected set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base_1acc05e8685ea64d423d7a680245d303bd"/>bool <emphasis role="strong">CanRun</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/BehaviourTreeNode.cs</section>

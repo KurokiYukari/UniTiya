@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaView.TiyaActorCameraView Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</primary></indexterm>
+<para>
+
+<para>视角控制器，基于 Cinemachine 实现 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaView.TiyaActorCameraView:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>new void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1aae4710729582c27ba5d9b76b63166ffa">View</link> (Vector2 direction)</para>
+
+<para>根据 direction 指⽰的⽅向改变当前视⾓ </para>
+</listitem>
+            <listitem><para>new void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a62efb353d669c360b312ff3eb698f427">TempRotate</link> (float pitchAngle)</para>
+
+<para>制造一个暂时的强制视角偏移。 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a9c59062f4a0f361ffb4166f0085c873a">LoadConfiguration</link> (<link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link> configuration)</para>
+
+<para>读取一个视角配置 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1aebcfcbf7ab24f65410be873667849e10"/>GameObject <emphasis role="strong">Follow</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a3446f92e89297bd01e71a36aaffa801c"/>GameObject <emphasis role="strong">LookAt</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a3c5146a7d17e1608dd3df863701d6d5b"/>new void <emphasis role="strong">Awake</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96">CameraViewMode</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a550c9773a473495a6817067a5fa33fbc">Mode</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>控制当前的视角操控模式 </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1acfa6ccc02eea731e1b424e942aa17980"/>override Transform <emphasis role="strong">ViewTransform</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a7b835d79bbe27c89b1f4fa3e9b9512a9"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_enable">IEnable</link> <emphasis role="strong">ControllerEnabler</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a3aa6032c63627a37a0e676e4e207ed50"/>float <emphasis role="strong">FieldOfView</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>视角控制器，基于 Cinemachine 实现 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a9c59062f4a0f361ffb4166f0085c873a"/>    <section>
+    <title>LoadConfiguration()</title>
+<indexterm><primary>LoadConfiguration</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</primary><secondary>LoadConfiguration</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaView.TiyaActorCameraView.LoadConfiguration (<link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_configuration">TiyaActorCameraViewConfiguration</link> configuration)</computeroutput></para><para>
+
+<para>读取一个视角配置 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>configuration</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a62efb353d669c360b312ff3eb698f427"/>    <section>
+    <title>TempRotate()</title>
+<indexterm><primary>TempRotate</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</primary><secondary>TempRotate</secondary></indexterm>
+<para><computeroutput>new void Sarachan.UniTiya.TiyaView.TiyaActorCameraView.TempRotate (float pitchAngle)</computeroutput></para><para>
+
+<para>制造一个暂时的强制视角偏移。 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>pitchAngle</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1adc7360b135870f114e08423b583ab6e6">Sarachan.UniTiya.IActorView</link>.</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1aae4710729582c27ba5d9b76b63166ffa"/>    <section>
+    <title>View()</title>
+<indexterm><primary>View</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</primary><secondary>View</secondary></indexterm>
+<para><computeroutput>new void Sarachan.UniTiya.TiyaView.TiyaActorCameraView.View (Vector2 deltaRotation)</computeroutput></para><para>
+
+<para>根据 direction 指⽰的⽅向改变当前视⾓ </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>deltaRotation</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implements <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_view_1a62f9628c0459585f4cef4d36b2724168">Sarachan.UniTiya.IActorView</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view_1a550c9773a473495a6817067a5fa33fbc"/>    <section>
+    <title>Mode</title>
+<indexterm><primary>Mode</primary><secondary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.TiyaActorCameraView</primary><secondary>Mode</secondary></indexterm>
+<para><computeroutput><link linkend="_namespace_sarachan_1_1_uni_tiya_1a3793ecd6f7d5d6ac6922109bc8134e96">CameraViewMode</link> Sarachan.UniTiya.TiyaView.TiyaActorCameraView.Mode<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>控制当前的视角操控模式 </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaView/TiyaActorCameraView.cs</section>
+</section>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree</primary></indexterm>
+<para>
+
+<para>行为树实现 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree_1a9b7384fa6ea96b1122e3f277d50a82a3"/>void <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties">IGameProperties</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree_1af79f2dba2de0cb95b034f30ed3a8ddd9">GlobalData</link> = new <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration">RuntimePropertyConfiguration</link>()<computeroutput> [get]</computeroutput>
+</para>
+
+<para>行为树的公用数据空间 </para>
+</listitem>
+            <listitem><para>abstract <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base">BehaviourTreeNodeBase</link> <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree_1a81e713bdd9b0a289ff24b6f9632f4d21">RootNode</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>行为树的根节点 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>行为树实现 </para>
+
+
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree_1af79f2dba2de0cb95b034f30ed3a8ddd9"/>    <section>
+    <title>GlobalData</title>
+<indexterm><primary>GlobalData</primary><secondary>Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree</primary><secondary>GlobalData</secondary></indexterm>
+<para><computeroutput><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_properties">IGameProperties</link> Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree.GlobalData = new <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_runtime_property_configuration">RuntimePropertyConfiguration</link>()<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>行为树的公用数据空间 </para>
+</para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree_1a81e713bdd9b0a289ff24b6f9632f4d21"/>    <section>
+    <title>RootNode</title>
+<indexterm><primary>RootNode</primary><secondary>Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree</primary><secondary>RootNode</secondary></indexterm>
+<para><computeroutput>abstract <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base">BehaviourTreeNodeBase</link> Sarachan.UniTiya.BehaviourTree.TiyaBehaviourTree.RootNode<computeroutput>[get]</computeroutput>, <computeroutput>[protected]</computeroutput></computeroutput></para><para>
+
+<para>行为树的根节点 </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/TiyaBehaviourTree.cs</section>
+</section>

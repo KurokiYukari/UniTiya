@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_unity_object_property" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.GamePropertyConfiguration.UnityObjectProperty Struct Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.GamePropertyConfiguration.UnityObjectProperty</primary></indexterm>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_unity_object_property_1ae2b9bdc08a12be9425241d61d93f14ea"/>Object <emphasis role="strong">value</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_game_property_configuration_1_1_unity_object_property_1aa5806de03381fd78dbe3baea858826a8"/>bool <emphasis role="strong">isReadonly</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+Runtime/Utility/GamePropertyConfiguration.cs</section>

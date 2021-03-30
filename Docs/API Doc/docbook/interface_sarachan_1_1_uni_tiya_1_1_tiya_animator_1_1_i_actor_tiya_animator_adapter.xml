@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_actor_tiya_animator_adapter" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaAnimator.IActorTiyaAnimatorAdapter Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaAnimator.IActorTiyaAnimatorAdapter</primary></indexterm>
+<para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的适配器接口 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaAnimator.IActorTiyaAnimatorAdapter:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_tiya_animator_1_1_i_actor_tiya_animator_adapter.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_tiya_animator">TiyaAnimator</link> 对于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的适配器接口 </para>
+
+
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/TiyaAnimator/IActorTiyaAnimatorAdapter.cs</section>
+</section>

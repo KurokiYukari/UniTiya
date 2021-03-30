@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer" xml:lang="en-US">
+<title>Sarachan.UniTiya.Consumer.IConsumer Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Consumer.IConsumer</primary></indexterm>
+<para>
+
+<para>一切 Cost 的接口 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Consumer.IConsumer:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer_1a6c1c183d3397e685436e645f5db62681"/>bool <emphasis role="strong">Consume</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_consumer_1_1_i_consumer_1aa34d34d77fd93abf12bb3432adcc9638"/>bool <emphasis role="strong">CanConsume</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>一切 Cost 的接口 </para>
+
+
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Consumer/IConsumer.cs</section>
+</section>

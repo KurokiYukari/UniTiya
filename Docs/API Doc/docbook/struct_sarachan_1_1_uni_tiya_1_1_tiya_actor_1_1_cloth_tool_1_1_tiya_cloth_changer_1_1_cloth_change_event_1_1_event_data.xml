@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData Struct Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data_1a9dfc0bc8ba9ee6bf4690bebf444eb5e4"/><emphasis role="strong">EventData</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link> fromCloth, <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link> toCloth)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link> <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data_1ae9309403d55bd7e2748ddcd27e330ee4">FromCloth</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>为更换时的 Invoker._currentCloth </para>
+</listitem>
+            <listitem><para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link> <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data_1ad5a7883511273857d0f595e14874e1c8">ToCloth</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>目标 cloth </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data_1ae9309403d55bd7e2748ddcd27e330ee4"/>    <section>
+    <title>FromCloth</title>
+<indexterm><primary>FromCloth</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData</primary><secondary>FromCloth</secondary></indexterm>
+<para><computeroutput><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link> Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData.FromCloth<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>为更换时的 Invoker._currentCloth </para>
+</para>
+    </section><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data_1ad5a7883511273857d0f595e14874e1c8"/>    <section>
+    <title>ToCloth</title>
+<indexterm><primary>ToCloth</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData</primary><secondary>ToCloth</secondary></indexterm>
+<para><computeroutput><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_info">TiyaClothInfo</link> Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent.EventData.ToCloth<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>目标 cloth </para>
+</para>
+</section>
+<para>
+The documentation for this struct was generated from the following file:</para>
+Runtime/TiyaActor/ClothTool/TiyaClothChanger.cs</section>
+</section>

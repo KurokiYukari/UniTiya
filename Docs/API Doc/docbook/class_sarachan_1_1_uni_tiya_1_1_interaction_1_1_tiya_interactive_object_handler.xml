@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler" xml:lang="en-US">
+<title>Sarachan.UniTiya.Interaction.TiyaInteractiveObjectHandler Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Interaction.TiyaInteractiveObjectHandler</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Interaction.TiyaInteractiveObjectHandler:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler_1ae04982b2935dffc51610bf4940e4e33f"/>void <emphasis role="strong">IterateInteractive</emphasis> (bool toNext=true)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler_1a8d544098210d5ec7f0daed47cef0f5b7"/>void <emphasis role="strong">IterateInteractive</emphasis> (InputAction.CallbackContext context)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler_1ad6f81852002215e59b4a972466199222"/>void <emphasis role="strong">SubmitInteractive</emphasis> (InputAction.CallbackContext context)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler_1a091f0fc5be3cf3e4840804a72644e069"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link>??? <emphasis role="strong">Actor</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler_1aee8fc376c7e6cd5459894f16b3ad75db"/>ICollection&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link> &gt; <emphasis role="strong">Interactives</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler_1afd006d2a9eee63a227cc7944ec3c06e4"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive">IInteractive</link>? <emphasis role="strong">SelectedInteractive</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Interaction/TiyaInteractiveObjectHandler.cs</section>

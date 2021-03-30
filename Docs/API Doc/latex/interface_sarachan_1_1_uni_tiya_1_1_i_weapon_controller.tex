@@ -1,0 +1,68 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IWeapon\+Controller Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller}\index{Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}}
+
+
+Weapon\+Controller 接口  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IWeapon\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_af192be37d6dd8c8bb1fc368ea1bd9a6f}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_af192be37d6dd8c8bb1fc368ea1bd9a6f}} 
+Game\+Object {\bfseries Weapon\+Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_a5304ecd167700d019a03f90d0284ec2f}{Owner}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Weapon 的 Owener。 大多数情况下这个属性时动态的，注意要在 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager}{IEquipment\+Manager}} 装备 Weapon 时设置 Owner。 也因为这个原因，很多根据 Owner 的初始化设定需要通过该属性的 setter 实现。 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_abd49d3c634bda3744dfe2f46d1b53527}{Default\+Actions}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Weapon 行为的默认无条件行为 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_ad9e88736c53ceedf241badaeb76bacce}{Actor\+Weapon\+Actions}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Weapon 的具体行为 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Weapon\+Controller 接口 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_ad9e88736c53ceedf241badaeb76bacce}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_ad9e88736c53ceedf241badaeb76bacce}} 
+\index{Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}!ActorWeaponActions@{ActorWeaponActions}}
+\index{ActorWeaponActions@{ActorWeaponActions}!Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}}
+\doxysubsubsection{\texorpdfstring{ActorWeaponActions}{ActorWeaponActions}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}} Sarachan.\+Uni\+Tiya.\+IWeapon\+Controller.\+Actor\+Weapon\+Actions\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Weapon 的具体行为 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_abd49d3c634bda3744dfe2f46d1b53527}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_abd49d3c634bda3744dfe2f46d1b53527}} 
+\index{Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}!DefaultActions@{DefaultActions}}
+\index{DefaultActions@{DefaultActions}!Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}}
+\doxysubsubsection{\texorpdfstring{DefaultActions}{DefaultActions}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{IWeapon\+Actor\+Actions}} Sarachan.\+Uni\+Tiya.\+IWeapon\+Controller.\+Default\+Actions\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Weapon 行为的默认无条件行为 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_a5304ecd167700d019a03f90d0284ec2f}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller_a5304ecd167700d019a03f90d0284ec2f}} 
+\index{Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}!Owner@{Owner}}
+\index{Owner@{Owner}!Sarachan.UniTiya.IWeaponController@{Sarachan.UniTiya.IWeaponController}}
+\doxysubsubsection{\texorpdfstring{Owner}{Owner}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} Sarachan.\+Uni\+Tiya.\+IWeapon\+Controller.\+Owner\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Weapon 的 Owener。 大多数情况下这个属性时动态的，注意要在 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager}{IEquipment\+Manager}} 装备 Weapon 时设置 Owner。 也因为这个原因，很多根据 Owner 的初始化设定需要通过该属性的 setter 实现。 
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IWeapon\+Controller.\+cs\end{DoxyCompactItemize}

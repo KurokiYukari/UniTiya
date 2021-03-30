@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties" xml:lang="en-US">
+<title>Sarachan.UniTiya.IActorProperties Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IActorProperties</primary></indexterm>
+<para>
+
+<para>Actor 的游戏属性 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IActorProperties:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties_1a825c2a8bd02795eff372327b8ec023d8"/>string <emphasis role="strong">ActorName</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties_1a9eef1a94c84c49f28b31963771beeab6"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_dynamic_numerical_property">IGameDynamicNumericalProperty</link> <emphasis role="strong">ActorHP</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties_1a1304553a04d5df9d6ea8dee47998ab12"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property">IGameFixedNumericalProperty</link> <emphasis role="strong">WalkSpeed</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties_1ae6c1ac28d0da4e4ed9bb4b58992e3604"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property">IGameFixedNumericalProperty</link> <emphasis role="strong">RunSpeed</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties_1accf389267434e78aedc87566fdf04baa"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property">IGameFixedNumericalProperty</link> <emphasis role="strong">SprintSpeed</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties_1a50d5ae3e33184712f8c01a45294ed873"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_game_fixed_numerical_property">IGameFixedNumericalProperty</link> <emphasis role="strong">JumpInitialSpeed</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Actor 的游戏属性 </para>
+
+
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IActorProperties.cs</section>
+</section>

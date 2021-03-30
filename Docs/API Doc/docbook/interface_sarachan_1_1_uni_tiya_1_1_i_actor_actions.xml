@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions" xml:lang="en-US">
+<title>Sarachan.UniTiya.IActorActions Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IActorActions</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.IActorActions:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1a151d2d6ad23629a155f1ff4187854fa0">Move</link> (Vector3 direction)</para>
+
+<para>设置一个方向，然后尝试朝目标方向进行主动移动。 主动移动不保证一定会生效（比如在空中时，会设置方向但并不会立即朝目标方向移动，而是落地后再朝目标方向移动） </para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1af7918626fae283382f9d5789cd342e8a"/>void <emphasis role="strong">SimpleMove</emphasis> (Vector3 displacement)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1a6c85bfea296b6e55e064f3f812b68dd0"/>void <emphasis role="strong">SwitchLocomotionMode</emphasis> (<link linkend="_namespace_sarachan_1_1_uni_tiya_1a0ff04df772533c15658d8f4459daa269">ActorLocomotionMode</link> mode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1a579eb02cf29faea3eb78beda6a5f1cbd"/>void <emphasis role="strong">Jump</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1a10d6ebef55991eab87cfde866cef247d"/>void <emphasis role="strong">View</emphasis> (Vector2 direction)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1a13d4a7bc2354c3a21176d82e59b7529a"/>void <emphasis role="strong">Lock</emphasis> (LockCmdType cmdType)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_1a151d2d6ad23629a155f1ff4187854fa0"/>    <section>
+    <title>Move()</title>
+<indexterm><primary>Move</primary><secondary>Sarachan.UniTiya.IActorActions</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IActorActions</primary><secondary>Move</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IActorActions.Move (Vector3 direction)</computeroutput></para><para>
+
+<para>设置一个方向，然后尝试朝目标方向进行主动移动。 主动移动不保证一定会生效（比如在空中时，会设置方向但并不会立即朝目标方向移动，而是落地后再朝目标方向移动） </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>direction</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_1a53b747e3500ac576f4ee4fc614a62b2a">Sarachan.UniTiya.TiyaActor.TiyaActorStateMachine</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IActorController.cs</section>
+</section>

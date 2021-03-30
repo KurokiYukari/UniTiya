@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill_behaviour" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.WeaponDamageFieldMeleeSkillBehaviour Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.WeaponDamageFieldMeleeSkillBehaviour</primary></indexterm>
+<para>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill">WeaponDamageFieldMeleeSkill</link> 的 Behaviour 引用。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.WeaponDamageFieldMeleeSkillBehaviour:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill_behaviour.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill_behaviour_1a75f889f64dd5456d4cd1bd015cd914bd"/>override <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill">WeaponDamageFieldMeleeSkill</link> <emphasis role="strong">Skill</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill">WeaponDamageFieldMeleeSkill</link> 的 Behaviour 引用。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Skills/WeaponDamageFieldMeleeSkillBehaviour.cs</section>
+</section>

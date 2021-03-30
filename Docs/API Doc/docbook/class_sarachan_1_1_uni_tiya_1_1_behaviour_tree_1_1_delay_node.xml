@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node" xml:lang="en-US">
+<title>Sarachan.UniTiya.BehaviourTree.DelayNode Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.BehaviourTree.DelayNode</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.BehaviourTree.DelayNode:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node_1a1bfa4b5585caaa0662923a3962866286"/><emphasis role="strong">DelayNode</emphasis> (<link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_tiya_behaviour_tree">TiyaBehaviourTree</link> behaviourTree, <link linkend="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_behaviour_tree_node_base">BehaviourTreeNodeBase</link> decoratedNode)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node_1a678c9cf65399e63ca8d63f46aea84f0d"/>override BehaviourTreeResult <emphasis role="strong">Update</emphasis> ()</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node_1aa59882ff7edb6c4f4659d24ab5e1aa75"/>override void <emphasis role="strong">Reset</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_behaviour_tree_1_1_delay_node_1ad23dd672a061b54ea455e19a6b6fce27"/>float <emphasis role="strong">DelayTime</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Behaviour Tree/Decorator Nodes/DelayNode.cs</section>

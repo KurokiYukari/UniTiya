@@ -1,0 +1,326 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IActor\+Controller Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+
+
+Actor 模块的接口，定义了 Actor 的属性和无条件行为  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IActor\+Controller\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}
+\end{center}
+\end{figure}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a17cb5ee3dfcc50c62bc1a03d0dda405e}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a17cb5ee3dfcc50c62bc1a03d0dda405e}} 
+Game\+Object {\bfseries Game\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor}{ICommand\+Processor}}$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} $>$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_aa09b6bf2ea2539ad5a9d7af7c0a16e02}{Command\+Processor}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 命令处理器 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties}{IActor\+Properties}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ada7e3a02e1f6723ab36440217bf1966f}{Game\+Properties}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的游戏属性 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{IActor\+View}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a062e3a40e4af881c7a80dc639853e3af}{Actor\+View}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的视角控制器 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager}{IEquipment\+Manager}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a992ad3fccac62e1b357de44b3f9a9c06}{Equipment\+Manager}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的装备管理器 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_inventory}{IInventory}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a7402224a88363cff6fa871dc4c0f57ac}{Inventory}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的背包 \end{DoxyCompactList}\item 
+Transform \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a2dfd63d497976b085d28297e2adb3fe0}{Actor\+Transform}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 用于获取 Actor 的世界定位和定向的 Transform。 建议不要直接用该 Transform 直接改变 actor 的位置和旋转（\+Tiya 语义上不保证这样的更改会生效），而是用 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} 提供的方法执行需要的操作 \end{DoxyCompactList}\item 
+Animator \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a07ccdddde73eb0593972b515c86a33f8}{Animator}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的 Animator \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}{IActor\+Actions}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ae9d7a0d62bc702ebdb5c32ce31bd08af}{Default\+Actions}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的默认无条件行为 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}{IActor\+Actions}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a042e48b25f288f7a278ff1cfa48bb115}{Actor\+Actions}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 的行为重载 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ac9b3e81161872a046c1a36a7c4616d7b}{Is\+Player}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 指示是否是玩家 \end{DoxyCompactList}\item 
+Vector3 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ae55b878f779d245c829b26c273202c36}{Velocity}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 当前的速度 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a870478256e3d7e34999ad3919d6840f5}{Locomotion\+Mode}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 当前的移动方式，详见 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_aed9a72348b556cd3df97dfb2815d5428}{Scaled\+Speed}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 被缩放到固定的范围的速度，一般用于传递给 Animator 设置动画。 \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}{Actor\+Aim\+Mode}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a2baa094375333e0867eb597a8454699d}{Aim\+Mode}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Actor 与 Aim\+Pose 向关联的模式，详见 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}{Actor\+Aim\+Mode}} \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ac5b8f70c04784c0d8df1d541060673b5}{Is\+Ground}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 是否在地面 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a5a7c5bebe3433e83df499a8adc9ca412}{Is\+Moving}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 是否在主动移动。被动的移动（如被击飞、一些动画的 root\+Motion 等）都不会使其为 true。 在空中的状态（比如跳跃）会将当前的 Is\+Moving 状态锁定，直到 Is\+Ground 为 true 才会改变。 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a1d2050d7e9cdaf8587aa38aac1a0e453}{Can\+Move}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 设置能否主动移动。将之设为 false 会强制停止当前的主动移动。 \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a4c16e55d7c0148594da747f73fca99ba}{Can\+Jump}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 设置能否跳跃。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+System.\+Action \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a1415cff8628c6da1fb67fc2b11facead}{On\+Start\+Moving}}
+\begin{DoxyCompactList}\small\item\em 开始主动移动事件 \end{DoxyCompactList}\item 
+System.\+Action \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a352b1ce0df0a974fd92a40887d5c9aa7}{On\+Stop\+Moving}}
+\begin{DoxyCompactList}\small\item\em 停止主动移动事件 \end{DoxyCompactList}\item 
+System.\+Action \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a3ca5a0a586389cce17be91eafad9ea7b}{On\+Jump}}
+\begin{DoxyCompactList}\small\item\em 跳跃事件 \end{DoxyCompactList}\item 
+System.\+Action \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a9a40f06577266ecf4c4380f9125e220c}{On\+Leaving\+Ground}}
+\begin{DoxyCompactList}\small\item\em 离开地面事件 \end{DoxyCompactList}\item 
+System.\+Action \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a8ab3837283366c361a3e34f9f7d67ba3}{On\+Landing}}
+\begin{DoxyCompactList}\small\item\em 落地事件 \end{DoxyCompactList}\item 
+System.\+Action$<$ \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}}, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} $>$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_afef5a4983626d14c8e01cc6871f21565}{On\+Change\+Locomotion\+Mode}}
+\begin{DoxyCompactList}\small\item\em 改变 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a870478256e3d7e34999ad3919d6840f5}{Locomotion\+Mode}} 事件，他在模式改变后的时候触发。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Actor 模块的接口，定义了 Actor 的属性和无条件行为 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a042e48b25f288f7a278ff1cfa48bb115}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a042e48b25f288f7a278ff1cfa48bb115}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!ActorActions@{ActorActions}}
+\index{ActorActions@{ActorActions}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{ActorActions}{ActorActions}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}{IActor\+Actions}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Actor\+Actions\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的行为重载 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a2dfd63d497976b085d28297e2adb3fe0}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a2dfd63d497976b085d28297e2adb3fe0}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!ActorTransform@{ActorTransform}}
+\index{ActorTransform@{ActorTransform}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{ActorTransform}{ActorTransform}}
+{\footnotesize\ttfamily Transform Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Actor\+Transform\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+用于获取 Actor 的世界定位和定向的 Transform。 建议不要直接用该 Transform 直接改变 actor 的位置和旋转（\+Tiya 语义上不保证这样的更改会生效），而是用 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}} 提供的方法执行需要的操作 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a062e3a40e4af881c7a80dc639853e3af}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a062e3a40e4af881c7a80dc639853e3af}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!ActorView@{ActorView}}
+\index{ActorView@{ActorView}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{ActorView}{ActorView}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_view}{IActor\+View}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Actor\+View\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的视角控制器 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a2baa094375333e0867eb597a8454699d}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a2baa094375333e0867eb597a8454699d}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!AimMode@{AimMode}}
+\index{AimMode@{AimMode}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{AimMode}{AimMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}{Actor\+Aim\+Mode}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Aim\+Mode\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Actor 与 Aim\+Pose 向关联的模式，详见 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a444266ab04199976c627173111c4f4ea}{Actor\+Aim\+Mode}} 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a07ccdddde73eb0593972b515c86a33f8}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a07ccdddde73eb0593972b515c86a33f8}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!Animator@{Animator}}
+\index{Animator@{Animator}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{Animator}{Animator}}
+{\footnotesize\ttfamily Animator Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Animator\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的 Animator 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a4c16e55d7c0148594da747f73fca99ba}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a4c16e55d7c0148594da747f73fca99ba}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!CanJump@{CanJump}}
+\index{CanJump@{CanJump}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{CanJump}{CanJump}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Can\+Jump\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+设置能否跳跃。 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a1d2050d7e9cdaf8587aa38aac1a0e453}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a1d2050d7e9cdaf8587aa38aac1a0e453}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!CanMove@{CanMove}}
+\index{CanMove@{CanMove}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{CanMove}{CanMove}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Can\+Move\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+设置能否主动移动。将之设为 false 会强制停止当前的主动移动。 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_aa09b6bf2ea2539ad5a9d7af7c0a16e02}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_aa09b6bf2ea2539ad5a9d7af7c0a16e02}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!CommandProcessor@{CommandProcessor}}
+\index{CommandProcessor@{CommandProcessor}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{CommandProcessor}{CommandProcessor}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_processor}{ICommand\+Processor}}$<$\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller}{IActor\+Controller}}$>$ Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Command\+Processor\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+命令处理器 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ae9d7a0d62bc702ebdb5c32ce31bd08af}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ae9d7a0d62bc702ebdb5c32ce31bd08af}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!DefaultActions@{DefaultActions}}
+\index{DefaultActions@{DefaultActions}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{DefaultActions}{DefaultActions}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}{IActor\+Actions}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Default\+Actions\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的默认无条件行为 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a992ad3fccac62e1b357de44b3f9a9c06}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a992ad3fccac62e1b357de44b3f9a9c06}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!EquipmentManager@{EquipmentManager}}
+\index{EquipmentManager@{EquipmentManager}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{EquipmentManager}{EquipmentManager}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_equipment_manager}{IEquipment\+Manager}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Equipment\+Manager\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的装备管理器 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ada7e3a02e1f6723ab36440217bf1966f}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ada7e3a02e1f6723ab36440217bf1966f}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!GameProperties@{GameProperties}}
+\index{GameProperties@{GameProperties}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{GameProperties}{GameProperties}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_properties}{IActor\+Properties}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Game\+Properties\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的游戏属性 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a7402224a88363cff6fa871dc4c0f57ac}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a7402224a88363cff6fa871dc4c0f57ac}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!Inventory@{Inventory}}
+\index{Inventory@{Inventory}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{Inventory}{Inventory}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_inventory}{IInventory}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Inventory\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Actor 的背包 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ac5b8f70c04784c0d8df1d541060673b5}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ac5b8f70c04784c0d8df1d541060673b5}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!IsGround@{IsGround}}
+\index{IsGround@{IsGround}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{IsGround}{IsGround}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Is\+Ground\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+是否在地面 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a5a7c5bebe3433e83df499a8adc9ca412}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a5a7c5bebe3433e83df499a8adc9ca412}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!IsMoving@{IsMoving}}
+\index{IsMoving@{IsMoving}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{IsMoving}{IsMoving}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Is\+Moving\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+是否在主动移动。被动的移动（如被击飞、一些动画的 root\+Motion 等）都不会使其为 true。 在空中的状态（比如跳跃）会将当前的 Is\+Moving 状态锁定，直到 Is\+Ground 为 true 才会改变。 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ac9b3e81161872a046c1a36a7c4616d7b}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ac9b3e81161872a046c1a36a7c4616d7b}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!IsPlayer@{IsPlayer}}
+\index{IsPlayer@{IsPlayer}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{IsPlayer}{IsPlayer}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Is\+Player\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+指示是否是玩家 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a870478256e3d7e34999ad3919d6840f5}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a870478256e3d7e34999ad3919d6840f5}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!LocomotionMode@{LocomotionMode}}
+\index{LocomotionMode@{LocomotionMode}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{LocomotionMode}{LocomotionMode}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Locomotion\+Mode\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Actor 当前的移动方式，详见 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_aed9a72348b556cd3df97dfb2815d5428}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_aed9a72348b556cd3df97dfb2815d5428}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!ScaledSpeed@{ScaledSpeed}}
+\index{ScaledSpeed@{ScaledSpeed}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{ScaledSpeed}{ScaledSpeed}}
+{\footnotesize\ttfamily float Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Scaled\+Speed\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+被缩放到固定的范围的速度，一般用于传递给 Animator 设置动画。 
+
+对应于 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a870478256e3d7e34999ad3919d6840f5}{Locomotion\+Mode}} ，scaled\+Speed 的最大值被限定为： Walk -\/$>$ 1 ; Run -\/$>$ 2 ; Sprint -\/$>$ 3 \mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ae55b878f779d245c829b26c273202c36}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_ae55b878f779d245c829b26c273202c36}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!Velocity@{Velocity}}
+\index{Velocity@{Velocity}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{Velocity}{Velocity}}
+{\footnotesize\ttfamily Vector3 Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+Velocity\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+当前的速度 
+
+
+
+\doxysubsection{Event Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_afef5a4983626d14c8e01cc6871f21565}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_afef5a4983626d14c8e01cc6871f21565}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!OnChangeLocomotionMode@{OnChangeLocomotionMode}}
+\index{OnChangeLocomotionMode@{OnChangeLocomotionMode}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{OnChangeLocomotionMode}{OnChangeLocomotionMode}}
+{\footnotesize\ttfamily System.\+Action$<$\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}}, \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}}$>$ Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+On\+Change\+Locomotion\+Mode}
+
+
+
+改变 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a870478256e3d7e34999ad3919d6840f5}{Locomotion\+Mode}} 事件，他在模式改变后的时候触发。 
+
+第一个参数为前一个 Locomotion\+Mode，第二个参数为当前 Locomotion\+Mode \mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a3ca5a0a586389cce17be91eafad9ea7b}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a3ca5a0a586389cce17be91eafad9ea7b}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!OnJump@{OnJump}}
+\index{OnJump@{OnJump}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{OnJump}{OnJump}}
+{\footnotesize\ttfamily System.\+Action Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+On\+Jump}
+
+
+
+跳跃事件 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a8ab3837283366c361a3e34f9f7d67ba3}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a8ab3837283366c361a3e34f9f7d67ba3}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!OnLanding@{OnLanding}}
+\index{OnLanding@{OnLanding}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{OnLanding}{OnLanding}}
+{\footnotesize\ttfamily System.\+Action Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+On\+Landing}
+
+
+
+落地事件 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a9a40f06577266ecf4c4380f9125e220c}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a9a40f06577266ecf4c4380f9125e220c}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!OnLeavingGround@{OnLeavingGround}}
+\index{OnLeavingGround@{OnLeavingGround}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{OnLeavingGround}{OnLeavingGround}}
+{\footnotesize\ttfamily System.\+Action Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+On\+Leaving\+Ground}
+
+
+
+离开地面事件 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a1415cff8628c6da1fb67fc2b11facead}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a1415cff8628c6da1fb67fc2b11facead}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!OnStartMoving@{OnStartMoving}}
+\index{OnStartMoving@{OnStartMoving}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{OnStartMoving}{OnStartMoving}}
+{\footnotesize\ttfamily System.\+Action Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+On\+Start\+Moving}
+
+
+
+开始主动移动事件 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a352b1ce0df0a974fd92a40887d5c9aa7}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller_a352b1ce0df0a974fd92a40887d5c9aa7}} 
+\index{Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}!OnStopMoving@{OnStopMoving}}
+\index{OnStopMoving@{OnStopMoving}!Sarachan.UniTiya.IActorController@{Sarachan.UniTiya.IActorController}}
+\doxysubsubsection{\texorpdfstring{OnStopMoving}{OnStopMoving}}
+{\footnotesize\ttfamily System.\+Action Sarachan.\+Uni\+Tiya.\+IActor\+Controller.\+On\+Stop\+Moving}
+
+
+
+停止主动移动事件 
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IActor\+Controller.\+cs\end{DoxyCompactItemize}

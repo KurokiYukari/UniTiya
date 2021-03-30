@@ -1,0 +1,55 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IActor\+Actions Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}\index{Sarachan.UniTiya.IActorActions@{Sarachan.UniTiya.IActorActions}}
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IActor\+Actions\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a151d2d6ad23629a155f1ff4187854fa0}{Move}} (Vector3 direction)
+\begin{DoxyCompactList}\small\item\em 设置一个方向，然后尝试朝目标方向进行主动移动。 主动移动不保证一定会生效（比如在空中时，会设置方向但并不会立即朝目标方向移动，而是落地后再朝目标方向移动） \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_af7918626fae283382f9d5789cd342e8a}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_af7918626fae283382f9d5789cd342e8a}} 
+void {\bfseries Simple\+Move} (Vector3 displacement)
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a6c85bfea296b6e55e064f3f812b68dd0}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a6c85bfea296b6e55e064f3f812b68dd0}} 
+void {\bfseries Switch\+Locomotion\+Mode} (\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a0ff04df772533c15658d8f4459daa269}{Actor\+Locomotion\+Mode}} mode)
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a579eb02cf29faea3eb78beda6a5f1cbd}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a579eb02cf29faea3eb78beda6a5f1cbd}} 
+void {\bfseries Jump} ()
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a10d6ebef55991eab87cfde866cef247d}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a10d6ebef55991eab87cfde866cef247d}} 
+void {\bfseries View} (Vector2 direction)
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a13d4a7bc2354c3a21176d82e59b7529a}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a13d4a7bc2354c3a21176d82e59b7529a}} 
+void {\bfseries Lock} (Lock\+Cmd\+Type cmd\+Type)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a151d2d6ad23629a155f1ff4187854fa0}\label{interface_sarachan_1_1_uni_tiya_1_1_i_actor_actions_a151d2d6ad23629a155f1ff4187854fa0}} 
+\index{Sarachan.UniTiya.IActorActions@{Sarachan.UniTiya.IActorActions}!Move@{Move}}
+\index{Move@{Move}!Sarachan.UniTiya.IActorActions@{Sarachan.UniTiya.IActorActions}}
+\doxysubsubsection{\texorpdfstring{Move()}{Move()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IActor\+Actions.\+Move (\begin{DoxyParamCaption}\item[{Vector3}]{direction }\end{DoxyParamCaption})}
+
+
+
+设置一个方向，然后尝试朝目标方向进行主动移动。 主动移动不保证一定会生效（比如在空中时，会设置方向但并不会立即朝目标方向移动，而是落地后再朝目标方向移动） 
+
+
+\begin{DoxyParams}{Parameters}
+{\em direction} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_tiya_actor_state_machine_a53b747e3500ac576f4ee4fc614a62b2a}{Sarachan.\+Uni\+Tiya.\+Tiya\+Actor.\+Tiya\+Actor\+State\+Machine}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IActor\+Controller.\+cs\end{DoxyCompactItemize}

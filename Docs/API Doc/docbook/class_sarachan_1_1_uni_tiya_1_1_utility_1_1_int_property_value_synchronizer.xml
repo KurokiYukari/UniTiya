@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_int_property_value_synchronizer" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.IntPropertyValueSynchronizer Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.IntPropertyValueSynchronizer</primary></indexterm>
+<para>
+
+<para>int 类型的 PropertyValueSynchronizer&lt;T&gt; </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.IntPropertyValueSynchronizer:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_int_property_value_synchronizer.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_int_property_value_synchronizer_1ab836fe146eca142a454a2d5442bc4933"/><emphasis role="strong">IntPropertyValueSynchronizer</emphasis> (object subject, string propertyName)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>int 类型的 PropertyValueSynchronizer&lt;T&gt; </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/PropertyValueSynchronizer.cs</section>
+</section>

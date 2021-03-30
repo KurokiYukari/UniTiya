@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1_1_change_inventory_item_event" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.TiyaInventory.ChangeInventoryItemEvent Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.TiyaInventory.ChangeInventoryItemEvent</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.ItemSystem.TiyaInventory.ChangeInventoryItemEvent:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_1_1_change_inventory_item_event.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/ItemSystem/TiyaInventory.cs</section>

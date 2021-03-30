@@ -1,0 +1,86 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}\index{Sarachan.UniTiya.Skill.ISkill@{Sarachan.UniTiya.Skill.ISkill}}
+
+
+\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 接口。\+Skill 是对行为的一种抽象，它会尝试去执行某种行为（但不一定成功）。 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 支持两种行为： 
+\begin{DoxyItemize}
+\end{DoxyItemize}\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} 中实现，\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 对行为无影响。 
+
+
+\begin{DoxyItemize}
+\end{DoxyItemize}\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} 返回 true 时开始，\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 时结束。 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 只有在行为开始状态才有实际意义，其余状态对行为无影响。  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.131313cm]{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} ()
+\begin{DoxyCompactList}\small\item\em 尝试使用该技能。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} ()
+\begin{DoxyCompactList}\small\item\em 取消当前正在使用的行为 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_aea0dfe8cb5caff578a740db89e85b6d6}\label{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_aea0dfe8cb5caff578a740db89e85b6d6}} 
+Action {\bfseries On\+Performing}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_af989f44558815277469c3bc6411f5864}\label{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_af989f44558815277469c3bc6411f5864}} 
+Action {\bfseries On\+Canceling}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 接口。\+Skill 是对行为的一种抽象，它会尝试去执行某种行为（但不一定成功）。 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 支持两种行为： 
+\begin{DoxyItemize}
+\end{DoxyItemize}\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} 中实现，\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 对行为无影响。 
+
+
+\begin{DoxyItemize}
+\end{DoxyItemize}\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} 返回 true 时开始，\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 时结束。 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 只有在行为开始状态才有实际意义，其余状态对行为无影响。 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}\label{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}} 
+\index{Sarachan.UniTiya.Skill.ISkill@{Sarachan.UniTiya.Skill.ISkill}!Cancel@{Cancel}}
+\index{Cancel@{Cancel}!Sarachan.UniTiya.Skill.ISkill@{Sarachan.UniTiya.Skill.ISkill}}
+\doxysubsubsection{\texorpdfstring{Cancel()}{Cancel()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill.\+Cancel (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+取消当前正在使用的行为 
+
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_ad3ae9748bea1bfba414e5824f39c5e61}{Sarachan.\+Uni\+Tiya.\+Skill.\+Tiya\+Skill}}, and \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_a58fa11572172fabfd3d5416369e05b4d}{Sarachan.\+Uni\+Tiya.\+Skill.\+Skill\+Ref\+Behaviour\+Base$<$ T $>$}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}\label{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}} 
+\index{Sarachan.UniTiya.Skill.ISkill@{Sarachan.UniTiya.Skill.ISkill}!TryToPerform@{TryToPerform}}
+\index{TryToPerform@{TryToPerform}!Sarachan.UniTiya.Skill.ISkill@{Sarachan.UniTiya.Skill.ISkill}}
+\doxysubsubsection{\texorpdfstring{TryToPerform()}{TryToPerform()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+Skill.\+ISkill.\+Try\+To\+Perform (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+尝试使用该技能。 
+
+\begin{DoxyReturn}{Returns}
+使用成功返回 true，否则返回 false
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_af089e680c065bee45f9ca2b7632f3342}{Sarachan.\+Uni\+Tiya.\+Skill.\+Tiya\+Skill}}, and \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base_af9106c0bdabebda5e1ee6eef2bbf70d9}{Sarachan.\+Uni\+Tiya.\+Skill.\+Skill\+Ref\+Behaviour\+Base$<$ T $>$}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Skills/ISkill.\+cs\end{DoxyCompactItemize}

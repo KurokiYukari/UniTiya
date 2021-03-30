@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_skill" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_behaviour">AmmunitionSkillBehaviour</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill">AmmunitionSkill</link></para>
+
+<para>弹药控制 Skill，Perform 是进行 Reload。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_skill_behaviour">ChargeSkillBehaviour</link></para>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill">ChargeDecoratorSkill</link> 的 Behaviour 引用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill">ChargeDecoratorSkill</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill">ISkill</link></para>
+
+<para><link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 接口。Skill 是对行为的一种抽象，它会尝试去执行某种行为（但不一定成功）。 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 支持两种行为： <itemizedlist>
+</itemizedlist>
+<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> 中实现，<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 对行为无影响。 </para>
+
+<para><itemizedlist>
+</itemizedlist>
+<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a57405a399b765c2c0da5c4e8afd6e566">TryToPerform</link> 返回 true 时开始，<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 时结束。 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_1a967a819403a78dd1dfd07aeb5b3172df">Cancel</link> 只有在行为开始状态才有实际意义，其余状态对行为无影响。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base">SkillRefBehaviourBase</link></para>
+
+<para>skill 的 Monobehaviour 形式，通过重写 <link linkend="_namespace_sarachan_1_1_uni_tiya_1_1_skill">Skill</link> 实现。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile">TiyaProjectile</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_behaviour">TiyaSkillBehaviour</link></para>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill">TiyaSkill</link> 的 Behaviour 引用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill">TiyaSkill</link></para>
+
+<para>可配置的 Skill，可以通过序列化配置，或者继承重写 OnInit， 在其中配置事件、consumer 等来实现自定义的 Skill。 初始状态下，Skill 是 Disable 的，需要先调用 Enable 才能使用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_behaviour">WeaponAnimatedMeleeSkillBehaviour</link></para>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill">WeaponAnimatedMeleeSkill</link> 的 Behaviour 引用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill">WeaponAnimatedMeleeSkill</link></para>
+
+<para>通过动画进行伤害判定的 Skill。 要求要进行判定的动画中设置了 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events">IMeleeWeaponAnimationEvents</link> 中对应的动画事件。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill_behaviour">WeaponDamageFieldMeleeSkillBehaviour</link></para>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill">WeaponDamageFieldMeleeSkill</link> 的 Behaviour 引用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill">WeaponDamageFieldMeleeSkill</link></para>
+
+<para>造成伤害区域的技能 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_melee_skill_animation_events_handler">WeaponMeleeSkillAnimationEventsHandler</link></para>
+</listitem>
+            <listitem><para>interface <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events">IMeleeWeaponAnimationEvents</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill">WeaponProjectileSkill</link></para>
+
+<para>SkillPerformer 需要是 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller">IWeaponController</link> 的 GameObject。 向 Weapon Owner 的 AimPose 方向投掷一个 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile">TiyaProjectile</link> 的 Skill。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_behaviour">WeaponShootSkillBehaviour</link></para>
+
+<para><link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill">WeaponShootSkill</link> 的 Behaviour 引用。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill">WeaponShootSkill</link></para>
+
+<para>依赖于 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill">WeaponProjectileSkill</link> 的射击 WeaponSkill。 其 Perform 是根据当前射击模式进行射击，并且提供额外 Action 来切换模式。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Enumerations    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_skill_1a25d4e80ea2a407904b9225376644d539"/>enum class <emphasis role="strong">ProjectileMode</emphasis> { <emphasis role="strong">Single</emphasis> = 1
+, <emphasis role="strong">Triple</emphasis> = 1 &lt;&lt; 1
+, <emphasis role="strong">Auto</emphasis> = 1 &lt;&lt; 2
+ }</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

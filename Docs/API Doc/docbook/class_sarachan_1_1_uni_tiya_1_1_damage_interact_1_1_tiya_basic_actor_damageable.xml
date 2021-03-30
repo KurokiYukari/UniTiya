@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_basic_actor_damageable" xml:lang="en-US">
+<title>Sarachan.UniTiya.DamageInteract.TiyaBasicActorDamageable Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.DamageInteract.TiyaBasicActorDamageable</primary></indexterm>
+<para>
+
+<para>适用于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> 实现。 会根据 DamageSource 的 FinalDamageValue 减少 HP。 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.DamageInteract.TiyaBasicActorDamageable:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_basic_actor_damageable.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Protected Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_basic_actor_damageable_1a11bc23cb1a1896be7ca7df4af49e0bd8"/>override void <emphasis role="strong">ReceiveDamageOverride</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link> damageSource)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_damage_interact_1_1_tiya_basic_actor_damageable_1a9ef6ee895b58ab962e9940f6978957eb"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> <emphasis role="strong">Actor</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>适用于 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> 的 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> 实现。 会根据 DamageSource 的 FinalDamageValue 减少 HP。 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/DamageInteract/TiyaBasicActorDamageable.cs</section>
+</section>

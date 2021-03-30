@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</primary></indexterm>
+<para>
+
+<para>暖暖换衣服组件 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event">ClothChangeEvent</link></para>
+
+<para>更换 cloth 的 Event </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_cmpt_hide_event">ClothCmptHideEvent</link></para>
+
+<para>第一个参数是暖暖自身；第二个参数是 cloth；第三个参数是 clothCmpt </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a4d9bcbaf205fd1339317f2682b0bc2fb">HideClothComponent</link> (int index, bool hide=true)</para>
+
+<para>按 Cloth Optional Mesh 在数组中的位置 index 隐藏或显示其自身 </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a07a51eff226dd1e67b9bd47e60037bef">ChangeClothTo</link> (GameObject clothPrefab)</para>
+
+<para>将 clothPrefab 附加到当前 Model 上 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a2804395cac60cfbc7b6af3948f097055">DefaultClothPrefab</link></para>
+
+<para>默认 Cloth </para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1ae01fe428e61781d2a3f6f95c2fe32334"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_actor_model_info">TiyaActorModelInfo</link> <emphasis role="strong">CInfo</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a65ddf8ca8207965469ed611cdf331772"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event">ClothChangeEvent</link> <emphasis role="strong">OnClothChangeStart</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1ab207b5de56d22d319f3e74ee81bf7e78"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event">ClothChangeEvent</link> <emphasis role="strong">OnClothChangeFinish</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a5326efd4bd26431796e4851e17abf4f5"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_cmpt_hide_event">ClothCmptHideEvent</link> <emphasis role="strong">OnHideClothCmptStart</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a63f8abdd352440f376c724fb5804edaf"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_cmpt_hide_event">ClothCmptHideEvent</link> <emphasis role="strong">OnHideClothCmptFinish</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>暖暖换衣服组件 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a07a51eff226dd1e67b9bd47e60037bef"/>    <section>
+    <title>ChangeClothTo()</title>
+<indexterm><primary>ChangeClothTo</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</primary><secondary>ChangeClothTo</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ChangeClothTo (GameObject clothPrefab)</computeroutput></para><para>
+
+<para>将 clothPrefab 附加到当前 Model 上 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>clothPrefab</entry>
+                                <entry>
+<para>一个具有 ClothInfo 组件的 GameObject</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a4d9bcbaf205fd1339317f2682b0bc2fb"/>    <section>
+    <title>HideClothComponent()</title>
+<indexterm><primary>HideClothComponent</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</primary><secondary>HideClothComponent</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.HideClothComponent (int index, bool hide = <computeroutput>true</computeroutput>
+)</computeroutput></para><para>
+
+<para>按 Cloth Optional Mesh 在数组中的位置 index 隐藏或显示其自身 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>index</entry>
+                                <entry></entry>
+                            </row>
+                            <row>
+                                <entry>hide</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1a2804395cac60cfbc7b6af3948f097055"/>    <section>
+    <title>DefaultClothPrefab</title>
+<indexterm><primary>DefaultClothPrefab</primary><secondary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger</primary><secondary>DefaultClothPrefab</secondary></indexterm>
+<para><computeroutput>GameObject Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.DefaultClothPrefab</computeroutput></para><para>
+
+<para>默认 Cloth </para>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaActor/ClothTool/TiyaClothChanger.cs</section>
+</section>

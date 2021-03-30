@@ -1,0 +1,75 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IWeapon\+Actor\+Actions Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions}\index{Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}}
+
+
+Weapon\+Controller 提供给 Actor 的方法接口。 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya}{Uni\+Tiya}} 中默认提供两个攻击入口 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ad708dd0e4fa82c13614ad88ef94ca268}{Normal\+Attack(\+Skill\+Cmd\+Type)}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_a2d8da9056d65f109f48579f5a669dae7}{Special\+Attack(\+Skill\+Cmd\+Type)}}  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ad708dd0e4fa82c13614ad88ef94ca268}{Normal\+Attack}} (\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}} type)
+\begin{DoxyCompactList}\small\item\em 普通攻击 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_a2d8da9056d65f109f48579f5a669dae7}{Special\+Attack}} (\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}} type)
+\begin{DoxyCompactList}\small\item\em 特殊攻击 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+IList$<$ System.\+Action$<$ \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}} $>$ $>$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ac7a3a05afedf4655ddaacc6f53097b67}{Extra\+Skill\+Triggers}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 额外攻击入口 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Weapon\+Controller 提供给 Actor 的方法接口。 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya}{Uni\+Tiya}} 中默认提供两个攻击入口 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ad708dd0e4fa82c13614ad88ef94ca268}{Normal\+Attack(\+Skill\+Cmd\+Type)}} \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_a2d8da9056d65f109f48579f5a669dae7}{Special\+Attack(\+Skill\+Cmd\+Type)}} 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ad708dd0e4fa82c13614ad88ef94ca268}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ad708dd0e4fa82c13614ad88ef94ca268}} 
+\index{Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}!NormalAttack@{NormalAttack}}
+\index{NormalAttack@{NormalAttack}!Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}}
+\doxysubsubsection{\texorpdfstring{NormalAttack()}{NormalAttack()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IWeapon\+Actor\+Actions.\+Normal\+Attack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}}}]{type }\end{DoxyParamCaption})}
+
+
+
+普通攻击 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_a2d8da9056d65f109f48579f5a669dae7}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_a2d8da9056d65f109f48579f5a669dae7}} 
+\index{Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}!SpecialAttack@{SpecialAttack}}
+\index{SpecialAttack@{SpecialAttack}!Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}}
+\doxysubsubsection{\texorpdfstring{SpecialAttack()}{SpecialAttack()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IWeapon\+Actor\+Actions.\+Special\+Attack (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}}}]{type }\end{DoxyParamCaption})}
+
+
+
+特殊攻击 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ac7a3a05afedf4655ddaacc6f53097b67}\label{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_ac7a3a05afedf4655ddaacc6f53097b67}} 
+\index{Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}!ExtraSkillTriggers@{ExtraSkillTriggers}}
+\index{ExtraSkillTriggers@{ExtraSkillTriggers}!Sarachan.UniTiya.IWeaponActorActions@{Sarachan.UniTiya.IWeaponActorActions}}
+\doxysubsubsection{\texorpdfstring{ExtraSkillTriggers}{ExtraSkillTriggers}}
+{\footnotesize\ttfamily IList$<$System.\+Action$<$\mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_a6bfe3556a378a7b3d706baf68174001b}{Skill\+Cmd\+Type}}$>$ $>$ Sarachan.\+Uni\+Tiya.\+IWeapon\+Actor\+Actions.\+Extra\+Skill\+Triggers\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+额外攻击入口 
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IWeapon\+Controller.\+cs\end{DoxyCompactItemize}

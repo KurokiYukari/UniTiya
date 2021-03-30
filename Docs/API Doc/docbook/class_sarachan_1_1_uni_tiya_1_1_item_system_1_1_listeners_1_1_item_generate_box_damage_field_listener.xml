@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_box_damage_field_listener" xml:lang="en-US">
+<title>Sarachan.UniTiya.ItemSystem.Listeners.ItemGenerateBoxDamageFieldListener Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.ItemSystem.Listeners.ItemGenerateBoxDamageFieldListener</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.ItemSystem.Listeners.ItemGenerateBoxDamageFieldListener:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_box_damage_field_listener.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_box_damage_field_listener_1acb7b9d3b624fac765bc761ea8768588b"/>void <emphasis role="strong">GenerateDamageField</emphasis> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_item">IItem</link> item, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_listeners_1_1_item_generate_box_damage_field_listener_1a413a39c3d65050a841765c117c2768d0"/><link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link>?? <emphasis role="strong">DamageSource</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/ItemSystem/Listeners/ItemGenerateBoxDamageFieldListener.cs</section>

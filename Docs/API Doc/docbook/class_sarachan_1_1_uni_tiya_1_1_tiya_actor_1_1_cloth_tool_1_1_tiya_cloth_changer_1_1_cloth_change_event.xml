@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent</primary></indexterm>
+<para>
+
+<para>更换 cloth 的 Event </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaActor.ClothTool.TiyaClothChanger.ClothChangeEvent:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>struct <link linkend="_struct_sarachan_1_1_uni_tiya_1_1_tiya_actor_1_1_cloth_tool_1_1_tiya_cloth_changer_1_1_cloth_change_event_1_1_event_data">EventData</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>更换 cloth 的 Event </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaActor/ClothTool/TiyaClothChanger.cs</section>
+</section>

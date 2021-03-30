@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events" xml:lang="en-US">
+<title>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events_1afc390ab1288bafc0592953773ef66df2">AE_OnBeginOnceAttack</link> ()</para>
+
+<para>重置攻击判定，应该在每一次独立的攻击开始时被动画事件触发。 建议在之中也进行第一次 OnCheckingAttackPath </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events_1aec1ce60158370926f19b47fd0e429842">AE_OnCheckingAttackPath</link> ()</para>
+
+<para>执行攻击判定检测 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events_1a877a4a66a277e88ce424741c1260c8c5">AE_OnOnceAttackEnd</link> ()</para>
+
+<para>重置攻击判定，应该在每一次独立的攻击动画的末尾被动画事件触发。 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events_1afc390ab1288bafc0592953773ef66df2"/>    <section>
+    <title>AE_OnBeginOnceAttack()</title>
+<indexterm><primary>AE_OnBeginOnceAttack</primary><secondary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</primary><secondary>AE_OnBeginOnceAttack</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents.AE_OnBeginOnceAttack ( )</computeroutput></para><para>
+
+<para>重置攻击判定，应该在每一次独立的攻击开始时被动画事件触发。 建议在之中也进行第一次 OnCheckingAttackPath </para>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_melee_skill_animation_events_handler_1abb46ca05492b2c2795f2497dc3cb7848">Sarachan.UniTiya.Skill.WeaponMeleeSkillAnimationEventsHandler</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events_1aec1ce60158370926f19b47fd0e429842"/>    <section>
+    <title>AE_OnCheckingAttackPath()</title>
+<indexterm><primary>AE_OnCheckingAttackPath</primary><secondary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</primary><secondary>AE_OnCheckingAttackPath</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents.AE_OnCheckingAttackPath ( )</computeroutput></para><para>
+
+<para>执行攻击判定检测 </para>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_melee_skill_animation_events_handler_1a587696ae10c86e98facf93fa4f82eb24">Sarachan.UniTiya.Skill.WeaponMeleeSkillAnimationEventsHandler</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events_1a877a4a66a277e88ce424741c1260c8c5"/>    <section>
+    <title>AE_OnOnceAttackEnd()</title>
+<indexterm><primary>AE_OnOnceAttackEnd</primary><secondary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents</primary><secondary>AE_OnOnceAttackEnd</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.Skill.IMeleeWeaponAnimationEvents.AE_OnOnceAttackEnd ( )</computeroutput></para><para>
+
+<para>重置攻击判定，应该在每一次独立的攻击动画的末尾被动画事件触发。 </para>
+</para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_melee_skill_animation_events_handler_1ad712af8bf7a6b524853cdfda81239c5b">Sarachan.UniTiya.Skill.WeaponMeleeSkillAnimationEventsHandler</link>.</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Skills/WeaponMeleeSkillAnimationEventsHandler.cs</section>
+</section>

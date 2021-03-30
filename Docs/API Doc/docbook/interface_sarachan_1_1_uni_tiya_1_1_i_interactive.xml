@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive" xml:lang="en-US">
+<title>Sarachan.UniTiya.IInteractive Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IInteractive</primary></indexterm>
+<para>
+
+<para>可交互接口 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IInteractive:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_interactive.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1a408944c5bbc2c8bdde2040e402a3762e">Interact</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</para>
+
+<para>执行交互逻辑 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>string <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1ad7eabd5ba4a15ae573076ed5ee51c0a0">InteractLabel</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>可交互的 label，一般用于 GUI 显示。 </para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1aa9e479d5c1b5bfe20d76c94273642b58"/>GameObject <emphasis role="strong">InteractiveObject</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1a164f5580077be4d63ee8fe8a8b24fbbf"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> &gt; <emphasis role="strong">OnInteracting</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>可交互接口 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1a408944c5bbc2c8bdde2040e402a3762e"/>    <section>
+    <title>Interact()</title>
+<indexterm><primary>Interact</primary><secondary>Sarachan.UniTiya.IInteractive</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IInteractive</primary><secondary>Interact</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IInteractive.Interact (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_actor_controller">IActorController</link> actor)</computeroutput></para><para>
+
+<para>执行交互逻辑 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>actor</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_1a6c65d99470490edb47b388fa1b10a54b">Sarachan.UniTiya.Interaction.TiyaInteractive</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_1ad7eabd5ba4a15ae573076ed5ee51c0a0"/>    <section>
+    <title>InteractLabel</title>
+<indexterm><primary>InteractLabel</primary><secondary>Sarachan.UniTiya.IInteractive</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IInteractive</primary><secondary>InteractLabel</secondary></indexterm>
+<para><computeroutput>string Sarachan.UniTiya.IInteractive.InteractLabel<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>可交互的 label，一般用于 GUI 显示。 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/InteractiveDeclarations.cs</section>
+</section>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__runtime__tiya_property_attributes__set_property__r_e_a_d_m_e" xml:lang="en-US">
+
+<para>A PropertyAttribute/PropertyDrawer combination that allows for properties in Unity</para>
+<section xml:id="_md__runtime__tiya_property_attributes__set_property__r_e_a_d_m_e_1autotoc_md0">
+<title>Example</title>
+
+<para>Unity allows you to serialize private fields with [SerializeField]. Use the new [SetProperty] attribute to have a public property set every time the field is modified in Unity&apos;s inspector. NOTE: It is okay to have private setters for public properties. Vanilla classes (i.e. non-MonoBehaviours) also work as well. <literallayout><computeroutput>[SerializeField, SetProperty(&quot;Number&quot;)]
+private float number;
+public float Number
+{
+    get
+    {
+        return number;
+    }
+    private set
+    {
+        number = Mathf.Clamp01(value);
+    }
+}
+</computeroutput></literallayout> </para>
+</section>
+</section>

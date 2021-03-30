@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.TiyaGameDynamicNumericalProperty Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.TiyaGameDynamicNumericalProperty</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.TiyaGameDynamicNumericalProperty:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property_1ae2f191ddcb0c25e053fc29cf49f9ddd5"/>float <emphasis role="strong">BaseValue</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property_1a055be667f1d050d51bed099f8787ef53"/>float <emphasis role="strong">ExtraValue</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property_1a11aadf0229b19339c24042a12f285c05"/>float <emphasis role="strong">MaxValue</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_game_dynamic_numerical_property_1a4a67f510a064e5869601a8d22f1b9de6"/>float <emphasis role="strong">Value</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Utility/TiyaGameNumericalProperty.cs</section>

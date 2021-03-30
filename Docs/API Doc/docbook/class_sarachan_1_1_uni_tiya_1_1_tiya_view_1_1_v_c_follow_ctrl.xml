@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl" xml:lang="en-US">
+<title>Sarachan.UniTiya.TiyaView.VCFollowCtrl Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.TiyaView.VCFollowCtrl</primary></indexterm>
+<para>
+
+<para>辅助 Behaviour，由 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view">TiyaActorCameraView</link> 动态创建 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.TiyaView.VCFollowCtrl:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl_1adb20332f74a7eba1239cf6e9483a1131"/>GameObject <emphasis role="strong">ConnectedObj</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl_1a87fcf751ca37d7621a12eb55bff9fd2d"/>GameObject <emphasis role="strong">LockTarget</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl_1ac1c6dd4d47576c8eb8fcf285db9658c8"/><link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view">TiyaActorCameraView</link> <emphasis role="strong">ViewController</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_v_c_follow_ctrl_1a3e2804979ac0983def0fd2afcdbec374"/>float <emphasis role="strong">RotateSpeed</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>辅助 Behaviour，由 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_tiya_view_1_1_tiya_actor_camera_view">TiyaActorCameraView</link> 动态创建 </para>
+
+
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/TiyaView/VCFollowCtrl.cs</section>
+</section>

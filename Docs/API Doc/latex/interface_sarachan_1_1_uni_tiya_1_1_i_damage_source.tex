@@ -1,0 +1,122 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IDamage\+Source Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}\index{Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}}
+
+
+伤害源  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IDamage\+Source\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a71bf88c5669c3946f1f9702fe14563fa}{On\+Before\+Do\+Damage}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} damageable)
+\begin{DoxyCompactList}\small\item\em Damageable Recieve\+Damage 前回调 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a55bb8673eb4db2c2c934f3a885d18c90}{On\+After\+Do\+Damage}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} damageable)
+\begin{DoxyCompactList}\small\item\em Damageable Recieve\+Damage 后回调 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a3a89b67f7a4ef31dadea6396d8c32b0a}{Producer}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 伤害制造者。 \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a91fbbff3d18a27924a416ea7660f881a}{Origin\+Damage\+Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 基础伤害数值 \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a8775c9bf8322272ad5b0395dfbe5e898}{Final\+Damage\+Value}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 最终伤害数值 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a5e36b2c39ab8133bc515cb3f0cb889c0}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a5e36b2c39ab8133bc515cb3f0cb889c0}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}{IDamage\+Source}}, \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} $>$ {\bfseries On\+Before\+Do\+Damage\+Event}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a32758d71567967182c111306164e11a1}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a32758d71567967182c111306164e11a1}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}{IDamage\+Source}}, \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} $>$ {\bfseries On\+After\+Do\+Damage\+Event}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+伤害源 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a55bb8673eb4db2c2c934f3a885d18c90}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a55bb8673eb4db2c2c934f3a885d18c90}} 
+\index{Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}!OnAfterDoDamage@{OnAfterDoDamage}}
+\index{OnAfterDoDamage@{OnAfterDoDamage}!Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}}
+\doxysubsubsection{\texorpdfstring{OnAfterDoDamage()}{OnAfterDoDamage()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IDamage\+Source.\+On\+After\+Do\+Damage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}}}]{damageable }\end{DoxyParamCaption})}
+
+
+
+Damageable Recieve\+Damage 后回调 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damageable} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_ad1a7746e906627d561d797528cfb9126}{Sarachan.\+Uni\+Tiya.\+Utility.\+Tiya\+Basic\+Damage\+Source}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a71bf88c5669c3946f1f9702fe14563fa}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a71bf88c5669c3946f1f9702fe14563fa}} 
+\index{Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}!OnBeforeDoDamage@{OnBeforeDoDamage}}
+\index{OnBeforeDoDamage@{OnBeforeDoDamage}!Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}}
+\doxysubsubsection{\texorpdfstring{OnBeforeDoDamage()}{OnBeforeDoDamage()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IDamage\+Source.\+On\+Before\+Do\+Damage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}}}]{damageable }\end{DoxyParamCaption})}
+
+
+
+Damageable Recieve\+Damage 前回调 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damageable} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a7dcd52481f0a0929f76fcafdf20e61b3}{Sarachan.\+Uni\+Tiya.\+Utility.\+Tiya\+Basic\+Damage\+Source}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a8775c9bf8322272ad5b0395dfbe5e898}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a8775c9bf8322272ad5b0395dfbe5e898}} 
+\index{Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}!FinalDamageValue@{FinalDamageValue}}
+\index{FinalDamageValue@{FinalDamageValue}!Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}}
+\doxysubsubsection{\texorpdfstring{FinalDamageValue}{FinalDamageValue}}
+{\footnotesize\ttfamily float Sarachan.\+Uni\+Tiya.\+IDamage\+Source.\+Final\+Damage\+Value\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+最终伤害数值 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a91fbbff3d18a27924a416ea7660f881a}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a91fbbff3d18a27924a416ea7660f881a}} 
+\index{Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}!OriginDamageValue@{OriginDamageValue}}
+\index{OriginDamageValue@{OriginDamageValue}!Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}}
+\doxysubsubsection{\texorpdfstring{OriginDamageValue}{OriginDamageValue}}
+{\footnotesize\ttfamily float Sarachan.\+Uni\+Tiya.\+IDamage\+Source.\+Origin\+Damage\+Value\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+基础伤害数值 
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a3a89b67f7a4ef31dadea6396d8c32b0a}\label{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a3a89b67f7a4ef31dadea6396d8c32b0a}} 
+\index{Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}!Producer@{Producer}}
+\index{Producer@{Producer}!Sarachan.UniTiya.IDamageSource@{Sarachan.UniTiya.IDamageSource}}
+\doxysubsubsection{\texorpdfstring{Producer}{Producer}}
+{\footnotesize\ttfamily Game\+Object Sarachan.\+Uni\+Tiya.\+IDamage\+Source.\+Producer\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+伤害制造者。 
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IDamage\+Source.\+cs\end{DoxyCompactItemize}

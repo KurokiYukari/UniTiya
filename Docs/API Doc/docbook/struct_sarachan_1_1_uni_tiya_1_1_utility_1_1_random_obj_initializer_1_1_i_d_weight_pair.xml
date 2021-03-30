@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_random_obj_initializer_1_1_i_d_weight_pair" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.RandomObjInitializer.IDWeightPair Struct Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.RandomObjInitializer.IDWeightPair</primary></indexterm>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_random_obj_initializer_1_1_i_d_weight_pair_1a52410c9c92d233b95c2bd3cad0e0ff20"/>string <emphasis role="strong">ID</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_struct_sarachan_1_1_uni_tiya_1_1_utility_1_1_random_obj_initializer_1_1_i_d_weight_pair_1aebbca199c9c8a07685cf27c8fd372ef5"/>float <emphasis role="strong">Weight</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this struct was generated from the following file:</para>
+Runtime/Utility/RandomObjInitializer.cs</section>

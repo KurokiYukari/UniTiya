@@ -1,0 +1,106 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Utility.\+Tiya\+Basic\+Damage\+Source Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source}\index{Sarachan.UniTiya.Utility.TiyaBasicDamageSource@{Sarachan.UniTiya.Utility.TiyaBasicDamageSource}}
+
+
+基础的可配置 Damageable\+Source  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+Utility.\+Tiya\+Basic\+Damage\+Source\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.860465cm]{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1_1_damage_event}{Damage\+Event}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a7dcd52481f0a0929f76fcafdf20e61b3}{On\+Before\+Do\+Damage}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} damageable)
+\begin{DoxyCompactList}\small\item\em Damageable Recieve\+Damage 前回调 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_ad1a7746e906627d561d797528cfb9126}{On\+After\+Do\+Damage}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} damageable)
+\begin{DoxyCompactList}\small\item\em Damageable Recieve\+Damage 后回调 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a2b4757969bc7096284594789a99a58ac}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a2b4757969bc7096284594789a99a58ac}} 
+virtual void {\bfseries On\+Before\+Do\+Damage\+Override} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} damageable)
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_adcfdebcd3053f94b39e7f1e8dd266673}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_adcfdebcd3053f94b39e7f1e8dd266673}} 
+virtual void {\bfseries On\+After\+Do\+Damage\+Override} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} damageable)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a9a6236c76fe287e5f397ffc19843a309}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a9a6236c76fe287e5f397ffc19843a309}} 
+virtual Game\+Object {\bfseries Producer}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a2a58bf745dff8910b65cef1b5a8c8cb0}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a2a58bf745dff8910b65cef1b5a8c8cb0}} 
+virtual float {\bfseries Origin\+Damage\+Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a8b2102292b6f88bc7069e0d23d702d99}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a8b2102292b6f88bc7069e0d23d702d99}} 
+float {\bfseries Final\+Damage\+Value}\hspace{0.3cm}{\ttfamily  \mbox{[}get, protected set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_adddaa110ace823c6949f4bc432404bd8}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_adddaa110ace823c6949f4bc432404bd8}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}{IDamage\+Source}}, \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} $>$ {\bfseries On\+Before\+Do\+Damage\+Event}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a8a1aff7b11f1bf9764394b33dfd542c3}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a8a1aff7b11f1bf9764394b33dfd542c3}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source}{IDamage\+Source}}, \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}} $>$ {\bfseries On\+After\+Do\+Damage\+Event}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+基础的可配置 Damageable\+Source 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_ad1a7746e906627d561d797528cfb9126}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_ad1a7746e906627d561d797528cfb9126}} 
+\index{Sarachan.UniTiya.Utility.TiyaBasicDamageSource@{Sarachan.UniTiya.Utility.TiyaBasicDamageSource}!OnAfterDoDamage@{OnAfterDoDamage}}
+\index{OnAfterDoDamage@{OnAfterDoDamage}!Sarachan.UniTiya.Utility.TiyaBasicDamageSource@{Sarachan.UniTiya.Utility.TiyaBasicDamageSource}}
+\doxysubsubsection{\texorpdfstring{OnAfterDoDamage()}{OnAfterDoDamage()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Utility.\+Tiya\+Basic\+Damage\+Source.\+On\+After\+Do\+Damage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}}}]{damageable }\end{DoxyParamCaption})}
+
+
+
+Damageable Recieve\+Damage 后回调 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damageable} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a55bb8673eb4db2c2c934f3a885d18c90}{Sarachan.\+Uni\+Tiya.\+IDamage\+Source}}.
+
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a7dcd52481f0a0929f76fcafdf20e61b3}\label{class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_a7dcd52481f0a0929f76fcafdf20e61b3}} 
+\index{Sarachan.UniTiya.Utility.TiyaBasicDamageSource@{Sarachan.UniTiya.Utility.TiyaBasicDamageSource}!OnBeforeDoDamage@{OnBeforeDoDamage}}
+\index{OnBeforeDoDamage@{OnBeforeDoDamage}!Sarachan.UniTiya.Utility.TiyaBasicDamageSource@{Sarachan.UniTiya.Utility.TiyaBasicDamageSource}}
+\doxysubsubsection{\texorpdfstring{OnBeforeDoDamage()}{OnBeforeDoDamage()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+Utility.\+Tiya\+Basic\+Damage\+Source.\+On\+Before\+Do\+Damage (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damageable}{IDamageable}}}]{damageable }\end{DoxyParamCaption})}
+
+
+
+Damageable Recieve\+Damage 前回调 
+
+
+\begin{DoxyParams}{Parameters}
+{\em damageable} & \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_a71bf88c5669c3946f1f9702fe14563fa}{Sarachan.\+Uni\+Tiya.\+IDamage\+Source}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Damage\+Interact/Tiya\+Basic\+Damage\+Source.\+cs\end{DoxyCompactItemize}

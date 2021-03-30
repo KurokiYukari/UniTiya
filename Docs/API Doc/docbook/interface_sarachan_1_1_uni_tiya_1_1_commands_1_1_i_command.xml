@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command" xml:lang="en-US">
+<title>Sarachan.UniTiya.Commands.ICommand&lt; in in T &gt; Interface Template Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Commands.ICommand&lt; in in T &gt;</primary></indexterm>
+<para>
+
+<para>命令接口 </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_1a6b7c930509caecdff9d24db144cb54a7">Execute</link> (T subject)</para>
+
+<para>执行命令 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>命令接口 </para>
+
+
+
+<para>
+                <formalpara>
+                    <title>
+Template Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>T</entry>
+                                <entry>
+<para>执行命令的主体</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command_1a6b7c930509caecdff9d24db144cb54a7"/>    <section>
+    <title>Execute()</title>
+<indexterm><primary>Execute</primary><secondary>Sarachan.UniTiya.Commands.ICommand&lt; in in T &gt;</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.Commands.ICommand&lt; in in T &gt;</primary><secondary>Execute</secondary></indexterm>
+<para><computeroutput>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_commands_1_1_i_command">Sarachan.UniTiya.Commands.ICommand</link>&lt; in in T &gt;.Execute (T subject)</computeroutput></para><para>
+
+<para>执行命令 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>subject</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Commands/ICommand.cs</section>
+</section>

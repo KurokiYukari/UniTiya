@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer" xml:lang="en-US">
+<title>Sarachan.UniTiya.Consumer.ColdDownConsumer Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Consumer.ColdDownConsumer</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Consumer.ColdDownConsumer:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_1abea22fe0907384c27639f83afc6afae0"/><emphasis role="strong">ColdDownConsumer</emphasis> (float coldDownTime)</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_1ae8f98ae2f7b54fb8b104ddbd1c552ebd"/>bool <emphasis role="strong">Consume</emphasis> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_1adca4faecef2fb2d47ea6d8e4675d374f"/>float <emphasis role="strong">ColdDownTime</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_1a214b6a6e5787c665a094036638457192"/>float? <emphasis role="strong">RemainedCD</emphasis><computeroutput> [get, set]</computeroutput>
+</para>
+</listitem>
+            <listitem><para><anchor xml:id="_class_sarachan_1_1_uni_tiya_1_1_consumer_1_1_cold_down_consumer_1a76b3aedcbd105e76457484e57e143266"/>bool <emphasis role="strong">CanConsume</emphasis><computeroutput> [get]</computeroutput>
+</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/Consumer/ColdDownConsumerBehaviour.cs</section>

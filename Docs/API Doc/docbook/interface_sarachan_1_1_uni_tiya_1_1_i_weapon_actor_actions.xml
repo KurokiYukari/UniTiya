@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions" xml:lang="en-US">
+<title>Sarachan.UniTiya.IWeaponActorActions Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IWeaponActorActions</primary></indexterm>
+<para>
+
+<para>WeaponController 提供给 Actor 的方法接口。 <link linkend="_namespace_sarachan_1_1_uni_tiya">UniTiya</link> 中默认提供两个攻击入口 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ad708dd0e4fa82c13614ad88ef94ca268">NormalAttack(SkillCmdType)</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1a2d8da9056d65f109f48579f5a669dae7">SpecialAttack(SkillCmdType)</link> </para>
+ 
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ad708dd0e4fa82c13614ad88ef94ca268">NormalAttack</link> (<link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link> type)</para>
+
+<para>普通攻击 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1a2d8da9056d65f109f48579f5a669dae7">SpecialAttack</link> (<link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link> type)</para>
+
+<para>特殊攻击 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>IList&lt; System.Action&lt; <link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link> &gt; &gt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ac7a3a05afedf4655ddaacc6f53097b67">ExtraSkillTriggers</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>额外攻击入口 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>WeaponController 提供给 Actor 的方法接口。 <link linkend="_namespace_sarachan_1_1_uni_tiya">UniTiya</link> 中默认提供两个攻击入口 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ad708dd0e4fa82c13614ad88ef94ca268">NormalAttack(SkillCmdType)</link> <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1a2d8da9056d65f109f48579f5a669dae7">SpecialAttack(SkillCmdType)</link> </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ad708dd0e4fa82c13614ad88ef94ca268"/>    <section>
+    <title>NormalAttack()</title>
+<indexterm><primary>NormalAttack</primary><secondary>Sarachan.UniTiya.IWeaponActorActions</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IWeaponActorActions</primary><secondary>NormalAttack</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IWeaponActorActions.NormalAttack (<link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link> type)</computeroutput></para><para>
+
+<para>普通攻击 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>type</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1a2d8da9056d65f109f48579f5a669dae7"/>    <section>
+    <title>SpecialAttack()</title>
+<indexterm><primary>SpecialAttack</primary><secondary>Sarachan.UniTiya.IWeaponActorActions</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IWeaponActorActions</primary><secondary>SpecialAttack</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IWeaponActorActions.SpecialAttack (<link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link> type)</computeroutput></para><para>
+
+<para>特殊攻击 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>type</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_weapon_actor_actions_1ac7a3a05afedf4655ddaacc6f53097b67"/>    <section>
+    <title>ExtraSkillTriggers</title>
+<indexterm><primary>ExtraSkillTriggers</primary><secondary>Sarachan.UniTiya.IWeaponActorActions</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IWeaponActorActions</primary><secondary>ExtraSkillTriggers</secondary></indexterm>
+<para><computeroutput>IList&lt;System.Action&lt;<link linkend="_namespace_sarachan_1_1_uni_tiya_1a6bfe3556a378a7b3d706baf68174001b">SkillCmdType</link>&gt; &gt; Sarachan.UniTiya.IWeaponActorActions.ExtraSkillTriggers<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>额外攻击入口 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IWeaponController.cs</section>
+</section>

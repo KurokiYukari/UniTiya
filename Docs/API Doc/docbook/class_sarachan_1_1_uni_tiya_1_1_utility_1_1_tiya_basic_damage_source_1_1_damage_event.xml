@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1_1_damage_event" xml:lang="en-US">
+<title>Sarachan.UniTiya.Utility.TiyaBasicDamageSource.DamageEvent Class Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Utility.TiyaBasicDamageSource.DamageEvent</primary></indexterm>
+<para>Inheritance diagram for Sarachan.UniTiya.Utility.TiyaBasicDamageSource.DamageEvent:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1_1_damage_event.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+Runtime/DamageInteract/TiyaBasicDamageSource.cs</section>

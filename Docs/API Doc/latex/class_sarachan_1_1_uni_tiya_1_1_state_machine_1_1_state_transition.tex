@@ -1,0 +1,96 @@
+\hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition}{}\doxysection{Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Transition Class Reference}
+\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition}\index{Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}}
+
+
+State 的转换  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_acdc2ba6b64d935770395d1b831fa36ce}{State\+Transition}} (string destination\+State\+Id=null, Func$<$ bool $>$ trigger\+Condition=null, Action on\+Transition\+Done=null)
+\item 
+bool \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_aaf97892e3c92c733447b9cb8a9d12065}{Check\+Transition}} ()
+\begin{DoxyCompactList}\small\item\em 检测当前 transition 是否满足转换条件 应该在 State 的 On\+State\+Update 中检测。 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_a5b6cde04b24900c28e4315850a8cf343}{Do\+Transition}} ()
+\begin{DoxyCompactList}\small\item\em 触发 Transition 回调 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_a2a422149bbeac96f845922f0c2b9e9df}{Destination\+State\+Id}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em 转换目标 State 的 ID，null 代表退出当前状态，转向 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_state_machine}{State\+Machine}} 的 Entry\+State。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_ae9851b0c4e65a6c646bff011259375d7}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_ae9851b0c4e65a6c646bff011259375d7}} 
+Action {\bfseries On\+Transition\+Done}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+State 的转换 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_acdc2ba6b64d935770395d1b831fa36ce}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_acdc2ba6b64d935770395d1b831fa36ce}} 
+\index{Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}!StateTransition@{StateTransition}}
+\index{StateTransition@{StateTransition}!Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}}
+\doxysubsubsection{\texorpdfstring{StateTransition()}{StateTransition()}}
+{\footnotesize\ttfamily Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Transition.\+State\+Transition (\begin{DoxyParamCaption}\item[{string}]{destination\+State\+Id = {\ttfamily null},  }\item[{Func$<$ bool $>$}]{trigger\+Condition = {\ttfamily null},  }\item[{Action}]{on\+Transition\+Done = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+
+
+
+\begin{DoxyParams}{Parameters}
+{\em destination\+State\+Id} & 目标 State。默认是退出当前 State，交由状态机决定目标 State\\
+\hline
+{\em trigger\+Condition} & 转换条件。默认是无条件转换\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_aaf97892e3c92c733447b9cb8a9d12065}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_aaf97892e3c92c733447b9cb8a9d12065}} 
+\index{Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}!CheckTransition@{CheckTransition}}
+\index{CheckTransition@{CheckTransition}!Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}}
+\doxysubsubsection{\texorpdfstring{CheckTransition()}{CheckTransition()}}
+{\footnotesize\ttfamily bool Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Transition.\+Check\+Transition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+检测当前 transition 是否满足转换条件 应该在 State 的 On\+State\+Update 中检测。 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_a5b6cde04b24900c28e4315850a8cf343}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_a5b6cde04b24900c28e4315850a8cf343}} 
+\index{Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}!DoTransition@{DoTransition}}
+\index{DoTransition@{DoTransition}!Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}}
+\doxysubsubsection{\texorpdfstring{DoTransition()}{DoTransition()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Transition.\+Do\+Transition (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+触发 Transition 回调 
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_a2a422149bbeac96f845922f0c2b9e9df}\label{class_sarachan_1_1_uni_tiya_1_1_state_machine_1_1_state_transition_a2a422149bbeac96f845922f0c2b9e9df}} 
+\index{Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}!DestinationStateId@{DestinationStateId}}
+\index{DestinationStateId@{DestinationStateId}!Sarachan.UniTiya.StateMachine.StateTransition@{Sarachan.UniTiya.StateMachine.StateTransition}}
+\doxysubsubsection{\texorpdfstring{DestinationStateId}{DestinationStateId}}
+{\footnotesize\ttfamily string Sarachan.\+Uni\+Tiya.\+State\+Machine.\+State\+Transition.\+Destination\+State\+Id\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+转换目标 State 的 ID，null 代表退出当前状态，转向 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_state_machine}{State\+Machine}} 的 Entry\+State。 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+State Machine/State\+Transition.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_sarachan_1_1_uni_tiya_1_1_interaction" xml:lang="en-US">
+<title>Sarachan.UniTiya.Interaction Namespace Reference</title>
+<indexterm><primary>Sarachan.UniTiya.Interaction</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive">TiyaInteractive</link></para>
+
+<para>可配置的交互类。可以通过继承或配置 Event 自定义。 交互的的条件是 <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_interactive_object_handler">IInteractiveObjectHandler</link> 是否在 <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive">TiyaInteractive</link> GameObject 的 Trigger 内。 </para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_tiya_interactive_object_handler">TiyaInteractiveObjectHandler</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_class_sarachan_1_1_uni_tiya_1_1_interaction_1_1_drop_tiya_item_interactive">DropTiyaItemInteractive</link></para>
+
+<para>将指定物体加入角色背包的 Interactive </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,64 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IGame\+Object\+Pool Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool}\index{Sarachan.UniTiya.IGameObjectPool@{Sarachan.UniTiya.IGameObjectPool}}
+
+
+对象池接口  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_a09ceeafd92d75d318ef5992fc09e64c3}{Instantiate\+Prefab}} (string prefab\+Id, Vector3 position, Quaternion rotation)
+\begin{DoxyCompactList}\small\item\em 根据 prefab\+Id 获取对应的 Game\+Object \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_a72279b43affb14556a296745c71f484b}{Recycle\+Prefab}} (Game\+Object game\+Object)
+\begin{DoxyCompactList}\small\item\em 回收 game\+Object。如果 game\+Object 不存在于池中，则直接 Destory \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+对象池接口 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_a09ceeafd92d75d318ef5992fc09e64c3}\label{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_a09ceeafd92d75d318ef5992fc09e64c3}} 
+\index{Sarachan.UniTiya.IGameObjectPool@{Sarachan.UniTiya.IGameObjectPool}!InstantiatePrefab@{InstantiatePrefab}}
+\index{InstantiatePrefab@{InstantiatePrefab}!Sarachan.UniTiya.IGameObjectPool@{Sarachan.UniTiya.IGameObjectPool}}
+\doxysubsubsection{\texorpdfstring{InstantiatePrefab()}{InstantiatePrefab()}}
+{\footnotesize\ttfamily Game\+Object Sarachan.\+Uni\+Tiya.\+IGame\+Object\+Pool.\+Instantiate\+Prefab (\begin{DoxyParamCaption}\item[{string}]{prefab\+Id,  }\item[{Vector3}]{position,  }\item[{Quaternion}]{rotation }\end{DoxyParamCaption})}
+
+
+
+根据 prefab\+Id 获取对应的 Game\+Object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em prefab\+Id} & \\
+\hline
+{\em position} & \\
+\hline
+{\em rotation} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_a72279b43affb14556a296745c71f484b}\label{interface_sarachan_1_1_uni_tiya_1_1_i_game_object_pool_a72279b43affb14556a296745c71f484b}} 
+\index{Sarachan.UniTiya.IGameObjectPool@{Sarachan.UniTiya.IGameObjectPool}!RecyclePrefab@{RecyclePrefab}}
+\index{RecyclePrefab@{RecyclePrefab}!Sarachan.UniTiya.IGameObjectPool@{Sarachan.UniTiya.IGameObjectPool}}
+\doxysubsubsection{\texorpdfstring{RecyclePrefab()}{RecyclePrefab()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IGame\+Object\+Pool.\+Recycle\+Prefab (\begin{DoxyParamCaption}\item[{Game\+Object}]{game\+Object }\end{DoxyParamCaption})}
+
+
+
+回收 game\+Object。如果 game\+Object 不存在于池中，则直接 Destory 
+
+
+\begin{DoxyParams}{Parameters}
+{\em game\+Object} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IGame\+Object\+Pool.\+cs\end{DoxyCompactItemize}

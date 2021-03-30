@@ -1,0 +1,56 @@
+\hypertarget{namespace_sarachan_1_1_uni_tiya_1_1_skill}{}\doxysection{Sarachan.\+Uni\+Tiya.\+Skill Namespace Reference}
+\label{namespace_sarachan_1_1_uni_tiya_1_1_skill}\index{Sarachan.UniTiya.Skill@{Sarachan.UniTiya.Skill}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill_behaviour}{Ammunition\+Skill\+Behaviour}}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_ammunition_skill}{Ammunition\+Skill}}
+\begin{DoxyCompactList}\small\item\em 弹药控制 Skill，\+Perform 是进行 Reload。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_skill_behaviour}{Charge\+Skill\+Behaviour}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill}{Charge\+Decorator\+Skill}} 的 Behaviour 引用。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_charge_decorator_skill}{Charge\+Decorator\+Skill}}
+\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill}{ISkill}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 接口。\+Skill 是对行为的一种抽象，它会尝试去执行某种行为（但不一定成功）。 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 支持两种行为： 
+\begin{DoxyItemize}
+\end{DoxyItemize}\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} 中实现，\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 对行为无影响。 
+
+
+\begin{DoxyItemize}
+\end{DoxyItemize}\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a57405a399b765c2c0da5c4e8afd6e566}{Try\+To\+Perform}} 返回 true 时开始，\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 时结束。 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_skill_a967a819403a78dd1dfd07aeb5b3172df}{Cancel}} 只有在行为开始状态才有实际意义，其余状态对行为无影响。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_skill_ref_behaviour_base}{Skill\+Ref\+Behaviour\+Base}}
+\begin{DoxyCompactList}\small\item\em skill 的 Monobehaviour 形式，通过重写 \mbox{\hyperlink{namespace_sarachan_1_1_uni_tiya_1_1_skill}{Skill}} 实现。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile}{Tiya\+Projectile}}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill_behaviour}{Tiya\+Skill\+Behaviour}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill}{Tiya\+Skill}} 的 Behaviour 引用。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_skill}{Tiya\+Skill}}
+\begin{DoxyCompactList}\small\item\em 可配置的 Skill，可以通过序列化配置，或者继承重写 On\+Init， 在其中配置事件、consumer 等来实现自定义的 Skill。 初始状态下，\+Skill 是 Disable 的，需要先调用 Enable 才能使用。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill_behaviour}{Weapon\+Animated\+Melee\+Skill\+Behaviour}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill}{Weapon\+Animated\+Melee\+Skill}} 的 Behaviour 引用。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_animated_melee_skill}{Weapon\+Animated\+Melee\+Skill}}
+\begin{DoxyCompactList}\small\item\em 通过动画进行伤害判定的 Skill。 要求要进行判定的动画中设置了 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events}{IMelee\+Weapon\+Animation\+Events}} 中对应的动画事件。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill_behaviour}{Weapon\+Damage\+Field\+Melee\+Skill\+Behaviour}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill}{Weapon\+Damage\+Field\+Melee\+Skill}} 的 Behaviour 引用。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_damage_field_melee_skill}{Weapon\+Damage\+Field\+Melee\+Skill}}
+\begin{DoxyCompactList}\small\item\em 造成伤害区域的技能 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_melee_skill_animation_events_handler}{Weapon\+Melee\+Skill\+Animation\+Events\+Handler}}
+\item 
+interface \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_skill_1_1_i_melee_weapon_animation_events}{IMelee\+Weapon\+Animation\+Events}}
+\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill}{Weapon\+Projectile\+Skill}}
+\begin{DoxyCompactList}\small\item\em Skill\+Performer 需要是 \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_weapon_controller}{IWeapon\+Controller}} 的 Game\+Object。 向 Weapon Owner 的 Aim\+Pose 方向投掷一个 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_tiya_projectile}{Tiya\+Projectile}} 的 Skill。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill_behaviour}{Weapon\+Shoot\+Skill\+Behaviour}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill}{Weapon\+Shoot\+Skill}} 的 Behaviour 引用。 \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_shoot_skill}{Weapon\+Shoot\+Skill}}
+\begin{DoxyCompactList}\small\item\em 依赖于 \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_skill_1_1_weapon_projectile_skill}{Weapon\+Projectile\+Skill}} 的射击 Weapon\+Skill。 其 Perform 是根据当前射击模式进行射击，并且提供额外 Action 来切换模式。 \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{namespace_sarachan_1_1_uni_tiya_1_1_skill_a25d4e80ea2a407904b9225376644d539}\label{namespace_sarachan_1_1_uni_tiya_1_1_skill_a25d4e80ea2a407904b9225376644d539}} 
+enum class {\bfseries Projectile\+Mode} \{ {\bfseries Single} = 1
+, {\bfseries Triple} = 1 $<$$<$ 1
+, {\bfseries Auto} = 1 $<$$<$ 2
+ \}
+\end{DoxyCompactItemize}

@@ -1,0 +1,105 @@
+\hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_inventory}{}\doxysection{Sarachan.\+Uni\+Tiya.\+IInventory Interface Reference}
+\label{interface_sarachan_1_1_uni_tiya_1_1_i_inventory}\index{Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}}
+
+
+背包系统接口  
+
+
+Inheritance diagram for Sarachan.\+Uni\+Tiya.\+IInventory\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interface_sarachan_1_1_uni_tiya_1_1_i_inventory}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_a0addba247178892c948c6d5ac609c0f1}{Change\+Inventory\+Item}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}} item, int item\+Count)
+\begin{DoxyCompactList}\small\item\em 向背包中添加或删除指定 item \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_aa76940a28a5969c51397940d84dce83d}{Get\+Item\+Count}} (\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}} item)
+\begin{DoxyCompactList}\small\item\em 获取当前背包中 item 的数量 \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_a665ac4944eb6df5890deb17d88085408}{Abandon\+Item}} (IEnumerable$<$(\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}} item, int item\+Count)$>$ items, Vector3? position=null)
+\begin{DoxyCompactList}\small\item\em 遗弃背包中的 item，并在指定 position 生成拾取该物体的可交互 Game\+Object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_ab6be43b33c5bc892b8ceb6ea245cbac2}\label{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_ab6be43b33c5bc892b8ceb6ea245cbac2}} 
+System.\+Action$<$ \mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}}, int $>$ {\bfseries On\+Change\+Inventory\+Item}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+背包系统接口 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_a665ac4944eb6df5890deb17d88085408}\label{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_a665ac4944eb6df5890deb17d88085408}} 
+\index{Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}!AbandonItem@{AbandonItem}}
+\index{AbandonItem@{AbandonItem}!Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}}
+\doxysubsubsection{\texorpdfstring{AbandonItem()}{AbandonItem()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IInventory.\+Abandon\+Item (\begin{DoxyParamCaption}\item[{IEnumerable$<$(\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}} item, int item\+Count)$>$}]{items,  }\item[{Vector3?}]{position = {\ttfamily null} }\end{DoxyParamCaption})}
+
+
+
+遗弃背包中的 item，并在指定 position 生成拾取该物体的可交互 Game\+Object 
+
+
+\begin{DoxyParams}{Parameters}
+{\em items} & \\
+\hline
+{\em position} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_a3e17d32fcffa9c4da555f8c356ca259c}{Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Inventory}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_a0addba247178892c948c6d5ac609c0f1}\label{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_a0addba247178892c948c6d5ac609c0f1}} 
+\index{Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}!ChangeInventoryItem@{ChangeInventoryItem}}
+\index{ChangeInventoryItem@{ChangeInventoryItem}!Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}}
+\doxysubsubsection{\texorpdfstring{ChangeInventoryItem()}{ChangeInventoryItem()}}
+{\footnotesize\ttfamily void Sarachan.\+Uni\+Tiya.\+IInventory.\+Change\+Inventory\+Item (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}}}]{item,  }\item[{int}]{item\+Count }\end{DoxyParamCaption})}
+
+
+
+向背包中添加或删除指定 item 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & \\
+\hline
+{\em item\+Count} & \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_ad64734af49240c952d24fbed3eee25a3}{Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Inventory}}.
+
+\mbox{\Hypertarget{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_aa76940a28a5969c51397940d84dce83d}\label{interface_sarachan_1_1_uni_tiya_1_1_i_inventory_aa76940a28a5969c51397940d84dce83d}} 
+\index{Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}!GetItemCount@{GetItemCount}}
+\index{GetItemCount@{GetItemCount}!Sarachan.UniTiya.IInventory@{Sarachan.UniTiya.IInventory}}
+\doxysubsubsection{\texorpdfstring{GetItemCount()}{GetItemCount()}}
+{\footnotesize\ttfamily int Sarachan.\+Uni\+Tiya.\+IInventory.\+Get\+Item\+Count (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_sarachan_1_1_uni_tiya_1_1_i_item}{IItem}}}]{item }\end{DoxyParamCaption})}
+
+
+
+获取当前背包中 item 的数量 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_sarachan_1_1_uni_tiya_1_1_item_system_1_1_tiya_inventory_a480feac3191cedf74ce7dcf2906fd6f6}{Sarachan.\+Uni\+Tiya.\+Item\+System.\+Tiya\+Inventory}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Runtime/\+Tiya Core Protocol/IInventory.\+cs\end{DoxyCompactItemize}

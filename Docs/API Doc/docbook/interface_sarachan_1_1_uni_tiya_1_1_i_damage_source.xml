@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source" xml:lang="en-US">
+<title>Sarachan.UniTiya.IDamageSource Interface Reference</title>
+<indexterm><primary>Sarachan.UniTiya.IDamageSource</primary></indexterm>
+<para>
+
+<para>伤害源 </para>
+ 
+</para>
+<para>Inheritance diagram for Sarachan.UniTiya.IDamageSource:    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="interface_sarachan_1_1_uni_tiya_1_1_i_damage_source.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a71bf88c5669c3946f1f9702fe14563fa">OnBeforeDoDamage</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</para>
+
+<para>Damageable RecieveDamage 前回调 </para>
+</listitem>
+            <listitem><para>void <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a55bb8673eb4db2c2c934f3a885d18c90">OnAfterDoDamage</link> (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</para>
+
+<para>Damageable RecieveDamage 后回调 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Properties    </title>
+        <itemizedlist>
+            <listitem><para>GameObject <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a3a89b67f7a4ef31dadea6396d8c32b0a">Producer</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>伤害制造者。 </para>
+</listitem>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a91fbbff3d18a27924a416ea7660f881a">OriginDamageValue</link><computeroutput> [get, set]</computeroutput>
+</para>
+
+<para>基础伤害数值 </para>
+</listitem>
+            <listitem><para>float <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a8775c9bf8322272ad5b0395dfbe5e898">FinalDamageValue</link><computeroutput> [get]</computeroutput>
+</para>
+
+<para>最终伤害数值 </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Events    </title>
+        <itemizedlist>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a5e36b2c39ab8133bc515cb3f0cb889c0"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link>, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> &gt; <emphasis role="strong">OnBeforeDoDamageEvent</emphasis></para>
+</listitem>
+            <listitem><para><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a32758d71567967182c111306164e11a1"/>System.Action&lt; <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source">IDamageSource</link>, <link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> &gt; <emphasis role="strong">OnAfterDoDamageEvent</emphasis></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>伤害源 </para>
+
+
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a55bb8673eb4db2c2c934f3a885d18c90"/>    <section>
+    <title>OnAfterDoDamage()</title>
+<indexterm><primary>OnAfterDoDamage</primary><secondary>Sarachan.UniTiya.IDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IDamageSource</primary><secondary>OnAfterDoDamage</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IDamageSource.OnAfterDoDamage (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</computeroutput></para><para>
+
+<para>Damageable RecieveDamage 后回调 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>damageable</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1ad1a7746e906627d561d797528cfb9126">Sarachan.UniTiya.Utility.TiyaBasicDamageSource</link>.</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a71bf88c5669c3946f1f9702fe14563fa"/>    <section>
+    <title>OnBeforeDoDamage()</title>
+<indexterm><primary>OnBeforeDoDamage</primary><secondary>Sarachan.UniTiya.IDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IDamageSource</primary><secondary>OnBeforeDoDamage</secondary></indexterm>
+<para><computeroutput>void Sarachan.UniTiya.IDamageSource.OnBeforeDoDamage (<link linkend="_interface_sarachan_1_1_uni_tiya_1_1_i_damageable">IDamageable</link> damageable)</computeroutput></para><para>
+
+<para>Damageable RecieveDamage 前回调 </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>damageable</entry>
+                                <entry></entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+<para>
+Implemented in <link linkend="_class_sarachan_1_1_uni_tiya_1_1_utility_1_1_tiya_basic_damage_source_1a7dcd52481f0a0929f76fcafdf20e61b3">Sarachan.UniTiya.Utility.TiyaBasicDamageSource</link>.</para>
+</section>
+</section>
+<section>
+<title>Property Documentation</title>
+<anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a8775c9bf8322272ad5b0395dfbe5e898"/>    <section>
+    <title>FinalDamageValue</title>
+<indexterm><primary>FinalDamageValue</primary><secondary>Sarachan.UniTiya.IDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IDamageSource</primary><secondary>FinalDamageValue</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IDamageSource.FinalDamageValue<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>最终伤害数值 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a91fbbff3d18a27924a416ea7660f881a"/>    <section>
+    <title>OriginDamageValue</title>
+<indexterm><primary>OriginDamageValue</primary><secondary>Sarachan.UniTiya.IDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IDamageSource</primary><secondary>OriginDamageValue</secondary></indexterm>
+<para><computeroutput>float Sarachan.UniTiya.IDamageSource.OriginDamageValue<computeroutput>[get]</computeroutput>, <computeroutput>[set]</computeroutput></computeroutput></para><para>
+
+<para>基础伤害数值 </para>
+</para>
+    </section><anchor xml:id="_interface_sarachan_1_1_uni_tiya_1_1_i_damage_source_1a3a89b67f7a4ef31dadea6396d8c32b0a"/>    <section>
+    <title>Producer</title>
+<indexterm><primary>Producer</primary><secondary>Sarachan.UniTiya.IDamageSource</secondary></indexterm>
+<indexterm><primary>Sarachan.UniTiya.IDamageSource</primary><secondary>Producer</secondary></indexterm>
+<para><computeroutput>GameObject Sarachan.UniTiya.IDamageSource.Producer<computeroutput>[get]</computeroutput></computeroutput></para><para>
+
+<para>伤害制造者。 </para>
+</para>
+</section>
+<para>
+The documentation for this interface was generated from the following file:</para>
+Runtime/Tiya Core Protocol/IDamageSource.cs</section>
+</section>
