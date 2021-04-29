@@ -12,7 +12,7 @@ namespace Sarachan.UniTiya.TiyaPropertyAttributes
         {
             if (!CheckHideIf(property))
             {
-                EditorGUI.PropertyField(position, property, label);
+                EditorGUI.PropertyField(position, property, label, true);
             }
         }
 
@@ -20,7 +20,7 @@ namespace Sarachan.UniTiya.TiyaPropertyAttributes
         {
             if (!CheckHideIf(property))
             {
-                return base.GetPropertyHeight(property, label);
+                return EditorGUI.GetPropertyHeight(property, true);
             }
             else
             {
@@ -32,7 +32,7 @@ namespace Sarachan.UniTiya.TiyaPropertyAttributes
         {
             var hided = true;
 
-            var conditionFieldSerializedProperty = property.serializedObject.FindProperty(HideIfAttribute.HideConditionFieldName);
+            var conditionFieldSerializedProperty = property.FindSiblingSerializedProperty(HideIfAttribute.HideConditionFieldName);
             if (conditionFieldSerializedProperty == null)
             {
                 Debug.LogWarning($"Can't find serialized field named {HideIfAttribute.HideConditionFieldName}");

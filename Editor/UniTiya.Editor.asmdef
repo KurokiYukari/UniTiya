@@ -2,7 +2,8 @@
     "name": "UniTiya.Editor",
     "rootNamespace": "Sarachan.UniTiya",
     "references": [
-        "GUID:919dd862d183a494499fa1c9c03fbb47"
+        "GUID:919dd862d183a494499fa1c9c03fbb47",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [
         "Editor"

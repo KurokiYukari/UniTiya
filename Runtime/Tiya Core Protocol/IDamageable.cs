@@ -12,6 +12,8 @@ namespace Sarachan.UniTiya
         /// </summary>
         GameObject Receiver { get; }
 
+        IEnable DamageableEnabler { get; }
+
         /// <summary>
         /// 是否接受 DamageSource 的伤害
         /// </summary>

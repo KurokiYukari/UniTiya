@@ -35,8 +35,6 @@ namespace Sarachan.UniTiya.Interaction
             _onInteracting.Invoke(actor);
             OnInteracting?.Invoke(actor);
             InteractOverride(actor);
-
-            print($"{gameObject.name} interact!");
         }
 
         protected virtual void InteractOverride(IActorController actor) { }

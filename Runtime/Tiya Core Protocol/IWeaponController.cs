@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+using Sarachan.UniTiya.Skill;
+
 namespace Sarachan.UniTiya
 {
     /// <summary>
@@ -18,6 +20,10 @@ namespace Sarachan.UniTiya
         /// </summary>
         IActorController Owner { get; set; }
 
+        ISkill NormalSkill { get; }
+        ISkill SpecialSkill { get; }
+        IReadOnlyList<ISkill> ExtraSkills { get; }
+
         /// <summary>
         /// Weapon 行为的默认无条件行为
         /// </summary>
@@ -27,6 +33,11 @@ namespace Sarachan.UniTiya
         /// Weapon 的具体行为
         /// </summary>
         IWeaponActorActions ActorWeaponActions { get; }
+
+        /// <summary>
+        /// 当该 Weapon 被装备给 Actor 时的时间。一般在 <see cref="Owner"/> setter 执行时触发。
+        /// </summary>
+        event System.Action<IActorController> OnEquip;
     }
 
     /// <summary>

@@ -18,11 +18,6 @@ namespace Sarachan.UniTiya
         /// 当前武器实体
         /// </summary>
         IWeaponController CurrentWeapon { get; }
-        
-        /// <summary>
-        /// 当前武器是否启用双手（左手） IK
-        /// </summary>
-        bool EnableTwoHandIK { get; set; }
 
         /// <summary>
         /// 装备武器

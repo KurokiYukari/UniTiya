@@ -14,7 +14,7 @@ namespace Sarachan.UniTiya.TiyaPropertyAttributes
 
             if (DisableAttribute.ConditionFieldName != null)
             {
-                var conditionFieldSerializedProperty = property.FindPropertyRelative(DisableAttribute.ConditionFieldName);
+                var conditionFieldSerializedProperty = property.FindSiblingSerializedProperty(DisableAttribute.ConditionFieldName);
                 if (conditionFieldSerializedProperty == null)
                 {
                     Debug.LogWarning($"Can't find serialized field named {DisableAttribute.ConditionFieldName}");
@@ -27,7 +27,7 @@ namespace Sarachan.UniTiya.TiyaPropertyAttributes
 
             using (new EditorGUI.DisabledGroupScope(disabled))
             {
-                EditorGUI.PropertyField(position, property, label);
+                EditorGUI.PropertyField(position, property, label, true);
             }
         }
     }

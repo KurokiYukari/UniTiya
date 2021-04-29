@@ -40,6 +40,11 @@ namespace Sarachan.UniTiya
         IInventory Inventory { get; }
 
         /// <summary>
+        /// Actor 的所有 Damageable
+        /// </summary>
+        IDamageable[] ActorDamageables { get; }
+
+        /// <summary>
         /// 用于获取 Actor 的世界定位和定向的 Transform。
         /// 建议不要直接用该 Transform 直接改变 actor 的位置和旋转（Tiya 语义上不保证这样的更改会生效），而是用 IActorController 提供的方法执行需要的操作
         /// </summary>
@@ -67,6 +72,8 @@ namespace Sarachan.UniTiya
         /// </summary>
         bool IsPlayer { get; }
 
+        bool ApplyRootMotion { get; set; }
+
         /// <summary>
         /// 当前的速度
         /// </summary>
@@ -92,6 +99,11 @@ namespace Sarachan.UniTiya
         ActorAimMode AimMode { get; set; }
 
         /// <summary>
+        /// 是否是存活状态
+        /// </summary>
+        bool IsAlive { get; }
+
+        /// <summary>
         /// 是否在地面
         /// </summary>
         bool IsGround { get; }
@@ -115,6 +127,16 @@ namespace Sarachan.UniTiya
         // ---- Events ----
 
         /// <summary>
+        /// Actor 死亡事件
+        /// </summary>
+        event System.Action OnDie;
+
+        /// <summary>
+        /// Actor 复活事件
+        /// </summary>
+        event System.Action OnRelive;
+
+        /// <summary>
         /// 开始主动移动事件
         /// </summary>
         event System.Action OnStartMoving;
@@ -123,6 +145,11 @@ namespace Sarachan.UniTiya
         /// 停止主动移动事件
         /// </summary>
         event System.Action OnStopMoving;
+
+        /// <summary>
+        /// 主动移动后事件
+        /// </summary>
+        event System.Action OnMoving;
 
         /// <summary>
         /// 跳跃事件
@@ -148,41 +175,12 @@ namespace Sarachan.UniTiya
         event System.Action<ActorLocomotionMode, ActorLocomotionMode> OnChangeLocomotionMode;
 
         // ---- Methods ----
-
-        ///// <summary>
-        ///// 强制位移，这个方法不属于主动移动。
-        ///// </summary>
-        ///// <param name="displacement">对象直立空间坐标</param>
-        //void SimpleMove(Vector3 displacement);
-
-        ///// <summary>
-        ///// 先转向至世界空间的 direction 方向，然后持续向前移动
-        ///// 所以输入 Vector3.zero 停止移动
-        ///// </summary>
-        ///// <param name="direction">其 y 方向会被忽略</param>
-        //void TurnThenMoveForward(Vector3 direction);
-
-        ///// <summary>
-        ///// 保持自身 forward 不变，向世界空间的 direction 方向移动
-        ///// </summary>
-        ///// <param name="direction"></param>
-        //void StrafeMove(Vector3 direction);
-
-        ///// <summary>
-        ///// 停止主动移动
-        ///// </summary>
-        //void StopMoving();
-
-        ///// <summary>
-        ///// 使自身转向 direction 方向（不会忽略 direction 的 y 值）
-        ///// </summary>
-        ///// <param name="direction"></param>
-        //void TurnTo(Vector3 direction);
-
-        ///// <summary>
-        ///// 跳
-        ///// </summary>
-        //void Jump();
+        // TODO: 改为命令
+        /// <summary>
+        /// 使自身转向 direction 方向（不会忽略 direction 的 y 值）
+        /// </summary>
+        /// <param name="direction"></param>
+        void TurnTo(Vector3 direction);
     }
 
     public interface IActorActions
@@ -195,7 +193,13 @@ namespace Sarachan.UniTiya
         /// </summary>
         /// <param name="direction"></param>
         void Move(Vector3 direction);
+
+        /// <summary>
+        /// 强制位移，这个方法不属于主动移动。
+        /// </summary>
+        /// <param name="displacement">对象直立空间坐标</param>
         void SimpleMove(Vector3 displacement);
+
         void SwitchLocomotionMode(ActorLocomotionMode mode);
         void Jump();
 

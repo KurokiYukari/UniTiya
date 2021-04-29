@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Sarachan.UniTiya
 {
@@ -38,7 +39,11 @@ namespace Sarachan.UniTiya
         /// 将视角锁定向附近的敌人。
         /// </summary>
         /// <param name="lockCmdType"></param>
-        void Lock(LockCmdType lockCmdType);
+        /// <param name="predicate"></param>
+        void Lock(LockCmdType lockCmdType, System.Predicate<GameObject> predicate = null);
+
+        void LockTo(GameObject target);
+        IEnumerable<GameObject> FindLockTargets(System.Predicate<GameObject> predicate = null);
 
         // TODO: 完善这个方法
         /// <summary>

@@ -6,16 +6,20 @@ namespace Sarachan.UniTiya.ItemSystem
     class TiyaWeaponItemEditor : TiyaItemEditorBase
     {
         SerializedProperty _weaponPrefabSerializedProperty;
-        protected SerializedProperty WeaponPrefabSerializedProperty =>
-            _weaponPrefabSerializedProperty ?? (_weaponPrefabSerializedProperty = serializedObject.FindProperty("_weaponPrefab"));
+        protected SerializedProperty WeaponPrefabSerializedProperty => 
+            _weaponPrefabSerializedProperty ??= serializedObject.FindProperty("_weaponPrefab");
 
         public override void OnInspectorGUI()
         {
             serializedObject.Update();
 
-            EditorGUILayout.Toggle("Weapon", true);
-
             EditorGUILayout.PropertyField(ItemIDSerializedProperty);
+
+            using (new EditorGUI.DisabledScope(true))
+            {
+                EditorGUILayout.Toggle("Weapon", true);
+            }
+
             EditorGUILayout.PropertyField(ItemNameSerializedProperty);
             EditorGUILayout.PropertyField(DescriptionSerializedProperty);
             EditorGUILayout.PropertyField(WeaponPrefabSerializedProperty);

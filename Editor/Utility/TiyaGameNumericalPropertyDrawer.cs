@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Sarachan.UniTiya.Utility
 {
-    [CustomPropertyDrawer(typeof(TiyaGameDynamicNumericalProperty))]
+    //[CustomPropertyDrawer(typeof(TiyaGameDynamicNumericalProperty))]
     [CustomPropertyDrawer(typeof(TiyaGameFixedNumericalProperty))]
     class TiyaGameNumericalPropertyDrawer : PropertyDrawer
     {
@@ -19,10 +19,10 @@ namespace Sarachan.UniTiya.Utility
                 var valueFieldRect = new Rect(position) { width = position.width / 2 };
                 baseValueSerializedProperty.floatValue = EditorGUI.FloatField(valueFieldRect, new GUIContent("", "Base Value"), baseValueSerializedProperty.floatValue);
 
-                var allowNegativeFieldRect = new Rect(valueFieldRect) 
-                { 
-                    x = valueFieldRect.x + valueFieldRect.width + 5, 
-                    width = position.width - valueFieldRect.width - 5 
+                var allowNegativeFieldRect = new Rect(valueFieldRect)
+                {
+                    x = valueFieldRect.x + valueFieldRect.width + 5,
+                    width = position.width - valueFieldRect.width - 5
                 };
                 var toggleLabelRect = new Rect(allowNegativeFieldRect) { width = allowNegativeFieldRect.width - 20 - 5 };
                 EditorGUI.LabelField(allowNegativeFieldRect, "Allow Negative");

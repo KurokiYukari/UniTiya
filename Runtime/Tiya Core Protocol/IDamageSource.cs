@@ -12,7 +12,7 @@ namespace Sarachan.UniTiya
         /// <summary>
         /// 伤害制造者。
         /// </summary>
-        GameObject Producer { get; }
+        GameObject Producer { get; set; }
 
         /// <summary>
         /// 基础伤害数值
@@ -62,19 +62,31 @@ namespace Sarachan.UniTiya
         /// <returns>触发成功返回 true，没有触发返回 false</returns>
         public static bool DoDamageTo(this IDamageSource damageSource, GameObject targetObject, System.Func<bool> shouldDoDamageFunc = null)
         {
-            if (damageSource.Producer != targetObject
+            var damageable = targetObject.GetComponent<IDamageable>();
+            if (damageable != null && !damageable.IsInvulnerable
+                && damageSource.Producer != damageable.Receiver
                 && (shouldDoDamageFunc == null || shouldDoDamageFunc()))
             {
-                var damageable = targetObject.GetComponent<IDamageable>();
-                if (damageable != null && !damageable.IsInvulnerable)
-                {
-                    damageSource.OnBeforeDoDamage(damageable);
-                    damageable.ReceiveDamage(damageSource);
-                    damageSource.OnAfterDoDamage(damageable);
+                damageSource.OnBeforeDoDamage(damageable);
+                damageable.ReceiveDamage(damageSource);
+                damageSource.OnAfterDoDamage(damageable);
 
-                    return true;
-                }
+                return true;
             }
+
+            //if (damageSource.Producer != targetObject
+            //    && (shouldDoDamageFunc == null || shouldDoDamageFunc()))
+            //{
+                
+            //    if (damageable != null && !damageable.IsInvulnerable)
+            //    {
+            //        damageSource.OnBeforeDoDamage(damageable);
+            //        damageable.ReceiveDamage(damageSource);
+            //        damageSource.OnAfterDoDamage(damageable);
+
+            //        return true;
+            //    }
+            //}
 
             return false;
         }
