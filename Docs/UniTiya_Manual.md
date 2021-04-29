@@ -88,6 +88,31 @@ Actor 代表所有具有能动性的游戏对象，比如玩家、NPC、怪物�
 
 ![](image/UniTiya_Manual/1616850229041.png)
 
+Tiya Ragdoll Tool: 为角色模型提供通过 Unity 创建的布娃娃支持，可以通过该脚本的方法启用或禁用布娃娃，或者根据角色死亡判断自动启用、禁用。
+
+![](image/UniTiya_Manual/1619734620107.png)
+
+Tiya Footstep Tool: 根据角色的速度每隔一定时间间隔生成一个事件的事件生成器。常用来作为脚步声的触发器等。
+
+![](image/UniTiya_Manual/1619734801899.png)
+
+### Tiya Actor AI
+
+AI 模块基于 Unity 的 Navigation 系统实现。基本组件 TiyaActorMoveAI 实现了 Navigation 系统对 IActorController 的适配，该组件中已经处理了关于 Actor 的速度、旋转、动画适配等细节。
+
+对于 OffMeshLink，提供⼀个 IActorNacMeshLinkTraverser 接⼝⽤来⾃定义 Actor 该如何跨越
+OffMeshLink。
+
+对于 Navigation 系统⾃动⽣成的 DropDown 和 JumpAcross 类型的 Link，TiyaActorMoveAI 已经提供默
+认的跨越 Link ⽅法（或者也可以通过配置覆盖默认的⾏为），⽽对于⼿动设置的
+OffMeshLink/NavMeshLink，则需要通过 IActorNacMeshLinkTraverser 实现跨越 Link ⾏为。
+
+![](image/UniTiya_Manual/1619735112360.png)
+
+除此之外还提供⼀个组件通过配置实现巡逻逻辑：
+
+![](image/UniTiya_Manual/1619735139742.png)
+
 ### Tiya View
 
 View 代表一个 Actor 的视线，它控制 Actor 的索敌功能。而对于 Player 的 View，它还额外提供了对 Camera 的控制功能。
@@ -121,6 +146,10 @@ View 代表一个 Actor 的视线，它控制 Actor 的索敌功能。而对于 
 基于投掷物的远距离攻击 Skill `WeaponProjectileSkill`：
 
 ![](image/UniTiya_Manual/1616851798701.png)
+
+UniTiya 提供一个通用的武器状态机，它可以配置每⼀个武器⾏为的状态。
+
+![](image/UniTiya_Manual/1619735228010.png)
 
 ### Item System
 

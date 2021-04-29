@@ -4,8 +4,9 @@ UniTiya 是一个 Unity 的 3D ARPG 设计系统。它提供一个从零开始�
 
 手册： [UniTiya Manual](./Docs/UniTiya_Manual.md)
 
-API 文档：[UniTiya API Doc 1.0](./Docs/API%20Doc/html/index.html)
-
 ## 使用准备
 
-如果要拥有且要 `Dynamic Bone` 拓展，请在编译选项中添加 `DYNAMIC_BONE` 符号。
++ Unity 版本要求 2020.3 或以上。
++ 依赖于 [InputSystem](https://docs.unity.cn/cn/2020.1/Manual/com.unity.inputsystem.html)，需要从 PackageManager 导入该包。
++ 依赖于 [UniRx](https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extensions-for-unity-17276)，需要从 Asset Store 导入该资源。
++ 如果拥有且要使用 `Dynamic Bone` 拓展，请在编译选项中添加 `DYNAMIC_BONE` 符号。
