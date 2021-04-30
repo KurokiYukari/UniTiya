@@ -25,7 +25,14 @@ namespace Sarachan.UniTiya.BehaviourTree
                 {
                     throw new MissingReferenceException(nameof(_nodeReferenceObject));
                 }
-                return _node ??= _nodeReferenceObject.ConvertTo<IBehaviourTreeNodeReference>().Node;
+
+                if (_node == null)
+                {
+                    var nodeObjCopy = Object.Instantiate(_nodeReferenceObject);
+                    _node = nodeObjCopy.ConvertTo<IBehaviourTreeNodeReference>().Node;
+                }
+
+                return _node;
             }
         }
 

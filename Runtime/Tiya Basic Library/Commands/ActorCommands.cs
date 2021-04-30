@@ -36,7 +36,10 @@ namespace Sarachan.UniTiya.Commands
                 Direction = direction;
             }
 
-            public void Execute(IActorController subject) => subject.ActorActions.Move(Direction);
+            public void Execute(IActorController subject)
+            {
+                subject.ActorActions.Move(Direction);
+            }
         }
 
         readonly struct SimpleMoveCommand : ICommand<IActorController>

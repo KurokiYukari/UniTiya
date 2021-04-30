@@ -75,8 +75,13 @@ namespace Sarachan.UniTiya.TiyaActor.AI
             get => Agent.destination;
             set
             {
-                HasArrivedDestination = false;
+                var preValue = Agent.destination;
                 Agent.destination = value;
+                if (Agent.destination != preValue)
+                {
+                    HasArrivedDestination = false;
+                    
+                }
             }
         }
 
@@ -171,8 +176,15 @@ namespace Sarachan.UniTiya.TiyaActor.AI
 
         public void MoveToNextPostion()
         {
-            var direction = Agent.nextPosition - Actor.ActorTransform.position;
-            Actor.CommandProcessor.AddCommand(ActorCommands.Move(direction));
+            if (!HasArrivedDestination)
+            {
+                var direction = Agent.nextPosition - Actor.ActorTransform.position;
+                if (direction.x == 0 && direction.z == 0)
+                {
+                    direction = Actor.ActorTransform.forward;
+                }
+                Actor.CommandProcessor.AddCommand(ActorCommands.Move(direction));
+            }
         }
 
         #region Inner Types
